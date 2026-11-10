@@ -1,0 +1,43 @@
+{
+  "name": "djinni-mcp",
+  "version": "0.1.0",
+  "description": "Local MCP server that lets an AI agent work with a job seeker's djinni.co account",
+  "type": "module",
+  "bin": {
+    "djinni": "dist/cli/index.js",
+    "djinni-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "skill"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "dev": "tsx src/index.ts"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "cheerio": "^1.2.0",
+    "dejavu-fonts-ttf": "^2.37.3",
+    "marked": "^18.2.0",
+    "pdfkit": "^0.20.2",
+    "zod": "^4.6.7"
+  },
+  "optionalDependencies": {
+    "playwright": "^1.65.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/pdfkit": "^0.17.7",
+    "pdfjs-dist": "^6.5.438",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.0"
+  }
+}

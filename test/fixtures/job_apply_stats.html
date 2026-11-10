@@ -1,0 +1,337 @@
+
+  <h3 class="fs-4 mb-3">
+    Огляд кандидатів
+  </h3>
+
+  
+    <div class="mb-3">
+<div class="mb-2">
+  <div class="mb-2 fs-5 fw-medium">
+    Топ навички
+  </div>
+  <div class="d-flex flex-wrap gap-2">
+    
+      <span class="badge text-bg-light border fs-5 py-1 px-2">
+        OOP
+        
+      </span>
+    
+      <span class="badge text-bg-light border fs-5 py-1 px-2">
+        Docker
+        
+      </span>
+    
+      <span class="badge text-bg-light border fs-5 py-1 px-2">
+        Git
+        
+      </span>
+    
+      <span class="badge text-bg-light border fs-5 py-1 px-2">
+        MySQL
+        
+      </span>
+    
+      <span class="badge text-bg-light border fs-5 py-1 px-2">
+        REST API
+        
+      </span>
+    
+      <span class="badge text-bg-light border fs-5 py-1 px-2">
+        JavaScript
+        
+      </span>
+    
+      <span class="badge text-bg-light border fs-5 py-1 px-2">
+        SQL початковий рівень
+        
+      </span>
+    
+      <span class="badge text-bg-light border fs-5 py-1 px-2">
+        Python
+        
+      </span>
+    
+      <span class="badge text-bg-light border fs-5 py-1 px-2">
+        Claude Code
+        
+      </span>
+    
+      <span class="badge text-bg-light border fs-5 py-1 px-2">
+        PostgreSQL
+        
+      </span>
+    
+      <span class="badge text-bg-light border fs-5 py-1 px-2">
+        Redis
+        
+      </span>
+    
+      <span class="badge text-bg-light border fs-5 py-1 px-2">
+        Codex
+        
+      </span>
+    
+  </div>
+</div>
+</div>
+  
+
+  
+    <div class="mb-3">
+  <div style="max-width: 650px;">
+    <div class="mb-2 fs-5 fw-medium">Досвід</div>
+    <div style="overflow: auto;">
+      <div id="apply-stats-experience" style="width: 100%; min-width: 500px;">
+      </div>
+    </div>
+
+    <style>
+      #apply-stats-experience svg {
+        font-family: inherit;
+        overflow: visible;
+      }
+      #apply-stats-experience .bar {
+        fill: var(--primary-light);
+      }
+
+      #apply-stats-experience .bar.bar-candidate {
+        fill: var(--primary);
+      }
+
+      #apply-stats-experience .you-indicator {
+        font-size: 12px;
+        fill: var(--primary);
+        text-anchor: middle;
+        font-weight: 600;
+      }
+
+      #apply-stats-experience .grid-line {
+        stroke: var(--gray-300);
+        stroke-dasharray: 4 3;
+        stroke-width: 1;
+      }
+
+      #apply-stats-experience .axis-x text {
+        font-size: 14px;
+      }
+      #apply-stats-experience .axis-x .domain,
+      #apply-stats-experience .axis-x .tick line {
+        display: none;
+      }
+    </style>
+
+    <script type="module">
+      import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
+
+      const allData = [{"count": 0, "is_candidate": false, "label": "\u003c 1 \u0440\u043e\u043a\u0443", "percent": 0}, {"count": 0, "is_candidate": false, "label": "1-2 \u0440\u043e\u043a\u0438", "percent": 0}, {"count": 1, "is_candidate": false, "label": "2-3 \u0440\u043e\u043a\u0438", "percent": 50}, {"count": 1, "is_candidate": false, "label": "3-5 \u0440\u043e\u043a\u0456\u0432", "percent": 50}, {"count": 2, "is_candidate": true, "label": "5-10 \u0440\u043e\u043a\u0456\u0432", "percent": 100}, {"count": 1, "is_candidate": false, "label": "10+ \u0440\u043e\u043a\u0456\u0432", "percent": 50}];
+      const data = allData.filter(d => d.count > 0);
+      const chartId = "apply-stats-experience";
+      const youLabel = "Ваш профіль";
+
+      if (data.length) {
+        buildChart();
+        new ResizeObserver(() => buildChart()).observe(document.getElementById(chartId));
+      }
+
+      function buildChart() {
+        const container = d3.select("#" + chartId);
+        container.selectAll("*").remove();
+
+        const containerWidth = container.node().getBoundingClientRect().width;
+        if (!containerWidth) return;
+
+        const margin = { top: 20, right: 5, bottom: 30, left: 5 };
+        const width = containerWidth - margin.left - margin.right;
+        const height = 80;
+
+        const svg = container.append("svg")
+          .attr("width", containerWidth)
+          .attr("height", height + margin.top + margin.bottom)
+          .append("g")
+          .attr("transform", `translate(${margin.left},${margin.top})`);
+
+        const x = d3.scaleBand()
+          .domain(data.map(d => d.label))
+          .range([0, width])
+          .paddingInner(0.2)
+          .paddingOuter(0.1);
+
+        const maxCount = d3.max(data, d => d.count);
+        const y = d3.scaleLinear()
+          .domain([0, maxCount])
+          .range([height, 0]);
+
+        svg.selectAll(".grid-line")
+          .data(y.ticks(2).slice(1))
+          .enter()
+          .append("line")
+          .attr("class", "grid-line")
+          .attr("x1", 0)
+          .attr("x2", width)
+          .attr("y1", d => y(d))
+          .attr("y2", d => y(d));
+
+        const barGroups = svg.selectAll(".bar-group")
+          .data(data)
+          .enter()
+          .append("g")
+          .attr("class", "bar-group");
+
+        barGroups.append("rect")
+          .attr("class", d => "bar" + (d.is_candidate ? " bar-candidate" : ""))
+          .attr("x", d => x(d.label))
+          .attr("width", x.bandwidth())
+          .attr("y", d => y(d.count))
+          .attr("height", d => height - y(d.count))
+          .attr("rx", 2)
+          .attr("ry", 2);
+
+        barGroups.filter(d => d.is_candidate)
+          .append("text")
+          .attr("class", "you-indicator")
+          .attr("x", d => x(d.label) + x.bandwidth() / 2)
+          .attr("y", d => y(d.count) - 6)
+          .text(youLabel);
+
+        const xAxis = d3.axisBottom(x).tickSize(0);
+        svg.append("g")
+          .attr("class", "axis-x")
+          .attr("transform", `translate(0,${height + 4})`)
+          .call(xAxis)
+          .call(g => g.select(".domain").remove());
+      }
+    </script>
+  </div>
+</div>
+  
+
+  
+
+  
+    <div class="mb-3">
+  <div style="max-width: 650px;">
+    <div class="mb-2 fs-5 fw-medium">Англійська</div>
+    <div style="overflow: auto;">
+      <div id="apply-stats-english" style="width: 100%; min-width: 500px;">
+      </div>
+    </div>
+
+    <style>
+      #apply-stats-english svg {
+        font-family: inherit;
+        overflow: visible;
+      }
+      #apply-stats-english .bar {
+        fill: var(--primary-light);
+      }
+
+      #apply-stats-english .bar.bar-candidate {
+        fill: var(--primary);
+      }
+
+      #apply-stats-english .you-indicator {
+        font-size: 12px;
+        fill: var(--primary);
+        text-anchor: middle;
+        font-weight: 600;
+      }
+
+      #apply-stats-english .grid-line {
+        stroke: var(--gray-300);
+        stroke-dasharray: 4 3;
+        stroke-width: 1;
+      }
+
+      #apply-stats-english .axis-x text {
+        font-size: 14px;
+      }
+      #apply-stats-english .axis-x .domain,
+      #apply-stats-english .axis-x .tick line {
+        display: none;
+      }
+    </style>
+
+    <script type="module">
+      import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
+
+      const allData = [{"count": 3, "is_candidate": true, "label": "B2", "percent": 100}, {"count": 2, "is_candidate": false, "label": "C2", "percent": 67}];
+      const data = allData.filter(d => d.count > 0);
+      const chartId = "apply-stats-english";
+      const youLabel = "Ваш профіль";
+
+      if (data.length) {
+        buildChart();
+        new ResizeObserver(() => buildChart()).observe(document.getElementById(chartId));
+      }
+
+      function buildChart() {
+        const container = d3.select("#" + chartId);
+        container.selectAll("*").remove();
+
+        const containerWidth = container.node().getBoundingClientRect().width;
+        if (!containerWidth) return;
+
+        const margin = { top: 20, right: 5, bottom: 30, left: 5 };
+        const width = containerWidth - margin.left - margin.right;
+        const height = 80;
+
+        const svg = container.append("svg")
+          .attr("width", containerWidth)
+          .attr("height", height + margin.top + margin.bottom)
+          .append("g")
+          .attr("transform", `translate(${margin.left},${margin.top})`);
+
+        const x = d3.scaleBand()
+          .domain(data.map(d => d.label))
+          .range([0, width])
+          .paddingInner(0.2)
+          .paddingOuter(0.1);
+
+        const maxCount = d3.max(data, d => d.count);
+        const y = d3.scaleLinear()
+          .domain([0, maxCount])
+          .range([height, 0]);
+
+        svg.selectAll(".grid-line")
+          .data(y.ticks(2).slice(1))
+          .enter()
+          .append("line")
+          .attr("class", "grid-line")
+          .attr("x1", 0)
+          .attr("x2", width)
+          .attr("y1", d => y(d))
+          .attr("y2", d => y(d));
+
+        const barGroups = svg.selectAll(".bar-group")
+          .data(data)
+          .enter()
+          .append("g")
+          .attr("class", "bar-group");
+
+        barGroups.append("rect")
+          .attr("class", d => "bar" + (d.is_candidate ? " bar-candidate" : ""))
+          .attr("x", d => x(d.label))
+          .attr("width", x.bandwidth())
+          .attr("y", d => y(d.count))
+          .attr("height", d => height - y(d.count))
+          .attr("rx", 2)
+          .attr("ry", 2);
+
+        barGroups.filter(d => d.is_candidate)
+          .append("text")
+          .attr("class", "you-indicator")
+          .attr("x", d => x(d.label) + x.bandwidth() / 2)
+          .attr("y", d => y(d.count) - 6)
+          .text(youLabel);
+
+        const xAxis = d3.axisBottom(x).tickSize(0);
+        svg.append("g")
+          .attr("class", "axis-x")
+          .attr("transform", `translate(0,${height + 4})`)
+          .call(xAxis)
+          .call(g => g.select(".domain").remove());
+      }
+    </script>
+  </div>
+</div>
+  

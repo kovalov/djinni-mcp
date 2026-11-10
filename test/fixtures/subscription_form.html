@@ -1,0 +1,1048 @@
+
+  <div class="modal-header">
+    <h3 class="modal-title">
+      Створити підписку
+    </h3>
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрити"></button>
+  </div>
+  <div class="modal-body">
+    <form
+      id="subscription-form-create"
+      
+        hx-post="/ajax/jobs_subs/create?redirect=1"
+      
+      hx-target="#htmx-modal-content"
+    >
+      <input type="hidden" name="referral" value="my_subs">
+      <div class="row mb-3">
+        <div class="col-sm-3">
+          <label class="form-label" >
+            Назва
+          </label>
+        </div>
+
+        <div class="col-sm-9">
+          <input type="text" class="form-control" name="name" maxlength="40" value="" placeholder="">
+        </div>
+      </div>
+
+      
+
+      
+  <div class="row mb-3">
+    <label class="form-label col-sm-3" for="primary_keyword_sub_modal_search">
+      Категорія
+    </label>
+
+    <div class="col-sm-9">
+      <div class="dropdown tms-select js-subscription-category-dropdown" id="primary_keyword_sub_modal_dropdown">
+        <input
+          type="text"
+          id="primary_keyword_sub_modal_search"
+          class="form-select "
+          placeholder="Оберіть категорію"
+          autocomplete="off"
+          role="combobox"
+          aria-haspopup="tree"
+          aria-controls="primary_keyword_sub_modal_tree"
+          aria-expanded="false"
+        >
+        <div class="dropdown-menu">
+          <div
+            id="primary_keyword_sub_modal_tree"
+            data-tree-multiselect
+            data-name="primary_keyword"
+            data-mode="single"
+            data-variant="select"
+            data-allow-exclude="false"
+            data-search-input-selector="#primary_keyword_sub_modal_search"
+            data-empty-text="Немає відповідних категорій"
+          >
+            <script type="application/json" class="tms-data">
+              {
+                "groups": [{
+                      "label": "\u0420\u043e\u0437\u0440\u043e\u0431\u043a\u0430",
+                      "items": [{
+                            "key": "Development",
+                            "label": "\u0420\u043e\u0437\u0440\u043e\u0431\u043a\u0430 \u2014 \u0443\u0441\u0456 \u0440\u043e\u043b\u0456"
+                          },{
+    "key": "JavaScript",
+    "label": "JavaScript / Front-End", "children": [{
+    "key": "Angular",
+    "label": "Angular"}
+,{
+    "key": "Markup",
+    "label": "Markup"}
+,{
+    "key": "React.js",
+    "label": "React.js"}
+,{
+    "key": "Svelte",
+    "label": "Svelte"}
+,{
+    "key": "Vue.js",
+    "label": "Vue.js"}
+]}
+,{
+    "key": "Fullstack",
+    "label": "Fullstack"}
+,{
+    "key": "Java",
+    "label": "Java"}
+,{
+    "key": ".NET",
+    "label": "C# / .NET", "children": [{
+    "key": "Dotnet Desktop",
+    "label": "Desktop Apps", "children": [{
+    "key": "WinForms",
+    "label": "WinForms"}
+,{
+    "key": "WPF",
+    "label": "WPF"}
+]}
+,{
+    "key": "Dotnet Mobile",
+    "label": "Mobile Apps", "children": [{
+    "key": "MAUI",
+    "label": "MAUI"}
+,{
+    "key": "Xamarin",
+    "label": "Xamarin"}
+]}
+,{
+    "key": ".NET Gamedev",
+    "label": ".NET Gamedev"}
+,{
+    "key": "Dotnet Cloud",
+    "label": "Server \u0026 Cloud"}
+,{
+    "key": "Dotnet Web",
+    "label": "Web Apps", "children": [{
+    "key": "ASP.NET",
+    "label": "ASP.NET"}
+,{
+    "key": "Blazor",
+    "label": "Blazor"}
+]}
+]}
+,{
+    "key": "Python",
+    "label": "Python"}
+,{
+    "key": "PHP",
+    "label": "PHP", "children": [{
+    "key": "Drupal",
+    "label": "Drupal"}
+,{
+    "key": "Laravel",
+    "label": "Laravel"}
+,{
+    "key": "Magento",
+    "label": "Magento"}
+,{
+    "key": "Symfony",
+    "label": "Symfony"}
+,{
+    "key": "WordPress",
+    "label": "WordPress"}
+,{
+    "key": "Yii",
+    "label": "Yii"}
+]}
+,{
+    "key": "Node.js",
+    "label": "Node.js"}
+,{
+    "key": "iOS",
+    "label": "iOS"}
+,{
+    "key": "Android",
+    "label": "Android"}
+,{
+    "key": "React Native",
+    "label": "React Native"}
+,{
+    "key": "C++",
+    "label": "C / C++ / Embedded", "children": [{
+    "key": "C Lang",
+    "label": "C"}
+,{
+    "key": "CPP",
+    "label": "C++"}
+,{
+    "key": "Embedded",
+    "label": "Embedded"}
+]}
+,{
+    "key": "Flutter",
+    "label": "Flutter"}
+,{
+    "key": "Golang",
+    "label": "Golang"}
+,{
+    "key": "Ruby",
+    "label": "Ruby"}
+,{
+    "key": "Scala",
+    "label": "Scala"}
+,{
+    "key": "Salesforce",
+    "label": "Salesforce"}
+,{
+    "key": "Rust",
+    "label": "Rust"}
+,{
+    "key": "Elixir",
+    "label": "Elixir"}
+,{
+    "key": "Kotlin",
+    "label": "Kotlin"}
+,{
+    "key": "ERP",
+    "label": "ERP Systems", "children": [{
+    "key": "MS Dynamics",
+    "label": "MS Dynamics / Business Central"}
+,{
+    "key": "Odoo",
+    "label": "Odoo"}
+,{
+    "key": "SAP",
+    "label": "SAP"}
+]}
+,{
+    "key": "No Code",
+    "label": "No Code"}
+]
+                    },{
+                      "label": "QA",
+                      "items": [{
+                            "key": "Quality Assurance",
+                            "label": "QA \u2014 \u0443\u0441\u0456 \u0440\u043e\u043b\u0456"
+                          },{
+    "key": "QA Hardware / Embedded",
+    "label": "QA Hardware / Embedded"}
+,{
+    "key": "QA",
+    "label": "QA Manual"}
+,{
+    "key": "QA Automation",
+    "label": "QA Automation"}
+]
+                    },{
+                      "label": "\u041a\u0440\u0435\u0430\u0442\u0438\u0432 \u0456 \u0433\u0435\u0439\u043c\u0434\u0435\u0432",
+                      "items": [{
+                            "key": "Creative and Gaming",
+                            "label": "\u041a\u0440\u0435\u0430\u0442\u0438\u0432 \u0456 \u0433\u0435\u0439\u043c\u0434\u0435\u0432 \u2014 \u0443\u0441\u0456 \u0440\u043e\u043b\u0456"
+                          },{
+    "key": "Design",
+    "label": "Design", "children": [{
+    "key": "Content Design",
+    "label": "Content Design / UX writer"}
+,{
+    "key": "Graphic Design",
+    "label": "Graphic Design"}
+,{
+    "key": "Product Design",
+    "label": "Product Design"}
+,{
+    "key": "UI UX",
+    "label": "UI/UX"}
+,{
+    "key": "UX Research",
+    "label": "UX Research"}
+]}
+,{
+    "key": "Artist",
+    "label": "2D/3D Artist / Illustrator", "children": [{
+    "key": "2D Animation",
+    "label": "2D Animation"}
+,{
+    "key": "2D Artist",
+    "label": "2D Artist"}
+,{
+    "key": "3D Animation",
+    "label": "3D Animation"}
+,{
+    "key": "3D Artist",
+    "label": "3D Artist"}
+,{
+    "key": "Illustrator",
+    "label": "Illustrator"}
+,{
+    "key": "Motion Design",
+    "label": "Motion Design"}
+,{
+    "key": "VFX Artist",
+    "label": "VFX Artist"}
+,{
+    "key": "Video Editor",
+    "label": "Video Editor"}
+]}
+,{
+    "key": "Unity",
+    "label": "Gamedev", "children": [{
+    "key": "Game Design",
+    "label": "Game Design"}
+,{
+    "key": "Game Developer",
+    "label": "Game Developer", "children": [{
+    "key": "Unity Developer",
+    "label": "Unity Developer"}
+,{
+    "key": "Unreal Developer",
+    "label": "Unreal Developer"}
+]}
+,{
+    "key": "Level Design",
+    "label": "Level Design"}
+]}
+]
+                    },{
+                      "label": "\u0414\u0430\u043d\u0456 \u0442\u0430 \u0430\u043d\u0430\u043b\u0456\u0442\u0438\u043a\u0430",
+                      "items": [{
+                            "key": "Data Analytics",
+                            "label": "\u0414\u0430\u043d\u0456 \u0442\u0430 \u0430\u043d\u0430\u043b\u0456\u0442\u0438\u043a\u0430 \u2014 \u0443\u0441\u0456 \u0440\u043e\u043b\u0456"
+                          },{
+    "key": "Business Analyst",
+    "label": "Business Analyst"}
+,{
+    "key": "Data Science",
+    "label": "Data Science", "children": [{
+    "key": "ML AI",
+    "label": "ML / AI"}
+]}
+,{
+    "key": "Data Analyst",
+    "label": "Data Analyst"}
+,{
+    "key": "Web Analyst",
+    "label": "Web Analyst"}
+,{
+    "key": "Data Engineer",
+    "label": "Data Engineer"}
+,{
+    "key": "SQL",
+    "label": "SQL / DBA"}
+]
+                    },{
+                      "label": "\u041c\u0435\u043d\u0435\u0434\u0436\u043c\u0435\u043d\u0442",
+                      "items": [{
+                            "key": "Management",
+                            "label": "\u041c\u0435\u043d\u0435\u0434\u0436\u043c\u0435\u043d\u0442 \u2014 \u0443\u0441\u0456 \u0440\u043e\u043b\u0456"
+                          },{
+    "key": "Project Manager",
+    "label": "Project Manager"}
+,{
+    "key": "Product Manager",
+    "label": "Product Manager"}
+,{
+    "key": "Product Owner",
+    "label": "Product Owner"}
+,{
+    "key": "Delivery Manager",
+    "label": "Delivery Manager"}
+,{
+    "key": "Scrum Master",
+    "label": "Scrum Master / Agile Coach"}
+]
+                    },{
+                      "label": "\u041b\u0456\u0434\u0435\u0440\u0441\u0442\u0432\u043e",
+                      "items": [{
+                            "key": "Leadership",
+                            "label": "\u041b\u0456\u0434\u0435\u0440\u0441\u0442\u0432\u043e \u2014 \u0443\u0441\u0456 \u0440\u043e\u043b\u0456"
+                          },{
+    "key": "Lead",
+    "label": "Tech Leadership", "children": [{
+    "key": "CTO",
+    "label": "CTO"}
+,{
+    "key": "Engineering Manager",
+    "label": "Engineering Manager"}
+,{
+    "key": "Architect",
+    "label": "Software Architect"}
+]}
+,{
+    "key": "Head Chief",
+    "label": "Head / Chief", "children": [{
+    "key": "CBDO",
+    "label": "Chief Business Development Officer (CBDO)"}
+,{
+    "key": "CCO",
+    "label": "Chief Commercial Officer (CCO)"}
+,{
+    "key": "CEO",
+    "label": "Chief Executive Officer (CEO)"}
+,{
+    "key": "CFO",
+    "label": "Chief Financial Officer (CFO)"}
+,{
+    "key": "CIO",
+    "label": "Chief Information Officer (CIO)"}
+,{
+    "key": "CMO",
+    "label": "Chief Marketing Officer (CMO)"}
+,{
+    "key": "COO",
+    "label": "Chief Operating Officer (COO)"}
+,{
+    "key": "CPO",
+    "label": "Chief Product Officer (CPO)"}
+,{
+    "key": "CSO",
+    "label": "Chief Security Officer (CSO)"}
+]}
+]
+                    },{
+                      "label": "\u041e\u043f\u0435\u0440\u0430\u0446\u0456\u0457 (Ops)",
+                      "items": [{
+                            "key": "Operations",
+                            "label": "\u041e\u043f\u0435\u0440\u0430\u0446\u0456\u0457 (Ops) \u2014 \u0443\u0441\u0456 \u0440\u043e\u043b\u0456"
+                          },{
+    "key": "DevOps",
+    "label": "DevOps"}
+,{
+    "key": "Security",
+    "label": "Security", "children": [{
+    "key": "Information Security",
+    "label": "Information Security"}
+,{
+    "key": "Penetration Tester",
+    "label": "Penetration Tester"}
+,{
+    "key": "Security Analyst",
+    "label": "Security Analyst"}
+]}
+,{
+    "key": "Sysadmin",
+    "label": "Sysadmin"}
+]
+                    },{
+                      "label": "Hardware \u0442\u0430 \u0456\u043d\u0436\u0435\u043d\u0435\u0440\u0456\u044f",
+                      "items": [{
+                            "key": "Hardware \u0026 Engineering",
+                            "label": "Hardware \u0442\u0430 \u0456\u043d\u0436\u0435\u043d\u0435\u0440\u0456\u044f \u2014 \u0443\u0441\u0456 \u0440\u043e\u043b\u0456"
+                          },{
+    "key": "DefTech",
+    "label": "DefTech", "children": [{
+    "key": "Avionics",
+    "label": "Avionics"}
+,{
+    "key": "Electronic Warfare",
+    "label": "Electronic Warfare"}
+,{
+    "key": "Military Software / C4ISR",
+    "label": "Military Software / C4ISR"}
+,{
+    "key": "UAV / Drone Engineer",
+    "label": "UAV / Drone Engineer"}
+,{
+    "key": "UAV / Drone Pilot",
+    "label": "UAV / Drone Pilot"}
+,{
+    "key": "Weapons Systems",
+    "label": "Weapons Systems"}
+]}
+,{
+    "key": "Hardware",
+    "label": "Hardware", "children": [{
+    "key": "ASIC / Chip Design",
+    "label": "ASIC / Chip Design"}
+,{
+    "key": "Firmware Engineer",
+    "label": "Firmware Engineer"}
+,{
+    "key": "FPGA Engineer",
+    "label": "FPGA Engineer"}
+,{
+    "key": "Hardware Engineer",
+    "label": "Hardware Engineer"}
+,{
+    "key": "RF Engineer",
+    "label": "RF Engineer"}
+,{
+    "key": "Robotics Engineer",
+    "label": "Robotics Engineer"}
+]}
+,{
+    "key": "Engineering / CAD Design",
+    "label": "Engineering / CAD Design", "children": [{
+    "key": "CAD Designer",
+    "label": "CAD Designer"}
+,{
+    "key": "Electrical Engineering",
+    "label": "Electrical Engineering"}
+,{
+    "key": "Electronics / PCB Design",
+    "label": "Electronics / PCB Design"}
+,{
+    "key": "Industrial Design",
+    "label": "Industrial Design"}
+,{
+    "key": "Mechanical Engineering",
+    "label": "Mechanical Engineering"}
+]}
+]
+                    },{
+                      "label": "\u041c\u0430\u0440\u043a\u0435\u0442\u0438\u043d\u0433 \u0456 \u043f\u0440\u043e\u0434\u0430\u0436\u0456",
+                      "items": [{
+                            "key": "Marketing and Sales",
+                            "label": "\u041c\u0430\u0440\u043a\u0435\u0442\u0438\u043d\u0433 \u0456 \u043f\u0440\u043e\u0434\u0430\u0436\u0456 \u2014 \u0443\u0441\u0456 \u0440\u043e\u043b\u0456"
+                          },{
+    "key": "Marketing",
+    "label": "Marketing", "children": [{
+    "key": "Advertising",
+    "label": "Advertising", "children": [{
+    "key": "Affiliate Manager",
+    "label": "Affiliate Manager"}
+,{
+    "key": "Media Buying",
+    "label": "Media Buying"}
+,{
+    "key": "PPC",
+    "label": "PPC"}
+]}
+,{
+    "key": "Content Marketing",
+    "label": "Content Marketing", "children": [{
+    "key": "Content Manager",
+    "label": "Content Manager"}
+,{
+    "key": "Content Writing",
+    "label": "Content Writer / Copywriter / Editor"}
+]}
+,{
+    "key": "Digital Marketing",
+    "label": "Digital Marketing", "children": [{
+    "key": "Digital Marketing Manager",
+    "label": "Digital Marketing Manager"}
+,{
+    "key": "Social Media",
+    "label": "Social Media"}
+]}
+,{
+    "key": "Marketing Analyst",
+    "label": "Marketing Analyst"}
+,{
+    "key": "Performance Marketing",
+    "label": "Performance Marketing"}
+,{
+    "key": "PR Manager",
+    "label": "PR Manager"}
+]}
+,{
+    "key": "Sales",
+    "label": "Sales", "children": [{
+    "key": "Account Manager",
+    "label": "Account Manager"}
+,{
+    "key": "Business Development",
+    "label": "Business Development"}
+,{
+    "key": "Sales Leadership",
+    "label": "Sales Leadership"}
+,{
+    "key": "Sales Manager",
+    "label": "Sales Manager"}
+]}
+,{
+    "key": "Lead Generation",
+    "label": "Lead Generation"}
+,{
+    "key": "SEO",
+    "label": "SEO"}
+]
+                    },{
+                      "label": "\u0420\u0435\u043a\u0440\u0443\u0442\u0438\u043d\u0433",
+                      "items": [{
+                            "key": "Talent Acquisition",
+                            "label": "\u0420\u0435\u043a\u0440\u0443\u0442\u0438\u043d\u0433 \u2014 \u0443\u0441\u0456 \u0440\u043e\u043b\u0456"
+                          },{
+    "key": "HR",
+    "label": "HR"}
+,{
+    "key": "Recruiter",
+    "label": "Recruiter"}
+,{
+    "key": "Interviewer",
+    "label": "Interviewer"}
+]
+                    },{
+                      "label": "\u0406\u043d\u0448\u0435",
+                      "items": [{
+                            "key": "other_group",
+                            "label": "\u0406\u043d\u0448\u0435 \u2014 \u0443\u0441\u0456 \u0440\u043e\u043b\u0456"
+                          },{
+    "key": "Technical Writing",
+    "label": "Technical Writing"}
+,{
+    "key": "Support",
+    "label": "Customer/Technical Support"}
+,{
+    "key": "Finances",
+    "label": "Finances", "children": [{
+    "key": "Accountant",
+    "label": "Accountant"}
+,{
+    "key": "Finance Manager",
+    "label": "Finance Manager"}
+,{
+    "key": "Financial Analyst",
+    "label": "Financial Analyst"}
+,{
+    "key": "FinOps",
+    "label": "FinOps"}
+]}
+,{
+    "key": "Other",
+    "label": "(Other)"}
+]
+                    }],
+                "selected": [],
+                "excluded": []
+              }
+            </script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+      
+  <div class="row mb-3">
+    <label class="form-label col-sm-3" for="salary">
+      Зарплата
+    </label>
+
+    <div class="col-sm-9">
+      <select class="form-select " id="salary" name="salary">
+        <option value="">(не важливо)</option>
+        
+      
+        <option
+            value="500"
+            
+            >від $500</option>
+      
+        <option
+            value="1000"
+            
+            >від $1000</option>
+      
+        <option
+            value="1500"
+            
+            >від $1500</option>
+      
+        <option
+            value="2000"
+            
+            >від $2000</option>
+      
+        <option
+            value="2500"
+            
+            >від $2500</option>
+      
+        <option
+            value="3000"
+            
+            >від $3000</option>
+      
+        <option
+            value="3500"
+            
+            >від $3500</option>
+      
+        <option
+            value="4000"
+            
+            >від $4000</option>
+      
+        <option
+            value="4500"
+            
+            >від $4500</option>
+      
+        <option
+            value="5000"
+            
+            >від $5000</option>
+      
+        <option
+            value="5500"
+            
+            >від $5500</option>
+      
+        <option
+            value="6000"
+            
+            >від $6000</option>
+      
+        <option
+            value="6500"
+            
+            >від $6500</option>
+      
+        <option
+            value="7000"
+            
+            >від $7000</option>
+      
+        <option
+            value="7500"
+            
+            >від $7500</option>
+      
+        <option
+            value="8000"
+            
+            >від $8000</option>
+      
+        <option
+            value="8500"
+            
+            >від $8500</option>
+      
+        <option
+            value="9000"
+            
+            >від $9000</option>
+      
+        <option
+            value="9500"
+            
+            >від $9500</option>
+      
+        <option
+            value="10000"
+            
+            >від $10000</option>
+      
+      
+      </select>
+    </div>
+  </div>
+
+
+      
+  
+  <div class="row mb-3">
+    <label class="form-label col-sm-3" for="sub_modal_exp_years">
+      Досвід роботи
+    </label>
+
+    <div class="col-sm-9">
+      <select class="form-select " id="sub_modal_exp_years" name="exp_years">
+        <option value="">(не важливо)</option>
+        
+  
+    <option value="no_exp" >Без досвіду</option>
+  
+    <option value="1y" >1 рік</option>
+  
+    <option value="2y" >2 роки</option>
+  
+    <option value="3y" >3 роки</option>
+  
+    <option value="4y" >4 роки</option>
+  
+    <option value="5y" >5 років</option>
+  
+    <option value="6y" >6 років</option>
+  
+    <option value="7y" >7 років</option>
+  
+    <option value="8y" >8 років</option>
+  
+    <option value="9y" >9 років</option>
+  
+    <option value="10y" >10 років та більше</option>
+  
+  
+      </select>
+    </div>
+  </div>
+
+
+  
+  <div class="row mb-3">
+    <div class="form-label col-sm-3">Формат</div>
+
+    <div class="col-sm-9">
+      
+        
+        <div class="form-check form-check-inline">
+          <input
+            type="checkbox"
+            class="form-check-input"
+            id="sub_modal_format_office"
+            name="format"
+            value="office"
+            
+          >
+          <label class="form-check-label" for="sub_modal_format_office">Офіс</label>
+        </div>
+      
+        
+        <div class="form-check form-check-inline">
+          <input
+            type="checkbox"
+            class="form-check-input"
+            id="sub_modal_format_hybrid"
+            name="format"
+            value="hybrid"
+            
+          >
+          <label class="form-check-label" for="sub_modal_format_hybrid">Гібридний формат</label>
+        </div>
+      
+        
+        <div class="form-check form-check-inline">
+          <input
+            type="checkbox"
+            class="form-check-input"
+            id="sub_modal_format_remote"
+            name="format"
+            value="remote"
+            
+          >
+          <label class="form-check-label" for="sub_modal_format_remote">Віддалена робота</label>
+        </div>
+      
+    </div>
+  </div>
+
+
+  
+  <div class="row mb-3">
+    <div class="form-label col-sm-3">Зайнятість</div>
+
+    <div class="col-sm-9">
+      
+        
+        <div class="form-check form-check-inline">
+          <input
+            type="checkbox"
+            class="form-check-input"
+            id="sub_modal_employment_fulltime"
+            name="employment"
+            value="fulltime"
+            
+          >
+          <label class="form-check-label" for="sub_modal_employment_fulltime">Повний день</label>
+        </div>
+      
+        
+        <div class="form-check form-check-inline">
+          <input
+            type="checkbox"
+            class="form-check-input"
+            id="sub_modal_employment_parttime"
+            name="employment"
+            value="parttime"
+            
+          >
+          <label class="form-check-label" for="sub_modal_employment_parttime">Part-time</label>
+        </div>
+      
+    </div>
+  </div>
+
+
+  
+  <div class="row mb-3">
+    <label class="form-label col-sm-3" for="sub_modal_english_level">
+      Англійська
+    </label>
+
+    <div class="col-sm-9">
+      <select class="form-select " id="sub_modal_english_level" name="english_level">
+        <option value="">(не важливо)</option>
+        
+  
+    <option value="no_eng" >No English</option>
+  
+    <option value="basic" >Beginner/Elementary</option>
+  
+    <option value="pre" >Pre-Intermediate</option>
+  
+    <option value="intermediate" >Intermediate</option>
+  
+    <option value="upper" >Upper-Intermediate</option>
+  
+    <option value="fluent" >Advanced/Fluent</option>
+  
+    <option value="proficient" >Proficient</option>
+  
+    <option value="native" >Native Speaker</option>
+  
+  
+      </select>
+    </div>
+  </div>
+
+
+  
+  <div class="row mb-3">
+    <div class="form-label col-sm-3">
+      Країна
+      
+        
+  <span
+    class="d-inline-block ms-1 bi bi-info-circle text-secondary"
+    data-bs-toggle="tooltip"
+    
+    title="Вакансії з обраних країн чи регіонів, а також віддалені вакансії, відкриті для них. Залиште порожнім, щоб отримувати вакансії з усього світу."
+  ></span>
+
+      
+    </div>
+
+    <div class="col-sm-9 tms-dropdown">
+      <div
+        id="sub_modal_location"
+        class="js-subscription-multiselect"
+        data-tree-multiselect
+        data-name="location"
+        data-mode="multi"
+        data-variant="filter"
+        
+          data-allow-exclude="false"
+        
+        data-search-placeholder="Пошук..."
+        data-empty-text="Нічого не знайдено"
+        data-clear-all-text="скинути всі"
+        data-more-text="+ще {n}"
+        data-less-text="згорнути"
+      >
+        <script type="application/json" class="tms-data">
+          {
+            "groups": [
+              {
+                "label": "",
+                "items": [{"key": "eu", "label": "\u041a\u0440\u0430\u0457\u043d\u0438 \u0404\u0421"},{"key": "UKR", "label": "\u0423\u043a\u0440\u0430\u0457\u043d\u0430"},{"key": "AUS", "label": "\u0410\u0432\u0441\u0442\u0440\u0430\u043b\u0456\u044f"},{"key": "AUT", "label": "\u0410\u0432\u0441\u0442\u0440\u0456\u044f"},{"key": "AZE", "label": "\u0410\u0437\u0435\u0440\u0431\u0430\u0439\u0434\u0436\u0430\u043d"},{"key": "ALA", "label": "\u0410\u043b\u0430\u043d\u0434\u0441\u044c\u043a\u0456 \u041e\u0441\u0442\u0440\u043e\u0432\u0438"},{"key": "ALB", "label": "\u0410\u043b\u0431\u0430\u043d\u0456\u044f"},{"key": "DZA", "label": "\u0410\u043b\u0436\u0438\u0440"},{"key": "ASM", "label": "\u0410\u043c\u0435\u0440\u0438\u043a\u0430\u043d\u0441\u044c\u043a\u0435 \u0421\u0430\u043c\u043e\u0430"},{"key": "AIA", "label": "\u0410\u043d\u0433\u0456\u043b\u044c\u044f"},{"key": "AGO", "label": "\u0410\u043d\u0433\u043e\u043b\u0430"},{"key": "AND", "label": "\u0410\u043d\u0434\u043e\u0440\u0440\u0430"},{"key": "ATA", "label": "\u0410\u043d\u0442\u0430\u0440\u043a\u0442\u0438\u043a\u0430"},{"key": "ATG", "label": "\u0410\u043d\u0442\u0438\u0433\u0443\u0430 \u0456 \u0411\u0430\u0440\u0431\u0443\u0434\u0430"},{"key": "ARG", "label": "\u0410\u0440\u0433\u0435\u043d\u0442\u0438\u043d\u0430"},{"key": "ABW", "label": "\u0410\u0440\u0443\u0431\u0430"},{"key": "AFG", "label": "\u0410\u0444\u0433\u0430\u043d\u0456\u0441\u0442\u0430\u043d"},{"key": "BHS", "label": "\u0411\u0430\u0433\u0430\u043c\u0441\u044c\u043a\u0456 \u041e\u0441\u0442\u0440\u043e\u0432\u0438"},{"key": "BGD", "label": "\u0411\u0430\u043d\u0433\u043b\u0430\u0434\u0435\u0448"},{"key": "BRB", "label": "\u0411\u0430\u0440\u0431\u0430\u0434\u043e\u0441"},{"key": "BHR", "label": "\u0411\u0430\u0445\u0440\u0435\u0439\u043d"},{"key": "BLZ", "label": "\u0411\u0435\u043b\u0456\u0437"},{"key": "BEL", "label": "\u0411\u0435\u043b\u044c\u0433\u0456\u044f"},{"key": "BEN", "label": "\u0411\u0435\u043d\u0456\u043d"},{"key": "BMU", "label": "\u0411\u0435\u0440\u043c\u0443\u0434\u0441\u044c\u043a\u0456 \u041e\u0441\u0442\u0440\u043e\u0432\u0438"},{"key": "BGR", "label": "\u0411\u043e\u043b\u0433\u0430\u0440\u0456\u044f"},{"key": "BOL", "label": "\u0411\u043e\u043b\u0456\u0432\u0456\u044f"},{"key": "BIH", "label": "\u0411\u043e\u0441\u043d\u0456\u044f \u0456 \u0413\u0435\u0440\u0446\u0435\u0433\u043e\u0432\u0438\u043d\u0430"},{"key": "BWA", "label": "\u0411\u043e\u0442\u0441\u0432\u0430\u043d\u0430"},{"key": "BRA", "label": "\u0411\u0440\u0430\u0437\u0438\u043b\u0456\u044f"},{"key": "IOT", "label": "\u0411\u0440\u0438\u0442\u0430\u043d\u0441\u044c\u043a\u0430 \u0442\u0435\u0440\u0438\u0442\u043e\u0440\u0456\u044f \u0432 \u0406\u043d\u0434\u0456\u0439\u0441\u044c\u043a\u043e\u043c\u0443 \u041e\u043a\u0435\u0430\u043d\u0456"},{"key": "VGB", "label": "\u0411\u0440\u0438\u0442\u0430\u043d\u0441\u044c\u043a\u0456 \u0412\u0456\u0440\u0433\u0456\u043d\u0441\u044c\u043a\u0456 \u043e\u0441\u0442\u0440\u043e\u0432\u0438"},{"key": "BRN", "label": "\u0411\u0440\u0443\u043d\u0435\u0439"},{"key": "BFA", "label": "\u0411\u0443\u0440\u043a\u0456\u043d\u0430-\u0424\u0430\u0441\u043e"},{"key": "BDI", "label": "\u0411\u0443\u0440\u0443\u043d\u0434\u0456"},{"key": "BTN", "label": "\u0411\u0443\u0442\u0430\u043d"},{"key": "VUT", "label": "\u0412\u0430\u043d\u0443\u0430\u0442\u0443"},{"key": "VAT", "label": "\u0412\u0430\u0442\u0438\u043a\u0430\u043d"},{"key": "GBR", "label": "\u0412\u0435\u043b\u0438\u043a\u0430 \u0411\u0440\u0438\u0442\u0430\u043d\u0456\u044f"},{"key": "VEN", "label": "\u0412\u0435\u043d\u0435\u0441\u0443\u0435\u043b\u0430"},{"key": "UMI", "label": "\u0412\u0456\u0434\u0434\u0430\u043b\u0435\u043d\u0456 \u043e\u0441\u0442\u0440\u043e\u0432\u0438 \u0421\u0428\u0410"},{"key": "VIR", "label": "\u0412\u0456\u0440\u0433\u0456\u043d\u0441\u044c\u043a\u0456 \u041e\u0441\u0442\u0440\u043e\u0432\u0438 (\u0421\u0428\u0410)"},{"key": "ARM", "label": "\u0412\u0456\u0440\u043c\u0435\u043d\u0456\u044f"},{"key": "VNM", "label": "\u0412\u02bc\u0454\u0442\u043d\u0430\u043c"},{"key": "GAB", "label": "\u0413\u0430\u0431\u043e\u043d"},{"key": "HTI", "label": "\u0413\u0430\u0457\u0442\u0456"},{"key": "GMB", "label": "\u0413\u0430\u043c\u0431\u0456\u044f"},{"key": "GHA", "label": "\u0413\u0430\u043d\u0430"},{"key": "GUY", "label": "\u0413\u0430\u044f\u043d\u0430"},{"key": "GLP", "label": "\u0413\u0432\u0430\u0434\u0435\u043b\u0443\u043f\u0430"},{"key": "GTM", "label": "\u0413\u0432\u0430\u0442\u0435\u043c\u0430\u043b\u0430"},{"key": "GIN", "label": "\u0413\u0432\u0456\u043d\u0435\u044f"},{"key": "GNB", "label": "\u0413\u0432\u0456\u043d\u0435\u044f-\u0411\u0456\u0441\u0430\u0443"},{"key": "GGY", "label": "\u0413\u0435\u0440\u043d\u0441\u0456"},{"key": "GIB", "label": "\u0413\u0456\u0431\u0440\u0430\u043b\u0442\u0430\u0440"},{"key": "HND", "label": "\u0413\u043e\u043d\u0434\u0443\u0440\u0430\u0441"},{"key": "HKG", "label": "\u0413\u043e\u043d\u043a\u043e\u043d\u0433, \u041e\u0410\u0420 \u041a\u0438\u0442\u0430\u044e"},{"key": "GRD", "label": "\u0413\u0440\u0435\u043d\u0430\u0434\u0430"},{"key": "GRL", "label": "\u0413\u0440\u0435\u043d\u043b\u0430\u043d\u0434\u0456\u044f"},{"key": "GRC", "label": "\u0413\u0440\u0435\u0446\u0456\u044f"},{"key": "GEO", "label": "\u0413\u0440\u0443\u0437\u0456\u044f"},{"key": "GUM", "label": "\u0413\u0443\u0430\u043c"},{"key": "DNK", "label": "\u0414\u0430\u043d\u0456\u044f"},{"key": "JEY", "label": "\u0414\u0436\u0435\u0440\u0441\u0456"},{"key": "DJI", "label": "\u0414\u0436\u0438\u0431\u0443\u0442\u0456"},{"key": "DMA", "label": "\u0414\u043e\u043c\u0456\u043d\u0456\u043a\u0430"},{"key": "DOM", "label": "\u0414\u043e\u043c\u0456\u043d\u0456\u043a\u0430\u043d\u0441\u044c\u043a\u0430 \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0456\u043a\u0430"},{"key": "ECU", "label": "\u0415\u043a\u0432\u0430\u0434\u043e\u0440"},{"key": "GNQ", "label": "\u0415\u043a\u0432\u0430\u0442\u043e\u0440\u0456\u0430\u043b\u044c\u043d\u0430 \u0413\u0432\u0456\u043d\u0435\u044f"},{"key": "ERI", "label": "\u0415\u0440\u0438\u0442\u0440\u0435\u044f"},{"key": "SWZ", "label": "\u0415\u0441\u0432\u0430\u0442\u0456\u043d\u0456"},{"key": "EST", "label": "\u0415\u0441\u0442\u043e\u043d\u0456\u044f"},{"key": "ETH", "label": "\u0415\u0444\u0456\u043e\u043f\u0456\u044f"},{"key": "EGY", "label": "\u0404\u0433\u0438\u043f\u0435\u0442"},{"key": "YEM", "label": "\u0404\u043c\u0435\u043d"},{"key": "ZMB", "label": "\u0417\u0430\u043c\u0431\u0456\u044f"},{"key": "ESH", "label": "\u0417\u0430\u0445\u0456\u0434\u043d\u0430 \u0421\u0430\u0445\u0430\u0440\u0430"},{"key": "ZWE", "label": "\u0417\u0456\u043c\u0431\u0430\u0431\u0432\u0435"},{"key": "ISR", "label": "\u0406\u0437\u0440\u0430\u0457\u043b\u044c"},{"key": "IND", "label": "\u0406\u043d\u0434\u0456\u044f"},{"key": "IDN", "label": "\u0406\u043d\u0434\u043e\u043d\u0435\u0437\u0456\u044f"},{"key": "IRQ", "label": "\u0406\u0440\u0430\u043a"},{"key": "IRN", "label": "\u0406\u0440\u0430\u043d"},{"key": "IRL", "label": "\u0406\u0440\u043b\u0430\u043d\u0434\u0456\u044f"},{"key": "ISL", "label": "\u0406\u0441\u043b\u0430\u043d\u0434\u0456\u044f"},{"key": "ESP", "label": "\u0406\u0441\u043f\u0430\u043d\u0456\u044f"},{"key": "ITA", "label": "\u0406\u0442\u0430\u043b\u0456\u044f"},{"key": "JOR", "label": "\u0419\u043e\u0440\u0434\u0430\u043d\u0456\u044f"},{"key": "CPV", "label": "\u041a\u0430\u0431\u043e-\u0412\u0435\u0440\u0434\u0435"},{"key": "KAZ", "label": "\u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d"},{"key": "CYM", "label": "\u041a\u0430\u0439\u043c\u0430\u043d\u043e\u0432\u0456 \u041e\u0441\u0442\u0440\u043e\u0432\u0438"},{"key": "KHM", "label": "\u041a\u0430\u043c\u0431\u043e\u0434\u0436\u0430"},{"key": "CMR", "label": "\u041a\u0430\u043c\u0435\u0440\u0443\u043d"},{"key": "CAN", "label": "\u041a\u0430\u043d\u0430\u0434\u0430"},{"key": "BES", "label": "\u041a\u0430\u0440\u0438\u0431\u0441\u044c\u043a\u0456 \u041d\u0456\u0434\u0435\u0440\u043b\u0430\u043d\u0434\u0438"},{"key": "QAT", "label": "\u041a\u0430\u0442\u0430\u0440"},{"key": "KEN", "label": "\u041a\u0435\u043d\u0456\u044f"},{"key": "KGZ", "label": "\u041a\u0438\u0440\u0433\u0438\u0437\u0441\u0442\u0430\u043d"},{"key": "CHN", "label": "\u041a\u0438\u0442\u0430\u0439"},{"key": "CYP", "label": "\u041a\u0456\u043f\u0440"},{"key": "KIR", "label": "\u041a\u0456\u0440\u0438\u0431\u0430\u0442\u0456"},{"key": "CCK", "label": "\u041a\u043e\u043a\u043e\u0441\u043e\u0432\u0456 (\u041a\u0456\u043b\u0456\u043d\u0433) \u041e\u0441\u0442\u0440\u043e\u0432\u0438"},{"key": "COL", "label": "\u041a\u043e\u043b\u0443\u043c\u0431\u0456\u044f"},{"key": "COM", "label": "\u041a\u043e\u043c\u043e\u0440\u0438"},{"key": "COG", "label": "\u041a\u043e\u043d\u0433\u043e \u2013 \u0411\u0440\u0430\u0437\u0437\u0430\u0432\u0456\u043b\u044c"},{"key": "COD", "label": "\u041a\u043e\u043d\u0433\u043e \u2013 \u041a\u0456\u043d\u0448\u0430\u0441\u0430"},{"key": "XXK", "label": "\u041a\u043e\u0441\u043e\u0432\u043e"},{"key": "CRI", "label": "\u041a\u043e\u0441\u0442\u0430-\u0420\u0438\u043a\u0430"},{"key": "CIV", "label": "\u041a\u043e\u0442-\u0434\u02bc\u0406\u0432\u0443\u0430\u0440"},{"key": "CUB", "label": "\u041a\u0443\u0431\u0430"},{"key": "KWT", "label": "\u041a\u0443\u0432\u0435\u0439\u0442"},{"key": "CUW", "label": "\u041a\u044e\u0440\u0430\u0441\u0430\u043e"},{"key": "LAO", "label": "\u041b\u0430\u043e\u0441"},{"key": "LVA", "label": "\u041b\u0430\u0442\u0432\u0456\u044f"},{"key": "LSO", "label": "\u041b\u0435\u0441\u043e\u0442\u043e"},{"key": "LTU", "label": "\u041b\u0438\u0442\u0432\u0430"},{"key": "LBR", "label": "\u041b\u0456\u0431\u0435\u0440\u0456\u044f"},{"key": "LBN", "label": "\u041b\u0456\u0432\u0430\u043d"},{"key": "LBY", "label": "\u041b\u0456\u0432\u0456\u044f"},{"key": "LIE", "label": "\u041b\u0456\u0445\u0442\u0435\u043d\u0448\u0442\u0435\u0439\u043d"},{"key": "LUX", "label": "\u041b\u044e\u043a\u0441\u0435\u043c\u0431\u0443\u0440\u0433"},{"key": "MUS", "label": "\u041c\u0430\u0432\u0440\u0438\u043a\u0456\u0439"},{"key": "MRT", "label": "\u041c\u0430\u0432\u0440\u0438\u0442\u0430\u043d\u0456\u044f"},{"key": "MDG", "label": "\u041c\u0430\u0434\u0430\u0433\u0430\u0441\u043a\u0430\u0440"},{"key": "MYT", "label": "\u041c\u0430\u0439\u043e\u0442\u0442\u0430"},{"key": "MAC", "label": "\u041c\u0430\u043a\u0430\u043e, \u041e\u0410\u0420 \u041a\u0438\u0442\u0430\u044e"},{"key": "MWI", "label": "\u041c\u0430\u043b\u0430\u0432\u0456"},{"key": "MYS", "label": "\u041c\u0430\u043b\u0430\u0439\u0437\u0456\u044f"},{"key": "MLI", "label": "\u041c\u0430\u043b\u0456"},{"key": "MDV", "label": "\u041c\u0430\u043b\u044c\u0434\u0456\u0432\u0438"},{"key": "MLT", "label": "\u041c\u0430\u043b\u044c\u0442\u0430"},{"key": "MAR", "label": "\u041c\u0430\u0440\u043e\u043a\u043a\u043e"},{"key": "MTQ", "label": "\u041c\u0430\u0440\u0442\u0438\u043d\u0456\u043a\u0430"},{"key": "MHL", "label": "\u041c\u0430\u0440\u0448\u0430\u043b\u043b\u043e\u0432\u0456 \u041e\u0441\u0442\u0440\u043e\u0432\u0438"},{"key": "MEX", "label": "\u041c\u0435\u043a\u0441\u0438\u043a\u0430"},{"key": "FSM", "label": "\u041c\u0456\u043a\u0440\u043e\u043d\u0435\u0437\u0456\u044f"},{"key": "MOZ", "label": "\u041c\u043e\u0437\u0430\u043c\u0431\u0456\u043a"},{"key": "MDA", "label": "\u041c\u043e\u043b\u0434\u043e\u0432\u0430"},{"key": "MCO", "label": "\u041c\u043e\u043d\u0430\u043a\u043e"},{"key": "MNG", "label": "\u041c\u043e\u043d\u0433\u043e\u043b\u0456\u044f"},{"key": "MSR", "label": "\u041c\u043e\u043d\u0442\u0441\u0435\u0440\u0440\u0430\u0442"},{"key": "MMR", "label": "\u041c\u02bc\u044f\u043d\u043c\u0430 (\u0411\u0456\u0440\u043c\u0430)"},{"key": "NAM", "label": "\u041d\u0430\u043c\u0456\u0431\u0456\u044f"},{"key": "NRU", "label": "\u041d\u0430\u0443\u0440\u0443"},{"key": "NPL", "label": "\u041d\u0435\u043f\u0430\u043b"},{"key": "NER", "label": "\u041d\u0456\u0433\u0435\u0440"},{"key": "NGA", "label": "\u041d\u0456\u0433\u0435\u0440\u0456\u044f"},{"key": "NLD", "label": "\u041d\u0456\u0434\u0435\u0440\u043b\u0430\u043d\u0434\u0438"},{"key": "NIC", "label": "\u041d\u0456\u043a\u0430\u0440\u0430\u0433\u0443\u0430"},{"key": "DEU", "label": "\u041d\u0456\u043c\u0435\u0447\u0447\u0438\u043d\u0430"},{"key": "NIU", "label": "\u041d\u0456\u0443\u0435"},{"key": "NZL", "label": "\u041d\u043e\u0432\u0430 \u0417\u0435\u043b\u0430\u043d\u0434\u0456\u044f"},{"key": "NCL", "label": "\u041d\u043e\u0432\u0430 \u041a\u0430\u043b\u0435\u0434\u043e\u043d\u0456\u044f"},{"key": "NOR", "label": "\u041d\u043e\u0440\u0432\u0435\u0433\u0456\u044f"},{"key": "ARE", "label": "\u041e\u0431\u02bc\u0454\u0434\u043d\u0430\u043d\u0456 \u0410\u0440\u0430\u0431\u0441\u044c\u043a\u0456 \u0415\u043c\u0456\u0440\u0430\u0442\u0438"},{"key": "OMN", "label": "\u041e\u043c\u0430\u043d"},{"key": "BVT", "label": "\u041e\u0441\u0442\u0440\u0456\u0432 \u0411\u0443\u0432\u0435"},{"key": "IMN", "label": "\u041e\u0441\u0442\u0440\u0456\u0432 \u041c\u0435\u043d"},{"key": "NFK", "label": "\u041e\u0441\u0442\u0440\u0456\u0432 \u041d\u043e\u0440\u0444\u043e\u043b\u043a"},{"key": "CXR", "label": "\u041e\u0441\u0442\u0440\u0456\u0432 \u0420\u0456\u0437\u0434\u0432\u0430"},{"key": "SHN", "label": "\u041e\u0441\u0442\u0440\u0456\u0432 \u0421\u0432\u044f\u0442\u043e\u0457 \u0404\u043b\u0435\u043d\u0438"},{"key": "HMD", "label": "\u041e\u0441\u0442\u0440\u043e\u0432\u0438 \u0413\u0435\u0440\u0434 \u0456 \u041c\u0430\u043a\u0434\u043e\u043d\u0430\u043b\u0434"},{"key": "COK", "label": "\u041e\u0441\u0442\u0440\u043e\u0432\u0438 \u041a\u0443\u043a\u0430"},{"key": "PCN", "label": "\u041e\u0441\u0442\u0440\u043e\u0432\u0438 \u041f\u0456\u0442\u043a\u0435\u0440\u043d"},{"key": "TCA", "label": "\u041e\u0441\u0442\u0440\u043e\u0432\u0438 \u0422\u0435\u0440\u043a\u0441 \u0456 \u041a\u0430\u0439\u043a\u043e\u0441"},{"key": "PAK", "label": "\u041f\u0430\u043a\u0438\u0441\u0442\u0430\u043d"},{"key": "PLW", "label": "\u041f\u0430\u043b\u0430\u0443"},{"key": "PSE", "label": "\u041f\u0430\u043b\u0435\u0441\u0442\u0438\u043d\u0441\u044c\u043a\u0456 \u0442\u0435\u0440\u0438\u0442\u043e\u0440\u0456\u0457"},{"key": "PAN", "label": "\u041f\u0430\u043d\u0430\u043c\u0430"},{"key": "PNG", "label": "\u041f\u0430\u043f\u0443\u0430-\u041d\u043e\u0432\u0430 \u0413\u0432\u0456\u043d\u0435\u044f"},{"key": "PRY", "label": "\u041f\u0430\u0440\u0430\u0433\u0432\u0430\u0439"},{"key": "PER", "label": "\u041f\u0435\u0440\u0443"},{"key": "SGS", "label": "\u041f\u0456\u0432\u0434\u0435\u043d\u043d\u0430 \u0414\u0436\u043e\u0440\u0434\u0436\u0456\u044f \u0442\u0430 \u041f\u0456\u0432\u0434\u0435\u043d\u043d\u0456 \u0421\u0430\u043d\u0434\u0432\u0456\u0447\u0435\u0432\u0456 \u041e\u0441\u0442\u0440\u043e\u0432\u0438"},{"key": "KOR", "label": "\u041f\u0456\u0432\u0434\u0435\u043d\u043d\u0430 \u041a\u043e\u0440\u0435\u044f"},{"key": "SSD", "label": "\u041f\u0456\u0432\u0434\u0435\u043d\u043d\u0438\u0439 \u0421\u0443\u0434\u0430\u043d"},{"key": "ZAF", "label": "\u041f\u0456\u0432\u0434\u0435\u043d\u043d\u043e-\u0410\u0444\u0440\u0438\u043a\u0430\u043d\u0441\u044c\u043a\u0430 \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0456\u043a\u0430"},{"key": "PRK", "label": "\u041f\u0456\u0432\u043d\u0456\u0447\u043d\u0430 \u041a\u043e\u0440\u0435\u044f"},{"key": "MKD", "label": "\u041f\u0456\u0432\u043d\u0456\u0447\u043d\u0430 \u041c\u0430\u043a\u0435\u0434\u043e\u043d\u0456\u044f"},{"key": "MNP", "label": "\u041f\u0456\u0432\u043d\u0456\u0447\u043d\u0456 \u041c\u0430\u0440\u0456\u0430\u043d\u0441\u044c\u043a\u0456 \u041e\u0441\u0442\u0440\u043e\u0432\u0438"},{"key": "POL", "label": "\u041f\u043e\u043b\u044c\u0449\u0430"},{"key": "PRT", "label": "\u041f\u043e\u0440\u0442\u0443\u0433\u0430\u043b\u0456\u044f"},{"key": "PRI", "label": "\u041f\u0443\u0435\u0440\u0442\u043e-\u0420\u0438\u043a\u043e"},{"key": "REU", "label": "\u0420\u0435\u044e\u043d\u044c\u0439\u043e\u043d"},{"key": "RWA", "label": "\u0420\u0443\u0430\u043d\u0434\u0430"},{"key": "ROU", "label": "\u0420\u0443\u043c\u0443\u043d\u0456\u044f"},{"key": "SLV", "label": "\u0421\u0430\u043b\u044c\u0432\u0430\u0434\u043e\u0440"},{"key": "WSM", "label": "\u0421\u0430\u043c\u043e\u0430"},{"key": "SMR", "label": "\u0421\u0430\u043d-\u041c\u0430\u0440\u0438\u043d\u043e"},{"key": "STP", "label": "\u0421\u0430\u043d-\u0422\u043e\u043c\u0435 \u0456 \u041f\u0440\u0438\u043d\u0441\u0456\u043f\u0456"},{"key": "SAU", "label": "\u0421\u0430\u0443\u0434\u0456\u0432\u0441\u044c\u043a\u0430 \u0410\u0440\u0430\u0432\u0456\u044f"},{"key": "SYC", "label": "\u0421\u0435\u0439\u0448\u0435\u043b\u044c\u0441\u044c\u043a\u0456 \u041e\u0441\u0442\u0440\u043e\u0432\u0438"},{"key": "SEN", "label": "\u0421\u0435\u043d\u0435\u0433\u0430\u043b"},{"key": "VCT", "label": "\u0421\u0435\u043d\u0442-\u0412\u0456\u043d\u0441\u0435\u043d\u0442 \u0456 \u0413\u0440\u0435\u043d\u0430\u0434\u0456\u043d\u0438"},{"key": "KNA", "label": "\u0421\u0435\u043d\u0442-\u041a\u0456\u0442\u0441 \u0456 \u041d\u0435\u0432\u0456\u0441"},{"key": "LCA", "label": "\u0421\u0435\u043d\u0442-\u041b\u044e\u0441\u0456\u044f"},{"key": "BLM", "label": "\u0421\u0435\u043d-\u0411\u0430\u0440\u0442\u0435\u043b\u0435\u043c\u0456"},{"key": "MAF", "label": "\u0421\u0435\u043d-\u041c\u0430\u0440\u0442\u0435\u043d"},{"key": "SPM", "label": "\u0421\u0435\u043d-\u041f\u02bc\u0454\u0440 \u0456 \u041c\u0456\u043a\u0435\u043b\u043e\u043d"},{"key": "SRB", "label": "\u0421\u0435\u0440\u0431\u0456\u044f"},{"key": "SYR", "label": "\u0421\u0438\u0440\u0456\u044f"},{"key": "SGP", "label": "\u0421\u0456\u043d\u0433\u0430\u043f\u0443\u0440"},{"key": "SXM", "label": "\u0421\u0456\u043d\u0442-\u041c\u0430\u0440\u0442\u0435\u043d"},{"key": "SVK", "label": "\u0421\u043b\u043e\u0432\u0430\u0447\u0447\u0438\u043d\u0430"},{"key": "SVN", "label": "\u0421\u043b\u043e\u0432\u0435\u043d\u0456\u044f"},{"key": "SLB", "label": "\u0421\u043e\u043b\u043e\u043c\u043e\u043d\u043e\u0432\u0456 \u041e\u0441\u0442\u0440\u043e\u0432\u0438"},{"key": "SOM", "label": "\u0421\u043e\u043c\u0430\u043b\u0456"},{"key": "USA", "label": "\u0421\u043f\u043e\u043b\u0443\u0447\u0435\u043d\u0456 \u0428\u0442\u0430\u0442\u0438"},{"key": "SDN", "label": "\u0421\u0443\u0434\u0430\u043d"},{"key": "SUR", "label": "\u0421\u0443\u0440\u0438\u043d\u0430\u043c"},{"key": "SLE", "label": "\u0421\u044c\u0454\u0440\u0440\u0430-\u041b\u0435\u043e\u043d\u0435"},{"key": "TJK", "label": "\u0422\u0430\u0434\u0436\u0438\u043a\u0438\u0441\u0442\u0430\u043d"},{"key": "THA", "label": "\u0422\u0430\u0457\u043b\u0430\u043d\u0434"},{"key": "TWN", "label": "\u0422\u0430\u0439\u0432\u0430\u043d\u044c"},{"key": "TZA", "label": "\u0422\u0430\u043d\u0437\u0430\u043d\u0456\u044f"},{"key": "TLS", "label": "\u0422\u0456\u043c\u043e\u0440-\u041b\u0435\u0448\u0442\u0456"},{"key": "TGO", "label": "\u0422\u043e\u0433\u043e"},{"key": "TKL", "label": "\u0422\u043e\u043a\u0435\u043b\u0430\u0443"},{"key": "TON", "label": "\u0422\u043e\u043d\u0433\u0430"},{"key": "TTO", "label": "\u0422\u0440\u0438\u043d\u0456\u0434\u0430\u0434 \u0456 \u0422\u043e\u0431\u0430\u0433\u043e"},{"key": "TUV", "label": "\u0422\u0443\u0432\u0430\u043b\u0443"},{"key": "TUN", "label": "\u0422\u0443\u043d\u0456\u0441"},{"key": "TUR", "label": "\u0422\u0443\u0440\u0435\u0447\u0447\u0438\u043d\u0430"},{"key": "TKM", "label": "\u0422\u0443\u0440\u043a\u043c\u0435\u043d\u0456\u0441\u0442\u0430\u043d"},{"key": "UGA", "label": "\u0423\u0433\u0430\u043d\u0434\u0430"},{"key": "HUN", "label": "\u0423\u0433\u043e\u0440\u0449\u0438\u043d\u0430"},{"key": "UZB", "label": "\u0423\u0437\u0431\u0435\u043a\u0438\u0441\u0442\u0430\u043d"},{"key": "UKR", "label": "\u0423\u043a\u0440\u0430\u0457\u043d\u0430"},{"key": "WLF", "label": "\u0423\u043e\u043b\u043b\u0456\u0441 \u0456 \u0424\u0443\u0442\u0443\u043d\u0430"},{"key": "URY", "label": "\u0423\u0440\u0443\u0433\u0432\u0430\u0439"},{"key": "FRO", "label": "\u0424\u0430\u0440\u0435\u0440\u0441\u044c\u043a\u0456 \u041e\u0441\u0442\u0440\u043e\u0432\u0438"},{"key": "FJI", "label": "\u0424\u0456\u0434\u0436\u0456"},{"key": "PHL", "label": "\u0424\u0456\u043b\u0456\u043f\u043f\u0456\u043d\u0438"},{"key": "FIN", "label": "\u0424\u0456\u043d\u043b\u044f\u043d\u0434\u0456\u044f"},{"key": "FLK", "label": "\u0424\u043e\u043b\u043a\u043b\u0435\u043d\u0434\u0441\u044c\u043a\u0456 \u041e\u0441\u0442\u0440\u043e\u0432\u0438"},{"key": "FRA", "label": "\u0424\u0440\u0430\u043d\u0446\u0456\u044f"},{"key": "GUF", "label": "\u0424\u0440\u0430\u043d\u0446\u0443\u0437\u044c\u043a\u0430 \u0413\u0432\u0456\u0430\u043d\u0430"},{"key": "PYF", "label": "\u0424\u0440\u0430\u043d\u0446\u0443\u0437\u044c\u043a\u0430 \u041f\u043e\u043b\u0456\u043d\u0435\u0437\u0456\u044f"},{"key": "ATF", "label": "\u0424\u0440\u0430\u043d\u0446\u0443\u0437\u044c\u043a\u0456 \u041f\u0456\u0432\u0434\u0435\u043d\u043d\u0456 \u0422\u0435\u0440\u0438\u0442\u043e\u0440\u0456\u0457"},{"key": "HRV", "label": "\u0425\u043e\u0440\u0432\u0430\u0442\u0456\u044f"},{"key": "CAF", "label": "\u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u043e\u0430\u0444\u0440\u0438\u043a\u0430\u043d\u0441\u044c\u043a\u0430 \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0456\u043a\u0430"},{"key": "TCD", "label": "\u0427\u0430\u0434"},{"key": "CZE", "label": "\u0427\u0435\u0445\u0456\u044f"},{"key": "CHL", "label": "\u0427\u0438\u043b\u0456"},{"key": "MNE", "label": "\u0427\u043e\u0440\u043d\u043e\u0433\u043e\u0440\u0456\u044f"},{"key": "CHE", "label": "\u0428\u0432\u0435\u0439\u0446\u0430\u0440\u0456\u044f"},{"key": "SWE", "label": "\u0428\u0432\u0435\u0446\u0456\u044f"},{"key": "SJM", "label": "\u0428\u043f\u0456\u0446\u0431\u0435\u0440\u0433\u0435\u043d \u0442\u0430 \u042f\u043d-\u041c\u0430\u0454\u043d"},{"key": "LKA", "label": "\u0428\u0440\u0456-\u041b\u0430\u043d\u043a\u0430"},{"key": "JAM", "label": "\u042f\u043c\u0430\u0439\u043a\u0430"},{"key": "JPN", "label": "\u042f\u043f\u043e\u043d\u0456\u044f"}]
+              }
+            ],
+            "selected": [],
+            "excluded": []
+          }
+        </script>
+      </div>
+    </div>
+  </div>
+
+
+  
+  <div class="row mb-3">
+    <div class="form-label col-sm-3">
+      Домен
+      
+        
+  <span
+    class="d-inline-block ms-1 bi bi-info-circle text-secondary"
+    data-bs-toggle="tooltip"
+    
+    title="Оберіть домени, щоб отримувати вакансії лише з них. Натисніть ⊘ біля домену, щоб виключити його вакансії — зручно, щоб пропускати, наприклад, gambling чи adult."
+  ></span>
+
+      
+    </div>
+
+    <div class="col-sm-9 tms-dropdown">
+      <div
+        id="sub_modal_domain"
+        class="js-subscription-multiselect"
+        data-tree-multiselect
+        data-name="domain"
+        data-mode="multi"
+        data-variant="filter"
+        
+          data-allow-exclude="true"
+          data-exclude-name="domain_exclude"
+        
+        data-search-placeholder="Пошук..."
+        data-empty-text="Нічого не знайдено"
+        data-clear-all-text="скинути всі"
+        data-more-text="+ще {n}"
+        data-less-text="згорнути"
+      >
+        <script type="application/json" class="tms-data">
+          {
+            "groups": [
+              {
+                "label": "",
+                "items": [{"key": "advertising", "label": "Advertising / Marketing"},{"key": "adult", "label": "Adult"},{"key": "agriculture", "label": "Agriculture / Food Tech"},{"key": "automotive", "label": "Automotive"},{"key": "crypto", "label": "Blockchain / Crypto"},{"key": "dating", "label": "Dating"},{"key": "ecommerce", "label": "E-commerce / Marketplace"},{"key": "edutech", "label": "Education"},{"key": "energy", "label": "Energy / Utilities"},{"key": "entertainment", "label": "Entertainment / Streaming"},{"key": "fintech", "label": "Fintech"},{"key": "gambling", "label": "Gambling"},{"key": "gamedev", "label": "Gamedev"},{"key": "govtech", "label": "GovTech"},{"key": "hardware", "label": "Hardware / IoT"},{"key": "healthcare", "label": "Healthcare / MedTech"},{"key": "hrtech", "label": "HRTech"},{"key": "legaltech", "label": "LegalTech"},{"key": "logistics", "label": "Logistics / Supply Chain"},{"key": "manufacturing", "label": "Manufacturing"},{"key": "media", "label": "Media"},{"key": "miltech", "label": "DefTech"},{"key": "ml", "label": "Machine Learning / Big Data"},{"key": "mobile", "label": "Mobile"},{"key": "proptech", "label": "PropTech / Real Estate"},{"key": "saas", "label": "SaaS"},{"key": "security", "label": "Security"},{"key": "sports_fitness", "label": "Sports and Fitness"},{"key": "telecom", "label": "Telecom / Communications"},{"key": "travel", "label": "Travel / Tourism"},{"key": "other", "label": "Other"}]
+              }
+            ],
+            "selected": [],
+            "excluded": []
+          }
+        </script>
+      </div>
+    </div>
+  </div>
+
+
+
+      <div class="row mb-3">
+        
+  <label class="form-label col-sm-3" for="keywords">
+    Ключові слова
+  </label>
+
+  <div class="col-sm-9">
+    <input
+      type="text"
+      id="keywords"
+      name="keywords"
+      class="form-control"
+      maxlength="250"
+      value=""
+    >
+    
+        <div class="form-text">Наприклад: (senior|middle) rust -blockchain</div>
+
+        
+  </div>
+
+      </div>
+
+      
+  <div class="row mb-3">
+    <div class="col-sm-9 offset-sm-3">
+      <div class="form-check">
+        <input
+          type="checkbox"
+          class="form-check-input"
+          id="can_apply_only_modal"
+          name="can_apply_only"
+          value="1"
+          
+        >
+        <label class="form-check-label" for="can_apply_only_modal">
+          Тільки вакансії, на які можу відгукнутися
+        </label>
+        
+  <span
+    class="d-inline-block ms-1 bi bi-info-circle text-secondary"
+    data-bs-toggle="tooltip"
+    
+    title="Не надсилати вакансії, які не підходять мені за досвідом, мовами, локацією чи форматом роботи."
+  ></span>
+
+      </div>
+    </div>
+  </div>
+
+    </form>
+  </div>
+  <div class="modal-footer">
+    <button type="submit" class="btn btn-primary" form="subscription-form-create">
+      
+        Створити
+      
+    </button>
+  </div>
+  

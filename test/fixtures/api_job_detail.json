@@ -1,0 +1,97 @@
+{
+  "id": 857417,
+  "title": "Software Engineer (C++, Python)",
+  "slug": "857417-software-engineer-c-python",
+  "company_name": "Stellar Jet",
+  "long_description": "<p>Шукаємо розробника для створення та вдосконалення алгоритмів планування маршрутів і навігації з урахуванням геопросторових даних, особливостей місцевості та обмежень літального апарата.</p><p>&nbsp;</p><p><strong>Основні обов'язки:</strong></p><ul><li>Розробка та оптимізація алгоритмів планування маршрутів.</li><li>Реалізація алгоритмів пошуку шляху (A*, Theta*, RRT та аналоги).</li><li>Робота з геопросторовими даними, картами та цифровими моделями рельєфу.</li><li>Врахування особливостей місцевості та технічних обмежень літального апарата під час побудови маршрутів.</li><li>Тестування, аналіз та оптимізація ефективності алгоритмів.</li></ul><p>&nbsp;</p><p><strong>Наші вимоги:</strong></p><ul><li>Досвід розробки від 2 років на C++ або Python (бажано обома мовами).</li><li>Сильний математичний бекграунд: алгоритми, оптимізація, теорія графів.</li><li>Практичний досвід реалізації алгоритмів планування шляху (A*, Theta*, RRT або аналоги).</li><li>Розуміння геопросторових даних: системи координат, проекції, GeoJSON, DEM та растрові моделі рельєфу.</li><li>Навички алгоритмічного мислення та вирішення складних технічних задач.</li></ul><p>&nbsp;</p><p><strong>Буде перевагою:</strong></p><ul><li>Практичний досвід навчання нейронних мереж (PyTorch або TensorFlow).</li><li>Розуміння динаміки та обмежень літальних апаратів: радіус розвороту, енергоспоживання, вплив вітру, набір висоти.</li><li>Досвід у робототехніці, GIS, авіаційних симуляторах або GameDev (розробка стратегій, симуляторів та систем Pathfinding).</li><li>Досвід роботи з алгоритмами навігації та автономного планування руху.</li></ul><p>&nbsp;</p><p><strong>Що&nbsp;пропонуємо&nbsp;ми:</strong></p><ul><li>Офіційне працевлаштування на&nbsp;основі Дія Сіті.</li><li><strong>Бронювання</strong> і&nbsp;підтримка на&nbsp;кожному етапі оформлення.</li><li>Офісний формат (правий берег), ПН-ПТ.</li><li>Участь у&nbsp;розробці масштабного оборонного проєкту.</li><li>Власний спортзал, йога студія, масажний кабінет і&nbsp;кав’ярні.</li><li>Конкурентна заробітна плата із&nbsp;регулярним переглядом.</li><li>Чіткі та&nbsp;прозорі можливості для професійного розвитку.</li></ul><p>&nbsp;</p><p>Долучайтесь до&nbsp;команди <strong>Stellar Jet</strong> та&nbsp;зробіть свій внесок у&nbsp;розвиток технологій.</p>",
+  "category": {
+    "id": "python",
+    "name": "Python"
+  },
+  "location": "Kyiv",
+  "work_format": "Office Work",
+  "experience": 3,
+  "english": {
+    "id": "no_english",
+    "name": "No English"
+  },
+  "domain": "miltech",
+  "published": "2026-11-10T12:09:52.753645",
+  "recruiter": {
+    "id": 206387,
+    "name": "Recruiter 206387",
+    "linkedin_headline": "Technical Recruiter at Stellar Jet",
+    "position": "Technical Recruiter",
+    "company_name": "Stellar Jet",
+    "public_url": "/r/206387-technical-recruiter-at-stellar-jet/",
+    "badge": "",
+    "picture_url": null,
+    "employer_website": "https://www.linkedin.com/company/stellar-jet/?viewAsMember=true",
+    "employer_about": "<p><strong>Stellar Jet</strong> — це R&amp;D бюро, що&nbsp;розробляє критично важливі технології для оборонної галузі. Наші проєкти вже довели свою ефективність, і ми&nbsp;продовжуємо активну роботу над перспективними розробками.<br><br>Ми співпрацюємо з передовими українськими та міжнародними компаніями, створюючи унікальні технологічні рішення.</p>"
+  },
+  "is_online": true,
+  "is_offline": false,
+  "dou_link": "https://jobs.dou.ua/companies/stellar-jet/",
+  "is_favorite": false,
+  "has_seen": true,
+  "has_applied": false,
+  "messagethread_url": "",
+  "views_count": 63,
+  "applications_count": 5,
+  "youtube": "",
+  "public_salary_min": null,
+  "public_salary_max": null,
+  "salary_group": 4,
+  "can_apply": false,
+  "can_apply_reason": "requirements_mismatch",
+  "is_parttime": false,
+  "has_test": false,
+  "requires_cover_letter": false,
+  "is_ukraine_only": false,
+  "company_logo_url": "",
+  "skills_experience": [
+    {
+      "skill": "python",
+      "name": "Python",
+      "experience_years": null,
+      "is_approved": true,
+      "label": "Python"
+    },
+    {
+      "skill": "c_c",
+      "name": "C/C++",
+      "experience_years": null,
+      "is_approved": true,
+      "label": "C/C++"
+    },
+    {
+      "skill": "pytorch",
+      "name": "PyTorch",
+      "experience_years": null,
+      "is_approved": true,
+      "label": "PyTorch"
+    },
+    {
+      "skill": "tensorflow",
+      "name": "Tensorflow",
+      "experience_years": null,
+      "is_approved": true,
+      "label": "Tensorflow"
+    },
+    {
+      "skill": "gis",
+      "name": "GIS",
+      "experience_years": null,
+      "is_approved": true,
+      "label": "GIS"
+    }
+  ],
+  "extra_keywords": [
+    "Python",
+    "C/C++",
+    "PyTorch",
+    "Tensorflow",
+    "GIS"
+  ],
+  "languages": []
+}

@@ -1,0 +1,745 @@
+{
+  "count": 15,
+  "offset": 0,
+  "limit": 10,
+  "results": [
+    {
+      "id": 857359,
+      "title": "Lead Design Engineer (AI-конвеєр креативів)",
+      "slug": "857359-lead-design-engineer-ai-konveier-kreativiv",
+      "company_name": "Betterly",
+      "long_description": "<p>Про компанію<br>Ми продуктова компанія у сфері self-development: створюємо продукти, які допомагають людям ставати кращими у стосунках, у здоров'ї, у тому, як вони живуть щодня.<br>Betterly — підписковий застосунок для ринку США: короткі курси, 28-денні челенджі та AI-співрозмовник. Головний напрям — стосунки та близькість у парі, аудиторія — переважно чоловіки.<br>Тема делікатна, тому працюємо в межах суворих правил Meta. Якщо тобі з нею некомфортно — краще не відгукуватися, і це нормально.<br>Ростемо на рекламі в Meta: вдалий креатив уже в перший тиждень отримує великий бюджет, а реклама росте рівно так швидко, як команда знаходить нові креативи. Креативи робимо нейромережами.<br>Зараз будуємо креативний відділ — відкрили вісім ролей одночасно — і робимо нову версію застосунку: план по днях, коуч, ефіри, спільнота.<br>Команда невелика й віддалена, працюємо напряму із засновниками.</p><p>Про роль<br>Шукаємо дизайн-інженера, який збудує AI-конвеєр креативів і відповідатиме за нього. Креативні маркетологи придумують ідеї, моушн-дизайнери роблять ролики, а ти будуєш машину між ними. Що більше рутини бере на себе конвеєр, то більше нових креативів встигає зробити команда — а саме нові креативи дають рекламі рости.<br>• З одного ролика-вінера конвеєр сам робить десятки варіацій — інший хук, голос, персонаж, формат — з тим самим героєм і без браку<br>• Мета — щоб повторення вінерів робив конвеєр, а люди займалися новими ідеями<br>• Вінер у нас — креатив, який приніс продажі й окупився<br>• Ти перша людина на цій ролі: архітектуру обираєш ти<br>• Моделі оновлюються щомісяця, тож частину конвеєра доведеться перебудовувати<br>• Брак у рекламі коштує грошей і відхилень Meta — якість важить не менше за швидкість<br>З ким працюєш:<br>• твоїми інструментами щодня користуються моушн-дизайнери й креативні маркетологи<br>• пріоритети конвеєра ставимо разом із засновниками</p><p>Що тобі дасть ця роль<br>• Свобода рішень. Моделі, інструменти й устрій конвеєра обираєш ти<br>• Нові моделі — одразу в роботу. Моделі оновлюються щомісяця, і найкращі ти вбудовуєш у живий конвеєр<br>• Інструменти, якими користуються щодня. Моушн-дизайнери й креативні маркетологи працюють ними щодня — користь видно одразу<br>• Коротка дорога до рішень. Пріоритети конвеєра ставиш разом із засновниками, без посередників</p><p>Чим ти займатимешся<br>• Збирати ланцюжки генерації картинок і відео через API: Nano Banana, Kling, Veo, Seedance, Higgsfield, Runway, ElevenLabs, ComfyUI, Flux<br>• Тримати героя однаковим у серії: референси, LoRA, сід, motion control<br>• Автоматизувати збирання варіацій: хук, голос, субтитри, апскейл, формати 9:16, 4:5, 1:1<br>• Робити інструменти, якими креативники й моушн-дизайнери користуються самі, без тебе<br>• Рахувати ціну й швидкість конвеєра: скільки коштує і скільки триває одна варіація<br>• Задавати стандарти виробництва для моушн-дизайнерів і вчити їх працювати з конвеєром</p><p>Що для нас важливо<br>Якщо коротко, ти — людина, яка:<br>• уже збирала робочі ланцюжки генерації зображень чи відео через API, а не лише вручну в інтерфейсі<br>• пише код на Python або JS чи збирає автоматизації в n8n, Make<br>• впевнено працює з Claude Code, Cursor чи Codex<br>• вміє тримати персонажа однаковим у серії<br>• розуміє рекламний креатив: формати площадок, хуки, варіації під тести<br>• може показати конвеєр, який працює<br>• усе, що доводиться робити вдруге, перетворює на інструмент<br>• не випускає брак заради швидкості</p><p>Буде плюсом<br>• Досвід внутрішніх AI-інструментів для нетехнічних команд<br>• Шаблони After Effects (MOGRT, скрипти, expressions), перенесення макетів з Figma в After Effects<br>• Агенти й мультимодальні ланцюжки; прогноз результату креативу до запуску<br>• Досвід у підпискових застосунках; досвід керування моушн-дизайнерами</p><p>Що ми пропонуємо<br>• Оплату обговоримо на розмові<br>• Оплата в доларах, вчасно<br>• Бюджет на API, генерації й AI-інструменти — за рахунок компанії<br>• Результат своєї роботи бачиш у цифрах: скільки варіацій, за якою ціною, скільки з них виграли<br>• Віддалено з будь-якої країни, напряму із засновниками<br>• Шлях росту: креативний відділ росте — і разом із ним росте конвеєр, за який відповідаєш ти</p><p>Як проходить відбір (до двох тижнів)<br>1. Відгук і кілька коротких запитань тут, на Djinni<br>2. Тестове: з одного нашого ролика і сценарію — 10 варіацій автоматично (хук, голос, формат) з тим самим героєм; покажи код і результат (до 3 днів); Claude Code, Cursor та інші AI-асистенти — як у роботі<br>3. Розмова 30 хвилин<br>4. Тест-драйв 2–4 дні на реальних задачах команди. Ці дні оплачуємо незалежно від рішення.</p><p>Впізнаєш себе в цьому описі — відгукуйся, познайомимося.</p>",
+      "category": {
+        "id": "ml_ai",
+        "name": "ML / AI"
+      },
+      "location": "",
+      "work_format": "Full Remote",
+      "experience": 2,
+      "english": {
+        "id": "intermediate",
+        "name": "B1 – Середній"
+      },
+      "domain": "edutech",
+      "published": "2026-11-10T09:39:50.813726",
+      "recruiter": {
+        "id": 209324,
+        "name": "Recruiter 209324",
+        "linkedin_headline": "Co-founder at Betterly",
+        "position": "Co-founder",
+        "company_name": "Betterly",
+        "public_url": "/r/209324-co-founder-at-betterly/",
+        "badge": "",
+        "picture_url": null,
+        "employer_website": "https://Betterly.academy",
+        "employer_about": "<p>Ми продуктова компанія у сфері self-development. Створюємо продукти, які допомагають людям ставати кращими у стосунках, у здоров’ї, у тому, як вони живуть щодня.</p><p><br>&nbsp;</p>"
+      },
+      "is_online": true,
+      "is_offline": false,
+      "dou_link": "",
+      "is_favorite": true,
+      "has_seen": true,
+      "has_applied": false,
+      "messagethread_url": "",
+      "views_count": 88,
+      "applications_count": 7,
+      "youtube": "",
+      "public_salary_min": null,
+      "public_salary_max": null,
+      "salary_group": 4,
+      "can_apply": true,
+      "can_apply_reason": null,
+      "is_parttime": false,
+      "has_test": true,
+      "requires_cover_letter": false,
+      "is_ukraine_only": false,
+      "company_logo_url": "https://p.djinni.co/45/4f56364bcce474d8f3123a69a80c87/IMG_4966_400.png",
+      "skills_experience": [
+        {
+          "skill": "python",
+          "name": "Python",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "Python"
+        },
+        {
+          "skill": "javascript",
+          "name": "JavaScript",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "JavaScript"
+        },
+        {
+          "skill": "api_integration",
+          "name": "API Integration",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "API Integration"
+        },
+        {
+          "skill": "comfyui",
+          "name": "ComfyUI",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "ComfyUI"
+        },
+        {
+          "skill": "n8n",
+          "name": "n8n",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "n8n"
+        },
+        {
+          "skill": "lora_training",
+          "name": "LoRA training",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "LoRA training"
+        },
+        {
+          "skill": "genai",
+          "name": "GenAI",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "GenAI"
+        },
+        {
+          "skill": "claude_code",
+          "name": "Claude Code",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "Claude Code"
+        }
+      ],
+      "extra_keywords": [
+        "Python",
+        "JavaScript",
+        "API Integration",
+        "ComfyUI",
+        "n8n",
+        "LoRA training",
+        "GenAI",
+        "Claude Code"
+      ],
+      "languages": []
+    },
+    {
+      "id": 856271,
+      "title": "Middle AI Project Manager (n8n, Make, Claude Code)",
+      "slug": "856271-middle-ai-project-manager-n8n-make-claude-cod",
+      "company_name": "",
+      "long_description": "INFOBUS is one of the leading online platforms for booking bus, train, and flight tickets. We help millions of people worldwide travel affordably and comfortably.<br>Six of our ten departments already use AI every week, but adoption remains fragmented, without a unified ecosystem. You will join us to build a structured process from the ground up, rather than maintain an established one.<br><br>Our current projects and work in development include AI tools for marketing, INFOBUS Hub (a management portal), development with AI agents, and a prototype AI voice agent for customer support.<br>Your background may be in Project or Delivery Management, Product, Operations, or Business Analysis. What matters is that you have personally launched AI solutions and can demonstrate them in action.<br><br><strong>Responsibilities:</strong><br><ul><li><strong>50% of your time — Hands-on development and automation:</strong><ul><li>Build and configure automations using n8n, Make, and Claude Code;</li><li>Write task instructions for AI agents and prepare test cases;</li><li>Launch solutions in close collaboration with an AI Engineer.</li></ul></li><li><strong>25% of your time — Measurement and portfolio management:</strong><ul><li>Establish baseline metrics before each project starts and define checkpoints and stop criteria;</li><li>Stop experiments promptly if post-launch metrics show no improvement.</li></ul></li><li><strong>25% of your time — People and culture:</strong><ul><li>Train and support “AI guides” across company departments;</li><li>Discover and introduce new AI tools and approaches, and run demos for teams.</li></ul></li></ul><strong>Requirements:</strong><br><ul><li><strong>Experience:</strong> 2+ years in Project Management, Delivery, Product, Business Analysis, or Operations.</li><li><strong>Hands-on portfolio:</strong> AI solutions you have personally launched and can demonstrate. Practical results matter more than years of experience.</li><li><strong>Prompt engineering:</strong> Ability to write clear instructions that enable AI agents to complete tasks correctly on the first attempt, without unnecessary follow-up questions.</li><li><strong>Architectural understanding:</strong> Ability to explain to a developer why an agent needs a specific tool rather than simply a longer prompt.</li><li><strong>Business mindset:</strong> Ability to quantify financial impact and understand why hours saved do not automatically translate into direct profit.</li></ul><strong>Nice to have:</strong><br><ul><li>Experience in travel, e-commerce, or customer support.</li><li>Hands-on experience training colleagues and facilitating their use of AI tools.</li></ul><strong>What We Offer:</strong><br><ul><li><strong>A competitive compensation</strong> based on the interview results, plus a bonus for each successful launch with a verified business impact, measured against pre-launch results.</li><li><strong>Work format:</strong> fully remote work from any country, preferably within European time zones and no more than two hours ahead of or behind Kyiv; a five-day working week with two days off and a flexible start time.</li><li><strong>Tools and professional development:</strong><ul><li>Full access to the AI tools you need for work, with company-funded business plans;</li><li>A separate monthly budget for testing new models and services;</li><li>Coverage of relevant course and conference expenses.</li></ul></li><li><strong>Culture:</strong> An experiment that is measured and stopped at the right time is a valid outcome. Your launch is your case study, which you can present under your own name without disclosing customer data.</li><li><strong>Team:</strong> Direct reporting to the MD of infobus.eu (AI Transformation Lead) and close collaboration with an AI Engineer.</li></ul>Ready to turn AI ideas into measurable business results? Send us your CV and help shape AI adoption at INFOBUS.<br><br>\n\n",
+      "category": {
+        "id": "project_manager",
+        "name": "Project Manager"
+      },
+      "location": "",
+      "work_format": "Full Remote",
+      "experience": 2,
+      "english": {
+        "id": "intermediate",
+        "name": "B1 – Середній"
+      },
+      "domain": "ecommerce",
+      "published": "2026-11-02T16:23:25.530394",
+      "recruiter": {
+        "id": 64949,
+        "name": "Recruiter 64949",
+        "linkedin_headline": "IT Recruiter at INFOBUS",
+        "position": "IT Recruiter",
+        "company_name": "INFOBUS",
+        "public_url": "/r/64949-it-recruiter-at-infobus/",
+        "badge": "verified",
+        "picture_url": "",
+        "employer_website": "http://www.infobus.eu",
+        "employer_about": "INFOBUS Holding — міжнародна IT компанія, яка спеціалізується на розробці та впровадженні інноваційного та комплексного ПЗ для всіх учасників ринку пасажирських перевезень. Основним продуктом компанії є глобальна система диспетчеризації рейсів та продажу квитків — BusSystem.\r\n\r\nГоловний офіс компанії знаходиться у Празі, у Львові функціонує українське представництво компанії."
+      },
+      "is_online": true,
+      "is_offline": false,
+      "dou_link": "https://jobs.dou.ua/companies/infobus/",
+      "is_favorite": true,
+      "has_seen": true,
+      "has_applied": false,
+      "messagethread_url": "",
+      "views_count": 346,
+      "applications_count": 132,
+      "youtube": "",
+      "public_salary_min": 0,
+      "public_salary_max": 0,
+      "salary_group": 3,
+      "can_apply": true,
+      "can_apply_reason": null,
+      "is_parttime": false,
+      "has_test": false,
+      "requires_cover_letter": false,
+      "is_ukraine_only": false,
+      "company_logo_url": "https://p.djinni.co/92/15fc0f15fbe36a6acfcd3b70fbddfa/Logo_INFOBUS_2020_400.jpg",
+      "skills_experience": [],
+      "extra_keywords": [],
+      "languages": []
+    },
+    {
+      "id": 847838,
+      "title": "AI Automation Engineer Senior (Python)",
+      "slug": "847838-ai-automation-engineer-senior-python",
+      "company_name": "Uklon",
+      "long_description": "<p>Заснована в Києві у 2010 році, сьогодні Uklon — це екосистема цифрових сервісів, що об’єднує райдхейлінг, доставку Uklon Delivery, рекламну платформу Uklon Ads, маркетплейс Uklon Store та сервіс купівлі автобусних квитків Uklon Travel в єдиному застосунку. Станом на червень 2026 року сервіс Uklon присутній у 31 місті України та на території туристичного комплексу Буковель. Також компанія оперує в Ташкенті та 5 містах Ферганської долини в Узбекистані.</p><p>&nbsp;</p><p>Ми створюємо highload продукти, за якими ховаються амбітні технологічні челенджі, безперервні інновації та неочевидні ходи. Наш фреймворк роботи — тестувати нові гіпотези, пушити свої ідеї та використовувати останній стек технологій.</p><p><br>Приєднуйся до нас у ролі&nbsp;<strong>AI&nbsp;Automation Engineer Senior</strong><br><br><strong>Hiring process:</strong><br>Знайомство, інтерв’ю з командою та фінальна зустріч<br><br><strong>Що ми пропонуємо саме для цієї ролі:</strong><br>• можливість бути дотичним до внутрішніх трансформацій, впливати на зміни в команді та брати участь у вдосконаленні процесів<br>• можливість створювати AI-рішення, які щодня впливають на тисячі користувачів, трансформуються та масштабуються на кілька країн і продуктів<br>• можливість реалізовувати власні ідеї в&nbsp;межах проєктів з&nbsp;автоматизації процесів у&nbsp;компанії<br>• швидкість ухвалення рішень та&nbsp;доступ до&nbsp;всіх необхідних ресурсів<br>• можливість брати участь у&nbsp;побудові й&nbsp;підтримці бізнес-процесів, які впливають на&nbsp;показники компанії<br>• можливість зростати разом із&nbsp;провідною технологічною компанією, яка є&nbsp;національним лідером<br>• регулярний Performance &amp;&nbsp;Salary Review<br>• річний бонус за умови досягнення цілей компанії<br><br><strong>Як саме ти можеш впливати на розвиток компанії:</strong><br>• розробка, впровадження та підтримка автоматизації бізнес-процесів у корпоративних системах<br>• побудова інтеграцій між корпоративними системами через API, webhooks, скрипти, AI-інструменти та&nbsp;інші integration tools<br>• проєктування технічної логіки автоматизацій відповідно до&nbsp;бізнес-процесів<br>• проєктування та&nbsp;реалізація AI-assisted automation, аналіз і&nbsp;підтримка наявних рішень, а&nbsp;також пошук можливостей для їх&nbsp;оптимізації, спрощення або автоматизації за&nbsp;допомогою AI/GenAI/LLM tools<br>• налаштування логіки контролю якості AI-рішень: перевірка результатів, контроль доступів, оцінка вартості рішень<br>• документування логіки роботи рішень, технічних налаштувань, інтеграцій, залежностей між системами та&nbsp;AI-компонентами<br><br><strong>Челенджі на три місяці:</strong><br>• провести аудит основних наявних автоматизацій та&nbsp;інтеграцій: логіку роботи, залежності між системами, стабільність, проблемні місця та&nbsp;ризики. Запропонувати покращення логік<br>• самостійно реалізувати автоматизації/інтеграційні задачі з&nbsp;новими методами: від аналізу вимог до&nbsp;тестування й&nbsp;запуску із&nbsp;запланованого беклогу, забезпечивши підтверджений результат і&nbsp;дотримання погоджених термінів<br>• взяти відповідальність за частину корпоративних автоматизацій або інтеграцій як технічний owner: підтримка, документація, розвиток та контроль стабільності<br><br><strong>Для досягнення результатів, тобі знадобляться:</strong><br>• 5+ років досвіду роботи на позиції Software Engineer<br>• досвід розробки автоматизацій бізнес-процесів, включаючи workflow automation, скрипти та автоматизацію рутинних операцій<br>• практичний досвід побудови інтеграцій між системами через API, webhooks або інші integration tools<br>• досвід програмування (Python буде перевагою), достатній для самостійної реалізації автоматизацій та інтеграцій<br>• досвід забезпечення якості та стабільності рішень: тестування, документування, аналіз помилок і підтримка production-рішень<br>• володіння англійською мовою на рівні не нижче Intermediate<br><br><strong>Ми, звісно, навчимо, але добре мати:</strong><br>• 3+ роки досвіду в розробці автоматизацій, інтеграцій або підтримці корпоративних систем<br>• практичний досвід роботи з корпоративними системами (Atlassian ecosystem, CRM, HRMS, LMS, ERP)<br>&nbsp;</p><p><strong>Як ти регулюєш свій робочий час?</strong></p><ul><li>Гнучкий графік з урахуванням функціоналу</li><li>Days off зі збереженням винагороди, вихідні на державні свята навіть під час воєнного стану</li><li>Day off в твій день народження, як подарунок компанії</li><li>Days off для донорства крові</li></ul><p>&nbsp;</p><p><strong>Як ти будеш прокачувати свої скіли в Uklon?</strong></p><ul><li>внутрішні тренінги, воркшопи, хакатони, шерінги знань</li><li>корпоративне навчання, підписки на інформаційні ресурси</li><li>відвідування вебінарів, подій за участі спікерів компанії</li><li>персональний/командний бюджет на навчання</li><li>корпоративні знижки та компенсація вартості вивчення англійської мови</li><li>long-term навчання для керівників</li></ul><p>&nbsp;</p><p><strong>Care and support</strong></p><ul><li>медичне страхування в Україні або за кордоном</li><li>фінансова допомога в складних життєвих ситуаціях</li><li>компенсація сесій з психотерапевтом та корпоративний психолог</li><li>wellness programs (воркшопи емоційної підтримки)</li><li>компенсація відвідування коворкінгу в Україні та закордоном</li><li>корпоративні знижки, компенсація вартості спортивних занять</li><li>гейміфікації, подарунки, розіграші та знижки від партнерів</li><li>корпоративні тімбілдінги, подарунки, Uklon Store та реферальна програма</li></ul><p>&nbsp;</p><p><strong>Рух з Uklon:</strong></p><ul><li>промокоди на поїздки з Uklon</li><li>знижки від партнерів</li></ul><p>&nbsp;</p><p><strong>Corporate social responsibility</strong></p><p>Uklon соціально відповідальний бізнес і входить в ТОП-10 найбільших донаторів на підтримку сил оборони та гуманітарні ініціативи серед українського бізнесу в секторі ІТ та телекомунікацій.&nbsp;</p><p>&nbsp;</p><p>Перед поданням заявки на відкриту позицію в Uklon, будь ласка, ознайомтеся з&nbsp;Умовами обробки та захисту персональних даних кандидатів. Надсилаючи нам свої персональні дані, зокрема ті, що містяться у вашому резюме, ви даєте згоду на обробку персональних даних відповідно до цих Умов.</p><p>&nbsp;</p><p>*Ми цінуємо кожен відгук і прагнемо надати зворотний зв’язок протягом 7 робочих днів. Якщо відповіді не було - не засмучуйся: просто цього разу метч із вакансією не відбувся.</p><p>Якщо не бачиш листа від нас - перевір, будь ласка, папку «Спам» чи інші вкладки пошти. Іноді наші відповіді потрапляють туди. Дякуємо, що обираєш Uklon. До зустрічі!</p><p>&nbsp;</p>",
+      "category": {
+        "id": "other",
+        "name": "(Other)"
+      },
+      "location": "",
+      "work_format": "Remote, Hybrid Remote",
+      "experience": 5,
+      "english": {
+        "id": "intermediate",
+        "name": "B1 – Середній"
+      },
+      "domain": "mobile",
+      "published": "2026-10-23T15:04:57.400588",
+      "recruiter": {
+        "id": 142525,
+        "name": "Recruiter 142525",
+        "linkedin_headline": "IT Researcher в Uklon",
+        "position": "IT Researcher",
+        "company_name": "Uklon",
+        "public_url": "/r/142525-it-researcher-v-uklon/",
+        "badge": "verified",
+        "picture_url": "https://p.djinni.co/4f/a3ef89c0d4524b16392cf41791dc59/photo_2023-09-19_12-44-06_400.jpg",
+        "employer_website": "https://careers.uklon.net/",
+        "employer_about": "<p>Uklon — продуктова сервісна IT-компанія, розробник однойменного застосунку.<br><br>Заснована в Києві у 2010 році, сьогодні Uklon — це екосистема цифрових сервісів, що об’єднує райдхейлінг, доставку Uklon Delivery, рекламну платформу Uklon Ads, маркетплейс Uklon Store та сервіс купівлі автобусних квитків Uklon Travel в єдиному застосунку. Станом на червень 2026 року сервіс Uklon присутній у 31 місті України та на території туристичного комплексу Буковель. Також компанія оперує в Ташкенті та 5 містах Ферганської долини в Узбекистані.<br><br>У квітні 2025 року Uklon була придбана АТ «Київстар» (JSC Kyivstar), дочірньою компанією, що повністю належить Kyivstar Group Ltd. (Nasdaq: KYIV; KYIVW), акції якої торгуються на американській фондовій біржі Nasdaq і яка є частиною Групи VEON.</p>"
+      },
+      "is_online": true,
+      "is_offline": false,
+      "dou_link": "https://jobs.dou.ua/companies/uklon/",
+      "is_favorite": true,
+      "has_seen": true,
+      "has_applied": false,
+      "messagethread_url": "",
+      "views_count": 150,
+      "applications_count": 10,
+      "youtube": "",
+      "public_salary_min": null,
+      "public_salary_max": null,
+      "salary_group": 4,
+      "can_apply": true,
+      "can_apply_reason": null,
+      "is_parttime": false,
+      "has_test": false,
+      "requires_cover_letter": false,
+      "is_ukraine_only": false,
+      "company_logo_url": "https://p.djinni.co/66/a3a9481456e379eff480bda59a377e/loho_uklon_dlja_ded_loyers_400.png",
+      "skills_experience": [],
+      "extra_keywords": [],
+      "languages": [
+        {
+          "code": "ukr",
+          "name": "Ukrainian",
+          "level": "Native",
+          "level_code": "native"
+        }
+      ]
+    },
+    {
+      "id": 853180,
+      "title": "GCP Data Engineer",
+      "slug": "853180-gcp-data-engineer",
+      "company_name": "Weba",
+      "long_description": "<p>Work Schedule:<strong> Full-time, US business hours</strong></p><p><br>&nbsp;</p><p><strong>This is a hands-on data engineering role in Google Cloud. BigQuery and GCP services are your daily tools, not something you've touched once. This is not a backend or full-stack development role.</strong></p><p>&nbsp;</p><p><strong>About the role</strong><br>We're hiring a GCP Data Engineer for a US-based client. You'll own data pipelines, integrations and LLM-powered workflows across multiple client GCP projects at the same time, working independently from design to deployment.</p><p>&nbsp;</p><p><strong>What you'll do</strong><br>- Build and maintain BigQuery pipelines: scheduled queries, data transfers and incremental loads<br>- Deploy and run services on Cloud Run, Cloud Functions and Cloud Scheduler<br>- Manage IAM, Secret Manager and Cloud Monitoring across many GCP projects at once<br>- Integrate external systems via REST APIs, webhooks and SFTP<br>- Build LLM-powered workflows using OpenAI, DeepSeek and Perplexity APIs, including prompt design<br>- Ship code with Git and Docker</p><p>&nbsp;</p><p><strong>Must-have</strong><br>- 2+ years of commercial data engineering experience on GCP (experience on AWS or Azure only does not count)<br>- Advanced BigQuery SQL in production: scheduled queries, data transfers, incremental loads<br>- Hands-on with Cloud Run, Cloud Functions, Cloud Scheduler, Secret Manager, IAM and Monitoring<br>- Strong Python<br>- REST APIs, webhooks and SFTP integrations<br>- Git and Docker<br>- LLM APIs (OpenAI, DeepSeek or Perplexity) used in production, with prompt writing<br>- Fluent English: you'll communicate directly with the US client every day<br>- Full working overlap with PST (US Pacific time)<br>- A portfolio or examples of your work: GitHub, case studies or detailed project descriptions</p><p>&nbsp;</p><p><strong>Nice to have</strong><br>- Terraform<br>- n8n<br>- Supabase / Postgres<br>- Clay<br>- Google Meridian<br>- Lead scoring or marketing-tech experience<br>- Experience reducing GCP and LLM costs</p><p>&nbsp;</p><p><strong>Please don't apply if</strong><br><strong>- Your main experience is backend or full-stack development</strong><br><strong>- Your cloud experience is mainly AWS or Azure</strong><br><strong>- You can't work PST business hours</strong><br><strong>- You can't name the companies you've worked for</strong></p><p>&nbsp;</p><p><strong>What we offer</strong><br>- Long-term engagement with a US client<br>- Fully remote<br>&nbsp;</p><p><strong>How to apply</strong><br>Start your application with the word \"BigQuery\" and add 2–3 sentences about the most complex GCP pipeline you've built. Applications without this won't be reviewed.</p>",
+      "category": {
+        "id": "data_engineer",
+        "name": "Data Engineer"
+      },
+      "location": "",
+      "work_format": "Full Remote",
+      "experience": 2,
+      "english": {
+        "id": "upper",
+        "name": "B2 – Вище середнього"
+      },
+      "domain": "advertising",
+      "published": "2026-10-21T17:54:10.688878",
+      "recruiter": {
+        "id": 189840,
+        "name": "Recruiter 189840",
+        "linkedin_headline": "Recruiter at Weba",
+        "position": "Recruiter",
+        "company_name": "Weba",
+        "public_url": "/r/189840-recruiter-at-weba/",
+        "badge": "",
+        "picture_url": "https://p.djinni.co/1c/e5d4a707de3e007d0f401090158d71/iScreen_Shoter_-_Opera_-_251125144813_400.jpg",
+        "employer_website": "https://weba.co.il",
+        "employer_about": "<p>Rapid recruitment of development teams, technical support and professionals from Ukraine. A professional solution for companies seeking fast, efficient scaling with pre-vetted talent, transparent processes, and seamless integration into existing workflows.</p>"
+      },
+      "is_online": false,
+      "is_offline": true,
+      "dou_link": "",
+      "is_favorite": true,
+      "has_seen": true,
+      "has_applied": false,
+      "messagethread_url": "",
+      "views_count": 134,
+      "applications_count": 37,
+      "youtube": "",
+      "public_salary_min": 3000,
+      "public_salary_max": 3500,
+      "salary_group": 4,
+      "can_apply": false,
+      "can_apply_reason": "offline",
+      "is_parttime": false,
+      "has_test": false,
+      "requires_cover_letter": false,
+      "is_ukraine_only": false,
+      "company_logo_url": "",
+      "skills_experience": [
+        {
+          "skill": "python",
+          "name": "Python",
+          "experience_years": 2,
+          "is_approved": true,
+          "label": "Python"
+        },
+        {
+          "skill": "google_bigquery",
+          "name": "Google BigQuery",
+          "experience_years": 2,
+          "is_approved": true,
+          "label": "Google BigQuery"
+        }
+      ],
+      "extra_keywords": [
+        "Python",
+        "Google BigQuery"
+      ],
+      "languages": []
+    },
+    {
+      "id": 845495,
+      "title": "Martech Engineer / AI Solution Architect",
+      "slug": "845495-martech-engineer-ai-solution-architect",
+      "company_name": "Kiss My Apps",
+      "long_description": "<p><br><strong>Kiss My Apps</strong> — компанія-платформа, що об’єднує 7 продуктових вертикалей та 30+ AI-first продуктів, 100+ мільйонів користувачів, власну екосистему аналітичних, пеймент та маркетингових розробок.</p><p>&nbsp;</p><p>Продукти KMA це світові лідери в нішах utilities, lifestyle, health&amp;fitness — AI Remodel, Printer, Botan, Calorie Counter і не тільки. Це продукти, що займають топ-1 місця App Store й вирішують потреби комʼюніті з сотень мільйонів людей.</p><p>&nbsp;</p><p>Наш темп — це наш competitive advantage. KMA зростає <strong>мінімум х3 рік до року</strong> — і ми шукаємоі ми шукаємо <strong>Senior Martech Engineer </strong>того/ту, хто допоможе масштабуватись ще швидше.</p><p>&nbsp;</p><p><strong>Коротко про роль:</strong><br><br>Ти очолиш новий напрямок автоматизації маркетинг-продакшену та станеш першим розробником внутрішньої платформи, яка об’єднає точкові автоматизації в єдиний масштабований продукт. Це роль із високим рівнем ownership: від дослідження технологій та проєктування архітектури до запуску MVP, перевірки на реальних задачах і подальшого масштабування рішення на 3+ маркетингові напрямки. Ти зможеш не просто реалізовувати задачі, а визначати логіку, технічне бачення та розвиток продукту, яким команда користуватиметься щодня.</p><p>&nbsp;</p><p><strong>Твої задачі:</strong><br>&nbsp;</p><ul><li>Проєктувати та будувати з нуля внутрішню платформу автоматизації маркетингового й креативного продакшену: від архітектури до робочих пайплайнів.</li><li>Автоматизовувати рутинні процеси маркетинг-команд і знаходити точки, де технології можуть суттєво скоротити час виробництва креативів.</li><li>Досліджувати, тестувати та впроваджувати нові AI-рішення й інструменти, які можуть підвищити ефективність команд.</li><li>Створювати MVP-інтеграції та перетворювати перевірені рішення на стабільні й масштабовані інструменти.</li><li>Формувати єдину архітектуру автоматизацій замість набору окремих точкових рішень.</li><li>Вимірювати ефективність платформи через adoption, швидкість продакшену, якість результатів та рівень автоматизації процесів.</li><li><p>Документувати рішення та процеси так, щоб платформу могли підтримувати й розвивати інші спеціалісти.</p><p>&nbsp;</p><p>&nbsp;</p></li></ul><p><strong>Що очікуємо від тебе:</strong></p><ul><li>Досвід розробки та запуску технічних продуктів, платформ або комплексних automation-рішень з нуля.</li><li>Вміння самостійно проєктувати архітектуру рішення та приймати технічні рішення без постійного мікроменеджменту.</li><li>Практичний досвід інтеграції різних сервісів, API та інструментів у єдині робочі пайплайни.</li><li>Інтерес і практичний досвід роботи з AI-інструментами та готовність постійно досліджувати нові технології.</li><li>Продуктове мислення: здатність працювати не лише з технічною реалізацією, а й із проблемою користувача, adoption та результатом для бізнесу.</li><li>Вміння розуміти та структурувати запити маркетинг-команд і перетворювати їх на технічні рішення.</li><li>Самоорганізація, адаптивність до змін</li><li><p>Критичне мислення, здатність аргументувати рішення, працювати з фідбеком та брати відповідальність за результат.</p><p>&nbsp;</p></li></ul><p>&nbsp;</p><p><strong>Тобі до нас, якщо шукаєш:</strong><br><br>&nbsp;</p><ul><li>Можливість з нуля побудувати окремий automation-напрямок і визначати його технічне бачення.</li><li>Роль із високим рівнем ownership, де ти самостійно прийматимеш архітектурні та продуктові рішення.</li><li>Можливість створити платформу, яка напряму впливатиме на швидкість і масштаб маркетингового продакшену кількох юнітів.</li><li>Простір для постійного тестування AI-технологій та швидкого впровадження найсильніших рішень у реальні бізнес-процеси.</li><li>Видимий результат роботи: вже за перші місяці твій продукт тестуватимуть на реальних задачах, а надалі використовуватимуть команди щодня.<br><br>&nbsp;</li></ul><p><strong>Ми пропонуємо:</strong><br><br>&nbsp;</p><ul><li><strong>Формат роботи на твій вибір:</strong> fully remote з будь-якої точки вільного світу, а також доступ до одного з наших офісів за бажанням (Київ, Варшава).</li><li><strong>Умови, завдяки яким ти можеш сфокусуватись на перформансі:</strong> гідна винагорода, що відповідає твоїм скілам та досвіду. А також ми забезпечуємо технікою незалежно від формату роботи та географії.</li><li><strong>Кар’єрне зростання через дію:</strong> 80%+ усіх leads в Kiss My Apps ще 2-3 роки тому були світчерами. Твій вплив тут не визначається роками в резюме — він визначається тим, як швидко ти навчаєшся, береш відповідальність та береш оунершіп за власну карʼєру.</li><li><strong>Командні активності:</strong> Для підтримки ментального здоров’я нашої команди ми пропонуємо онлайн-заняття йогою двічі на тиждень.</li><li><strong>Розвиток та професійна реалізація:</strong> проводимо внутрішні speaking clubs англійською з нейтів спікером, а також надаємо можливість виступати на внутрішніх та зовнішніх івентах від Kiss My Apps. Крім цього ти матимеш річний бюджет на покриття до 50% професійних конференцій, освітніх подій та івентів.</li><li><strong>Додаткові бенефіти, де ти обираєш:</strong> надаємо фіксований бюджет на рік з якого ти сам обираєш, яку статтю витрат покрити: 50% від медстрахування, психотерапії, спорту чи стоматології. А також 40 днів оплачуваного відпочинку та лікарняних без привʼязки до дат.</li><li><p><strong>Опора в умовах війни:</strong> забезпечуємо кожного всім необхідним для безперебійної роботи, системно підтримуємо Сили Оборони та долучаємось до ініціатив із відновлення України.</p><p>&nbsp;</p><p>&nbsp;</p></li></ul><p>&nbsp;</p><p><strong>Як виглядає hiring процес:</strong></p><ul><li>Інтро з рекрутером</li><li>Технічна співбесіда</li><li>Фінальна співбесіда з командою</li></ul><p>&nbsp;</p><p><strong>Якщо ти хочеш не просто автоматизувати окремі задачі, а з нуля створити платформу, яка змінить підхід до маркетинг-продакшену в масштабі кількох продуктових напрямків — let’s launch the future together!</strong></p>",
+      "category": {
+        "id": "fullstack",
+        "name": "Fullstack"
+      },
+      "location": "",
+      "work_format": "Full Remote",
+      "experience": 4,
+      "english": {
+        "id": "intermediate",
+        "name": "B1 – Середній"
+      },
+      "domain": "mobile",
+      "published": "2026-08-28T18:34:14.907440",
+      "recruiter": {
+        "id": 188175,
+        "name": "Recruiter 188175",
+        "linkedin_headline": "Talent Acquisition Specialist at KissmyApps",
+        "position": "Talent Acquisition Specialist",
+        "company_name": "KissmyApps",
+        "public_url": "/r/188175-talent-acquisition-specialist-at-kissmyapps/",
+        "badge": "",
+        "picture_url": "https://p.djinni.co/3d/48fcbe2b3930dae618362a4b63f2e6/photo_2025-10-29_12-29-11_400.jpg",
+        "employer_website": "https://www.kissmyapps.tech/",
+        "employer_about": "<p><strong>Kiss My Apps</strong> — компанія-платформа, що об’єднує 7 продуктових вертикалей та 20+ AI-first продуктів, 120+ мільйонів користувачів, власну екосистему аналітичних, пеймент та маркетингових розробок.&nbsp;</p><p>&nbsp;</p><p>Продукти KMA це світові лідери в нішах utilities, lifestyle, health&amp;fitness — AI Remodel, Printer, Botan, Calorie Counter і не тільки. Це продукти, що займають топ-1 місця App Store й вирішують потреби комʼюніті з сотень мільйонів людей.</p><p>&nbsp;</p><p>Наш темп — це наш competitive advantage. KMA зростає&nbsp;<strong>мінімум х3 рік до року.</strong><br>&nbsp;</p><p><strong>Наша соціальна відповідальність</strong></p><p>З першого дня заснування Kiss My Apps розвиває власний CSR-напрямок «KMA Supports» — це системна підтримка військових, благодійних та культурних організацій, а також ініціатив з розвитку обороноздатності та безпеки України. Станом на 2025 рік сума прямих донатів вже перевищила&nbsp;<strong>20 мільйонів гривень.</strong><br><br>Наш фокус зосереджений на трьох напрямках: підтримка Сил Оборони України (понад 60% усіх донатів), розвиток сучасної української культури та соціальні ініціативи з інклюзії та допомоги дітям. Серед наших ключових партнерів — United24, «Повернись Живим», 13-та бригада НГУ «Хартія» та сотні інших організацій.<br>&nbsp;</p><p><strong>Дізнайтеся більше про нас</strong></p><p>Запрошуємо вас ознайомитися з нашим Instagram (https://www.instagram.com/kissmyapps.tech?igsh=N3dmanY5eXN2M3hr), де ви знайдете більше інформації про наші досягнення, корпоративну культуру, цікаві інсайти та матеріали для професійного розвитку.<br>&nbsp;</p><p><strong>Let’s launch the future together.</strong> 🚀</p>"
+      },
+      "is_online": false,
+      "is_offline": true,
+      "dou_link": "https://jobs.dou.ua/companies/kiss-my-apps/",
+      "is_favorite": true,
+      "has_seen": true,
+      "has_applied": false,
+      "messagethread_url": "",
+      "views_count": 2,
+      "applications_count": 0,
+      "youtube": "",
+      "public_salary_min": null,
+      "public_salary_max": null,
+      "salary_group": 4,
+      "can_apply": false,
+      "can_apply_reason": "offline",
+      "is_parttime": false,
+      "has_test": false,
+      "requires_cover_letter": false,
+      "is_ukraine_only": false,
+      "company_logo_url": "https://p.djinni.co/1a/eb7f1e78d9e145274ef63020f7c822/kiss_my_apps_logo_400.jpg",
+      "skills_experience": [],
+      "extra_keywords": [],
+      "languages": [
+        {
+          "code": "ukr",
+          "name": "Ukrainian",
+          "level": "Native",
+          "level_code": "native"
+        }
+      ]
+    },
+    {
+      "id": 842093,
+      "title": "Go-to-Market Automation Specialist",
+      "slug": "842093-go-to-market-automation-specialist",
+      "company_name": "Digis (a Fiverr company)",
+      "long_description": "<p><strong>About Digis:</strong></p><p>Digis is&nbsp;a&nbsp;European IT&nbsp;company with 200+ specialists delivering complex SaaS products, enterprise solutions, and AI-powered platforms worldwide. We&nbsp;ensure transparency, stability, and professional growth opportunities for all our team members.</p><p><strong>About the Project:</strong></p><p>A&nbsp;B2B SaaS company that creates DevOps, security, and backup tools specifically for Salesforce. In&nbsp;simple terms: companies that actively develop and customize Salesforce use this product to&nbsp;quickly and securely roll out changes from development/test environments to&nbsp;production.</p><p><strong>Responsibilities:</strong></p><ul><li>Build and manage lead pipelines in&nbsp;Clay.</li><li>Connect tools and data sources via APIs and webhooks.</li><li>Create enrichment waterfalls targeting&nbsp;90%+ valid emails.</li><li>Identify hiring, technographic, and intent signals and use them to&nbsp;trigger campaigns.</li><li>Set up&nbsp;sending domains, SPF, DKIM, and DMARC, keeping hard bounce below 2%.</li><li>Integrate Salesforce/HubSpot with sequencing tools.</li><li>Build LLM-based account research and personalized outreach workflows.</li><li>Develop new campaign ideas and validate client briefs.</li><li>Analyze campaign results and decide what to&nbsp;scale, optimize, or&nbsp;stop.</li></ul><p><strong>Requirements:</strong></p><ul><li>5+&nbsp;years of&nbsp;experience in&nbsp;marketing.</li><li>2+&nbsp;years of&nbsp;experience building GTM automations and integrations.</li><li>Strong hands-on experience with Clay.</li><li>Proven ownership of&nbsp;real campaigns from setup to&nbsp;results.</li><li>English: Upper-Intermediate or&nbsp;higher</li></ul><p><strong>Advantages:</strong></p><ul><li>High ownership and direct collaboration with company leadership.</li><li>Opportunity to&nbsp;shape GTM&nbsp;strategy, not just execute tasks.</li><li>Technical B2B SaaS product with a&nbsp;strong&nbsp;AI and automation focus.</li><li>Chance to&nbsp;build the GTM system largely from the ground&nbsp;up.</li><li>Freedom to&nbsp;introduce your own tools, campaign ideas, and best practices.</li><li>Long-term engagement based on&nbsp;strong results.</li><li>Fully remote position.</li></ul><p><strong>What We&nbsp;Offer:</strong></p><ul><li>20&nbsp;paid vacation days per year</li><li>5&nbsp;paid sick leaves per year (no&nbsp;medical documents required)</li><li>Personalized development plan with training compensation</li><li>English courses compensation</li><li>Work equipment if&nbsp;needed (PC/laptop/monitor)</li><li>Flat and transparent internal communication</li><li>Opportunity to&nbsp;switch between projects and technologies within Digis</li><li>Full accounting and legal support.</li></ul>",
+      "category": {
+        "id": "marketing",
+        "name": "Маркетинг"
+      },
+      "location": "",
+      "work_format": "Full Remote",
+      "experience": 5,
+      "english": {
+        "id": "upper",
+        "name": "B2 – Вище середнього"
+      },
+      "domain": "advertising",
+      "published": "2026-08-10T18:21:18.657669",
+      "recruiter": {
+        "id": 72763,
+        "name": "Recruiter 72763",
+        "linkedin_headline": "Senior Talent Acquisition Specialist at Digis",
+        "position": "Senior Talent Acquisition Specialist",
+        "company_name": "Digis",
+        "public_url": "/r/72763-senior-talent-acquisition-specialist-at-digis/",
+        "badge": "top",
+        "picture_url": "https://p.djinni.co/87/6b6cd990fa2efce9d8db2a305e53fa/IMG_7166_400.jpg",
+        "employer_website": "https://digiscorp.com/",
+        "employer_about": "<p>Digis (a Fiverr company) - це європейська сервісна компанія, яка за 10 років змогла вирости зі стартапу до надійного партнера для наших клієнтів. З 2024 року ми стали частиною ізраїльської корпорації Fiverr.&nbsp;<br><br>Наша команда створює унікальні, корисні, а часом і життєво важливі продукти для різних сфер життя. Нас надихає і нами рухає місія - «Ми вирощуємо єдинорогів зі стартапів». У цій місії закладено головні цінності: надати нашим партнерам не просто розробників, а впевненість в успіху їхнього продукту і навіть трохи більше!&nbsp;<br><br>З огляду на швидкий ріст компанії, ми все ще здатні зберігати в колективі цінності співпраці, взаємопідтримки та довіри. А ще ми займаємось благодійністю, на базі нашої компанії запускаються соціальні проекти у сфері освіти.&nbsp;<br><br>Тому чекаємо на твоє CV, якщо ти побачив себе частиною нашої #digisteam!</p>"
+      },
+      "is_online": false,
+      "is_offline": true,
+      "dou_link": "https://jobs.dou.ua/companies/digis/",
+      "is_favorite": true,
+      "has_seen": true,
+      "has_applied": false,
+      "messagethread_url": "",
+      "views_count": 0,
+      "applications_count": 0,
+      "youtube": "",
+      "public_salary_min": null,
+      "public_salary_max": null,
+      "salary_group": 4,
+      "can_apply": false,
+      "can_apply_reason": "offline",
+      "is_parttime": false,
+      "has_test": false,
+      "requires_cover_letter": false,
+      "is_ukraine_only": false,
+      "company_logo_url": "https://p.djinni.co/ae/447e48f968463a83fd709859ed6b90/1A53995E-52B9-4C57-A19F-F5A7346AB78D_400.jpg",
+      "skills_experience": [
+        {
+          "skill": "gtm",
+          "name": "GTM",
+          "experience_years": 2,
+          "is_approved": true,
+          "label": "GTM"
+        },
+        {
+          "skill": "marketing",
+          "name": "Marketing",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "Marketing"
+        },
+        {
+          "skill": "clay",
+          "name": "Clay.com",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "Clay.com"
+        }
+      ],
+      "extra_keywords": [
+        "GTM",
+        "Marketing",
+        "Clay.com"
+      ],
+      "languages": []
+    },
+    {
+      "id": 836188,
+      "title": "Finance Engineer",
+      "slug": "836188-finance-engineer",
+      "company_name": "Fuelfinance",
+      "long_description": "<p><strong>Who are we?</strong></p><p>&nbsp;</p><p>Fuel is building the first multi-agent platform for finance, automating the work of the CFO office with AI. Founded in 2021 as a finance-as-a-service company that ran finance for businesses with over $1B in combined P&amp;L, Fuel rebuilt itself around agents in 2026. Backed by Markus Villig (Bolt), John S. Kim (SendBird), Stratmind, and Bad Ideas.</p><p>&nbsp;</p><p>fuelfinance.me</p><p>www.instagram.com/fuelfinance</p><p>youtu.be/eI5VH2Ks9o4</p><p>&nbsp;</p><p><strong>Who are we searching for?</strong></p><p>&nbsp;</p><p>We're looking for&nbsp;<i><strong>a Finance Engineer</strong></i> — someone who turns manual finance and accounting processes into scalable, automated, AI-supported workflows. This role sits at the intersection of Finance, Accounting, Systems, Automation, and AI.</p><p>&nbsp;</p><p>You'll design and build customized finance systems for multiple startup and scale-up clients — leading each implementation from discovery through go-live, then supporting it long-term. You'll typically run 2–3 implementation projects at once while supporting 7–10 active customers, so comfort juggling parallel work without dropping quality is essential.</p><p>&nbsp;</p><p>Whether you're a finance professional who learned to build with AI, or an engineer who developed deep finance knowledge — if you're driven to eliminate repetitive manual work at scale, we want you on our team.</p><p>&nbsp;</p><p><strong>What are your responsibilities?</strong></p><p>&nbsp;</p><ul><li><i><strong>Lead client implementations end-to-end</strong></i>: run discovery sessions, gather requirements, present solutions, take systems to go-live, and support customers afterward</li><li><i><strong>Design and build finance systems</strong></i> following Fuel standards — reusable and maintainable, not one-off fixes</li><li><i><strong>Build and improve workflows</strong></i> for reporting, forecasting, month-end review, reconciliations, and financial controls</li><li><i><strong>Automate repetitive finance work using AI tools, low-code platforms</strong></i> (Make, n8n, Zapier, Workato), integrations, and internal workflows</li><li><i><strong>Connect and structure data</strong></i> from accounting systems, CRMs, payment tools, spreadsheets, BI tools, and data warehouses</li><li>Build checks, controls, and validation logic to<i><strong> improve accuracy and reduce manual errors</strong></i></li><li><i><strong>Balance multiple active implementations</strong></i> and ongoing support simultaneously while meeting deadlines and maintaining quality</li><li><i><strong>Partner with Engineering</strong></i> on APIs, integrations, data pipelines, and workflow orchestration</li></ul><p>&nbsp;</p><p><strong>What are the preferred requirements for the role?</strong></p><p>&nbsp;</p><ul><li><i><strong>5+ years implementing finance systems</strong></i>, automations, or finance process improvements — with clear ownership of what you built and its business impact</li><li><i><strong>Hands-on experience building production-ready AI workflows, agents, prompts, or automations</strong></i> that solved real business problems (Claude / Claude Code, Cursor, Copilot, custom LLM builds, or similar)&nbsp;</li><li>Confident with automation platforms:&nbsp;<i><strong>Make, n8n, Zapier, Workato, or similar</strong></i></li><li><i><strong>Practical experience with APIs and integrations</strong></i> — you can explain authentication, webhooks, API limitations, and integration architecture, and have built or configured integrations yourself</li><li><i><strong>Strong understanding of finance and accounting</strong></i>: month-end close, reconciliations, AP/AR, procure-to-pay, revenue, budgeting, reporting, and financial controls</li><li><i><strong>Understands how financial data moves between operational systems</strong></i>&nbsp;</li><li><i><strong>Familiar with</strong></i> enterprise systems as an integrated set:&nbsp;<i><strong>ERPs, CRMs, BI platforms, payment systems, and data warehouses</strong></i></li><li><i><strong>Solid AI/LLM fundamentals</strong></i>: prompt engineering, context management, memory, and agent orchestration</li><li><i><strong>Experience working directly with customers</strong></i> — running discovery, presenting solutions, supporting after go-live</li><li>Track record&nbsp;<i><strong>managing multiple projects at once</strong></i> without losing visibility or missing deadlines</li><li><i><strong>Fluent English (C1+)</strong></i> and excellent client-facing communication — you'll work directly with founders and finance teams</li><li>Systems thinking, ownership, learning agility, and comfort solving ambiguous problems without complete specs</li></ul><p>&nbsp;</p><p><strong>Will be a plus:</strong></p><p>&nbsp;</p><ul><li>Knowledge<i><strong> of Python</strong></i>,&nbsp;<i><strong>SQL</strong></i></li><li>Data warehouses:&nbsp;<i><strong>BigQuery, Snowflake, PostgreSQL</strong></i>, etc.</li><li>Enterprise architecture awareness: security, scalability, governance, integration patterns</li><li>Experience administering financial, accounting, billing, or ERP systems</li><li>Experience with tools like&nbsp;<i><strong>NetSuite, QuickBooks, Xero, Stripe, Salesforce, HubSpot, Zuora, Looker, Power BI, Tableau</strong></i></li><li>Experience with&nbsp;<i><strong>US-based clients or startups</strong></i></li></ul><p>&nbsp;</p><p><strong>Reporting Structure:</strong> Reporting to the FP&amp;A Team Lead.</p><p>&nbsp;</p><p><strong>Recruitment Process:</strong></p><p>&nbsp;</p><ul><li>Soft skills interview with the recruiter</li><li>Test task</li><li>Hard skills interview with the Head of FP&amp;A</li><li>Culture fit interview with the Head of FP&amp;A/VP of Operations</li></ul><p>&nbsp;</p><p><strong>Why work with us?</strong></p><p>&nbsp;</p><ul><li><i><strong>Help scale Fuel's platform across dozens of growing companies&nbsp;</strong></i>— making enterprise-grade finance accessible to startups</li><li><i><strong>Rapid skills growth</strong></i>: gain exposure to many business models and industries while progressing toward Senior or Enterprise Finance Engineer</li><li><i><strong>Growth opportunities&nbsp;</strong></i>according to our seniority grading (comes with a compensation increase)</li><li><i><strong>Flexible schedule and time-off policy</strong></i></li><li><i><strong>18 days of paid vacation per year, paid sick leaves</strong></i></li></ul><p>&nbsp;</p>",
+      "category": {
+        "id": "finances",
+        "name": "Finances"
+      },
+      "location": "",
+      "work_format": "Full Remote",
+      "experience": 5,
+      "english": {
+        "id": "fluent",
+        "name": "C1 – Просунутий"
+      },
+      "domain": "fintech",
+      "published": "2026-09-10T10:36:48.255435",
+      "recruiter": {
+        "id": 120884,
+        "name": "Recruiter 120884",
+        "linkedin_headline": "Talent Acquisition Specialist at Fuelfinance",
+        "position": "Talent Acquisition Specialist",
+        "company_name": "Fuelfinance",
+        "public_url": "/r/120884-talent-acquisition-specialist-at-fuelfinance/",
+        "badge": "top",
+        "picture_url": "https://p.djinni.co/06/b372440e5713728161b3bb90009cc5/photo_2023-09-27_15-24-38_400.jpg",
+        "employer_website": "https://fuelfinance.me",
+        "employer_about": "<p>Fuelfinance is on a mission to revolutionize financial management for early-stage startups, empowering them to take control of their finances and thrive. We recently raised $1M in Seed Funding from top-tier investors like Markus Villig (Bolt), John S. Kim (SendBird), Stratmind, and Bad Ideas funds, following 3 years of profitable, bootstrapped success. Trusted by businesses with over $200M in P&amp;L, including Reface, Petcube, and Hampton, we’ve built a universal tool that brings clarity and insight to finance management.<br><br>With 38% of startups failing due to cash flow issues, our goal is to prevent these failures and unlock trillions in GDP growth. At Fuelfinance, we’re not just creating software — we’re safeguarding the future of thousands of startups. Join us and be part of this impact!</p>"
+      },
+      "is_online": false,
+      "is_offline": true,
+      "dou_link": "",
+      "is_favorite": true,
+      "has_seen": true,
+      "has_applied": false,
+      "messagethread_url": "",
+      "views_count": 0,
+      "applications_count": 0,
+      "youtube": null,
+      "public_salary_min": null,
+      "public_salary_max": null,
+      "salary_group": 4,
+      "can_apply": false,
+      "can_apply_reason": "offline",
+      "is_parttime": false,
+      "has_test": true,
+      "requires_cover_letter": false,
+      "is_ukraine_only": false,
+      "company_logo_url": "https://p.djinni.co/31/0ff0832fc15bc87ab7ed246ff19730/Userpic_400.png",
+      "skills_experience": [],
+      "extra_keywords": [],
+      "languages": []
+    },
+    {
+      "id": 829358,
+      "title": "Product manager (CRM Platform)",
+      "slug": "829358-product-manager-crm-platform",
+      "company_name": "JustMarkets Tech",
+      "long_description": "<p>We are looking for a<strong> Product Manager </strong>to join our product team and take ownership of our CRM ecosystem. In this role, you will define the CRM product vision, shape the long-term strategy, and deliver scalable solutions that drive operational excellence, improve customer experience, and support business growth.</p><p>&nbsp;</p><p>You will work closely with Customer Support, Risk &amp; Dealing, Business Development teams to design scalable processes, automate workflows, integrate external services, and enhance interactions with customers and partners. This is a high-impact product role combining strategic ownership, discovery, and hands-on execution across multiple business domains.</p><p>&nbsp;</p><p><strong>Responsibilities</strong></p><p><strong>Product Ownership &amp; Roadmap:</strong></p><ul><li>Own and manage the CRM product roadmap, ensuring it supports business priorities and operational needs</li><li>Define product goals, prioritize initiatives, and deliver solutions that create measurable business impact</li><li>Translate business needs into clear product requirements and actionable tasks for development</li><li>Define and track key product metrics to evaluate performance and identify improvement opportunities</li></ul><p><strong>CRM Improvement &amp; Process Optimization:</strong></p><ul><li>Improve and develop CRM workflows for Customer Support, Risk &amp; Dealing, and Business Development teams</li><li>Analyze existing processes and identify opportunities to simplify, automate, and improve efficiency</li><li>Collect and structure requirements from stakeholders</li><li>Coordinate changes across teams and ensure smooth implementation of new features and processes</li></ul><p><strong>Automation &amp; Integrations:</strong></p><ul><li>Support automation of CRM processes to reduce manual work and improve operational efficiency</li><li>Work on integration of external services and tools to improve CRM functionality and data flow</li><li>Participate in implementing AI-based solutions to improve support and internal workflow</li></ul><p><strong>Cross-Functional Collaboration:</strong></p><ul><li>Work closely with Engineering and business teams to deliver CRM improvements</li><li>Align priorities with stakeholders and ensure clear communication across teams</li><li>Participate in product discovery to understand user needs, pain points, and improvement opportunities</li></ul><p>&nbsp;</p><p><strong>Requirements</strong></p><ul><li>Proven experience as a Product Manager with a&nbsp;focus on CRM systems, internal platforms, operational tools, or workflow automation products</li><li>Strong understanding of CRM systems, product architecture, and scalable system design principles</li><li>Experience defining product strategy, roadmaps, and prioritization frameworks based on business impact</li><li>Strong experience in product discovery, requirements gathering, and solution design</li><li>Ability to work with data, metrics, and analytics to drive decision-making and measure success</li><li>Experience working with APIs, integrations, and external systems</li><li>Strong analytical thinking and structured problem-solving skills</li><li>Excellent communication and stakeholder management abilities</li><li>Experience in automation and workflow optimization is a plus</li><li>Experience with AI-driven solutions or intelligent automation is a plus</li><li><p>Bachelor’s degree in Finance, Economics, Computer Science, Engineering, or a related field</p><p>&nbsp;</p></li></ul><p><strong>We offer</strong></p><ul><li>Tax expenses coverage for private entrepreneurs in Ukraine</li><li>Expert support and guidance for Ukrainian private entrepreneurs</li><li>20 paid vacation days per year</li><li>10 paid sick leave days per year</li><li>Public holidays as per the company’s approved Public holiday list</li><li>Medical insurance</li><li>Opportunity to work remotely</li><li>Professional education budget</li><li>Language learning budget</li><li>Wellness budget (gym membership, sports gear and related expenses)</li></ul>",
+      "category": {
+        "id": "product_manager",
+        "name": "Product Manager"
+      },
+      "location": "",
+      "work_format": "Full Remote",
+      "experience": 3,
+      "english": {
+        "id": "upper",
+        "name": "B2 – Вище середнього"
+      },
+      "domain": "fintech",
+      "published": "2026-07-14T14:15:29.859700",
+      "recruiter": {
+        "id": 175387,
+        "name": "Recruiter 175387",
+        "linkedin_headline": "Talent Acquisition Specialist at JustMarkets Tech",
+        "position": "Talent Acquisition Specialist",
+        "company_name": "JustMarkets Tech",
+        "public_url": "/r/175387-talent-acquisition-specialist-at-justmarkets-/",
+        "badge": "",
+        "picture_url": null,
+        "employer_website": "https://justmarkets.tech",
+        "employer_about": "<p>JustMarkets is a global multi-asset broker that has been shaping the industry since its founding in 2012. We work with clients in more than 160 countries. Our mission is to create a convenient and transparent trading environment where everyone can reach their full investment potential. We strive to offer superior spreads, execution, service. JustMarkets’s vision is to become the world’s most customer-centric broker, where everyone can trade and invest in a simple and transparent way. The essence of JustMarkets lies in its core values, which guide every action and shape each process, ensuring that our commitment to these values is reflected in all our endeavors. The success story at JustMarkets is written by a dynamic and innovative team of dedicated professionals. The diverse team from 10 different countries, and it’s what truly sets JustMarkets apart. As a rapidly growing team, JustMarkets is always on the lookout for like-minded individuals who resonate with our culture and values. Explore opportunities at JustMarkets and become a part of our team of professionals!</p>"
+      },
+      "is_online": false,
+      "is_offline": true,
+      "dou_link": "https://jobs.dou.ua/companies/justmarkets/",
+      "is_favorite": true,
+      "has_seen": true,
+      "has_applied": false,
+      "messagethread_url": "",
+      "views_count": 2,
+      "applications_count": 0,
+      "youtube": "",
+      "public_salary_min": null,
+      "public_salary_max": null,
+      "salary_group": 4,
+      "can_apply": false,
+      "can_apply_reason": "offline",
+      "is_parttime": false,
+      "has_test": false,
+      "requires_cover_letter": false,
+      "is_ukraine_only": false,
+      "company_logo_url": "https://p.djinni.co/13/ae1b8d26d680b4e24c10c40effdc7b/JM_TECH_White_400.jpg",
+      "skills_experience": [],
+      "extra_keywords": [],
+      "languages": [
+        {
+          "code": "ukr",
+          "name": "Ukrainian",
+          "level": "Native",
+          "level_code": "native"
+        }
+      ]
+    },
+    {
+      "id": 830446,
+      "title": "Data Engineer / Analytics Engineer",
+      "slug": "830446-data-engineer-analytics-engineer",
+      "company_name": "levari",
+      "long_description": "<p><strong>About the Company</strong></p><p>A growth equity investment firm focused on partnering with software and technology-enabled services businesses to accelerate expansion, support strategic initiatives, and build stronger teams. The firm typically works with management teams in growth-stage companies and helps drive both organic growth and acquisition-led expansion.</p><p>&nbsp;</p><p><strong>Role Overview</strong></p><p>We are looking for Data Engineer / Analytics Engineer contractors who can embed within portfolio teams to produce reporting cubes and revenue analytics deliverables. Ideal candidates will bring a blend of technical depth, commercial awareness, project management skills, and preferably SaaS domain expertise.</p><p>&nbsp;</p><p><strong>What You'll Be Doing</strong></p><ul><li>Embed within portfolio company data teams as a contractor</li><li>Build and deliver data pipelines from raw source data to clean, validated output tables</li><li>Produce reporting cubes and revenue analytics deliverables</li><li>Reconcile pre- vs. post-migration data to maintain analytical continuity</li><li>Translate business questions into technical implementations</li></ul><p>&nbsp;</p><p><strong>Requirements</strong></p><ul><li>Hands-on Technical Builder — <strong>Proficient in Python and SQL. Able to independently architect and deliver data pipelines from raw source data through to clean, validated output tables.</strong></li><li>Commercially Oriented — <strong>Ideally 2+ years in a consulting, advisory, or deal-support environment (e.g. Big 4, boutique analytics consultancy). Comfortable translating business questions into technical implementations.</strong></li><li>System &amp; Data Migration Experience — <strong>Has worked on ERP, CRM, or billing platform migrations (e.g. Salesforce, NetSuite, Chargebee). Understands data quality pitfalls — duplicate customers, broken historical linkages — and knows how to reconcile pre- vs. post-migration data to maintain analytical continuity.</strong></li><li>Accounting or SaaS Exposure — <strong>Either an accountant by trade or someone with SaaS revenue analytics exposure. Familiar with subscription metrics (ARR, NRR, churn), snowballs, and billings-to-revenue reconciliations.</strong></li></ul><p>&nbsp;</p><p><strong>Candidate Requirements</strong></p><ul><li><strong>Ukrainian native speaker</strong></li><li><strong>English proficiency: C1 or higher</strong></li><li><strong>Remote — candidates located anywhere are welcome to apply</strong></li></ul>",
+      "category": {
+        "id": "data_engineer",
+        "name": "Data Engineer"
+      },
+      "location": "",
+      "work_format": "Full Remote",
+      "experience": 2,
+      "english": {
+        "id": "fluent",
+        "name": "C1 – Просунутий"
+      },
+      "domain": "saas",
+      "published": "2026-06-09T12:28:08.133136",
+      "recruiter": {
+        "id": 161800,
+        "name": "Recruiter 161800",
+        "linkedin_headline": "CEO at levari",
+        "position": "CEO",
+        "company_name": "levari",
+        "public_url": "/r/161800-ceo-at-levari/",
+        "badge": "verified",
+        "picture_url": "",
+        "employer_website": "https://levari.de",
+        "employer_about": "<p>We build software. We build models. We build global teams. Our work ethic demands we understand your business first and keep your interest a top priority. Delivering value and customer satisfaction is what drives us. Building a long-term, reliable partnership is what we strive for. We distill global talent. Our world-class team of engineers, architects and data scientists continue to evolve our processes with the latest knowledge on how to create solutions that empower your business to grow. Outstaffing done right. Near- and offshoring come with well-known disadvantages that lead to friction and frustration. We bridge the gap to unlock a sheer unlimited workforce.</p>"
+      },
+      "is_online": false,
+      "is_offline": true,
+      "dou_link": "",
+      "is_favorite": true,
+      "has_seen": true,
+      "has_applied": false,
+      "messagethread_url": "/my/inbox/26791533/",
+      "views_count": 0,
+      "applications_count": 0,
+      "youtube": "",
+      "public_salary_min": null,
+      "public_salary_max": null,
+      "salary_group": 3,
+      "can_apply": false,
+      "can_apply_reason": "offline",
+      "is_parttime": false,
+      "has_test": false,
+      "requires_cover_letter": false,
+      "is_ukraine_only": false,
+      "company_logo_url": "https://p.djinni.co/83/a5d576afe4800eb9e01986c6786714/LinkedIn_profile_icon__2__400.png",
+      "skills_experience": [
+        {
+          "skill": "python",
+          "name": "Python",
+          "experience_years": 3,
+          "is_approved": true,
+          "label": "Python"
+        },
+        {
+          "skill": "sql",
+          "name": "SQL",
+          "experience_years": 3,
+          "is_approved": true,
+          "label": "SQL"
+        },
+        {
+          "skill": "dbt",
+          "name": "dbt",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "dbt"
+        },
+        {
+          "skill": "data_warehouse",
+          "name": "Data Warehouse (DWH)",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "Data Warehouse (DWH)"
+        },
+        {
+          "skill": "analytics_engineering",
+          "name": "Analytics Engineering",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "Analytics Engineering"
+        },
+        {
+          "skill": "postgresql",
+          "name": "PostgreSQL",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "PostgreSQL"
+        }
+      ],
+      "extra_keywords": [
+        "Python",
+        "SQL",
+        "dbt",
+        "Data Warehouse",
+        "Analytics Engineering",
+        "PostgreSQL"
+      ],
+      "languages": [
+        {
+          "code": "ukr",
+          "name": "Ukrainian",
+          "level": "Native",
+          "level_code": "native"
+        }
+      ]
+    },
+    {
+      "id": 833612,
+      "title": "Customer Data Architect — Salesforce Data Cloud / Customer 360",
+      "slug": "833612-customer-data-architect-salesforce-data-cloud",
+      "company_name": "Elogic",
+      "long_description": "<p>We&nbsp;are looking for an&nbsp;experienced <strong>Enterprise&nbsp;/ Domain Architect</strong> to&nbsp;join a&nbsp;strategic customer data transformation initiative for a&nbsp;large-scale retail business.</p><p>This role is&nbsp;focused on&nbsp;designing and driving the architecture for <strong>Customer Data Foundations</strong>, including a&nbsp;<strong>Single Customer View</strong> and enhanced <strong>360-degree customer view</strong> using the Salesforce ecosystem. The ideal candidate is&nbsp;a&nbsp;hands-on architect with strong experience in&nbsp;customer data platforms, data governance, CRM, and marketing technology.</p><p>&nbsp;</p><p><strong>Location</strong></p><p>Europe-based candidates only.<br>The role can be&nbsp;remote, with the ability to&nbsp;work within UK/EU business hours.</p><p>&nbsp;</p><p><strong>Responsibilities</strong></p><ul><li>Define and document current and target architecture, including clear solution blueprints for each programme phase.</li><li>Own the architectural roadmap for customer data foundations and customer 360&nbsp;capabilities.</li><li>Collaborate with product, business, CRM, marketing, data, and technology stakeholders.</li><li>Partner with data engineering and data governance teams to&nbsp;define the target customer data model.</li><li>Establish clear rules around customer data ownership, mastering, governance, and system responsibilities.</li><li>Identify key architectural decisions and prepare Architecture Decision Records with options and recommendations.</li><li>Support programme-level and domain-level design governance.</li><li>Ensure technical delivery is&nbsp;aligned with business objectives and long-term architecture strategy.</li><li>Simplify complex technical concepts for non-technical stakeholders.</li><li><p>Support vendor and technology evaluation when required.</p><p>&nbsp;</p></li></ul><p><strong>Requirements</strong></p><ul><li>Strong hands-on experience with the Salesforce ecosystem, especially Salesforce CRM.</li><li>Experience with Salesforce Data 360&nbsp;/ Customer Data Platform or&nbsp;similar CDP solutions.</li><li>Proven experience designing or&nbsp;implementing Single Customer View, Customer 360, MDM, or&nbsp;customer data platforms.</li><li>Strong understanding of&nbsp;customer data, customer profiling, CRM, marketing technology, and data governance.</li><li>Experience working closely with data engineering and data governance teams.</li><li>Ability to&nbsp;define target customer data models and resolve challenges related to&nbsp;fragmented customer data.</li><li>Experience in&nbsp;retail, e-commerce, or&nbsp;another customer-heavy business domain.</li><li>Strong stakeholder management and communication skills.</li><li>Ability to&nbsp;influence CRM, marketing, business, and technology leadership.</li><li>Experience with vendor evaluation, RFI/RFP processes, or&nbsp;technical recommendation preparation.</li><li>Proactive and hands-on mindset with the ability to&nbsp;work at&nbsp;both enterprise and detailed technical levels.</li><li>Ability to&nbsp;work within UK/EU business hours.</li><li><p>Upper-Intermediate or&nbsp;Advanced English.</p><p>&nbsp;</p></li></ul><p><strong>Nice to&nbsp;have</strong></p><ul><li>Experience with large-scale digital transformation programmes.</li><li>Experience in&nbsp;enterprise retail or&nbsp;commerce environments.</li><li>Background in&nbsp;consultancy, agency, or&nbsp;client-facing delivery.</li><li>Experience with marketing automation, loyalty, personalization, or&nbsp;customer engagement platforms.</li><li>Previous experience working in&nbsp;hybrid or&nbsp;distributed international teams.</li></ul>",
+      "category": {
+        "id": "salesforce",
+        "name": "Salesforce"
+      },
+      "location": "",
+      "work_format": "Full Remote",
+      "experience": 5,
+      "english": {
+        "id": "upper",
+        "name": "B2 – Вище середнього"
+      },
+      "domain": "ecommerce",
+      "published": "2026-06-24T12:35:50.170160",
+      "recruiter": {
+        "id": 178993,
+        "name": "Recruiter 178993",
+        "linkedin_headline": "Recruiter at Elogic",
+        "position": "Recruiter",
+        "company_name": "Elogic",
+        "public_url": "/r/178993-recruiter-at-elogic/",
+        "badge": "verified",
+        "picture_url": null,
+        "employer_website": "https://elogic.co",
+        "employer_about": "Elogic Commerce is an end-to-end ecommerce development agency that has been building, designing, and optimizing online stores since 2009. As a certified Adobe, Shopify, Salesforce and BigCommerce partner, we deliver ultimate solutions to support the unique needs of businesses. Our main areas of expertise also include SAP, and commercetools, thus bringing a wealth of expertise to empower one's ecommerce growth and reinvent their customer experiences.\r\n\r\nOur mission:\r\nWe deliver solutions that become an essential part of your success.\r\n\r\nOur team was awarded in 2019 by Magento at the largest conference in Las Vegas as the top contributors to the open-source version for the fact that we made a significant contribution to the MSI module that was presented in Magento 2.3.\r\n\r\nCore values:\r\n— Overdelivery\r\n— Synergy\r\n— Constant development\r\n— Freedom and responsibility\r\n— People centric\r\n\r\nThe company currently has offices: Ukraine, Portugal, Poland. We are remote-friendly and have colleagues who work with us distantly."
+      },
+      "is_online": false,
+      "is_offline": true,
+      "dou_link": "https://jobs.dou.ua/companies/elogic/",
+      "is_favorite": true,
+      "has_seen": true,
+      "has_applied": false,
+      "messagethread_url": "",
+      "views_count": 0,
+      "applications_count": 0,
+      "youtube": "",
+      "public_salary_min": null,
+      "public_salary_max": null,
+      "salary_group": 4,
+      "can_apply": false,
+      "can_apply_reason": "offline",
+      "is_parttime": false,
+      "has_test": false,
+      "requires_cover_letter": false,
+      "is_ukraine_only": false,
+      "company_logo_url": "https://p.djinni.co/ab/ba5192755215210d29dcc7d3a33917/1657111389097_400.jpeg",
+      "skills_experience": [],
+      "extra_keywords": [],
+      "languages": []
+    }
+  ]
+}

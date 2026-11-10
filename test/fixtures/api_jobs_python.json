@@ -1,0 +1,1101 @@
+{
+  "count": 361,
+  "favorites_count": 16,
+  "offset": 0,
+  "limit": 10,
+  "search_uid": "00000000000000000000000000000000",
+  "results": [
+    {
+      "id": 845296,
+      "title": "Forward AI Deployment Engineer (FDE)",
+      "slug": "845296-forward-ai-deployment-engineer-fde",
+      "company_name": "Sigma Software",
+      "long_description": "<p>Are you energized by walking into a client’s operation, finding the workflow that’s actually holding them back, and rebuilding it so AI handles the parts that don’t need a person? At Sigma Software, we don’t just add AI on top of existing processes&nbsp; we redesign how the work gets done, with AI built into the operating logic from day one.</p><p>We’re looking for a Forward AI Deployment Engineer to own that redesign end to end: embedded with the client, hands-on with whatever automation the workflow actually needs, and accountable for turning a real operational problem into something running in production not a demo, not a pilot. Each engagement is built to leave something behind for the next one patterns, infrastructure, governance that already held up in production&nbsp; so the second engagement doesn’t start from zero, and the tenth looks nothing like the first.</p><p>&nbsp;</p><p><strong>Requirements</strong></p><ul><li>Proven experience taking AI systems from prototype to production inside a real operating environment, not just in a lab or sandbox</li><li>You treat LLM/RAG architectures, agentic systems, cloud platforms, and data pipelines as tools for redesigning how work gets done, not as the deliverable — and you’re strong and current enough with all of them to actually use them that way</li><li>Comfort mapping decision logic that’s partly undocumented, and judgment about where automation should stop and human accountability should start</li><li>Excellent communication and stakeholder management — able to advise a client directly and escalate without being asked</li><li><p><strong>BFSI domain experience is a must-have:</strong> Proven commercial experience delivering solutions for Banking, Financial Services, or Insurance, including understanding business processes, identifying operational challenges, and implementing technology solutions tailored to the domain</p><p>&nbsp;</p><p><strong>Responsibilities</strong></p><p>&nbsp;</p></li><li>Embed directly with the client’s operational team to find the workflow that’s actually costing them time, quality, or money before recommending any tooling.</li><li>Own the redesign end to end: rework the decision flow and handoffs around AI, then take the resulting system into production yourself.</li><li>Translate a vague, cross-functional business problem into a concrete technical plan the client’s team can actually execute against.</li><li>Prototype fast enough to show the client what’s possible, then build only the parts of that prototype the redesigned workflow actually needs.</li><li>Where the redesign calls for it, build the agentic systems, RAG pipelines, or custom data pipelines that make it real never a deliverable in itself, always because the workflow needs it running in production.</li><li>Manage stakeholder alignment across the client’s org, escalating early and requesting support before a blocker becomes a delay.</li><li>Build up the client’s own team alongside the system pair with their people, explain the reasoning behind each decision, and leave them able to run and improve what you built after you’ve moved to the next engagement.</li><li>Build the feedback loop from day one &nbsp;telemetry, evaluation pipelines, human-in-the-loop review — so the system keeps improving after you’ve moved on.</li></ul>",
+      "category": {
+        "id": "ml_ai",
+        "name": "ML / AI"
+      },
+      "location": "",
+      "work_format": "Full Remote",
+      "experience": 7,
+      "english": {
+        "id": "upper",
+        "name": "B2 – Вище середнього"
+      },
+      "domain": "other",
+      "published": "2026-11-10T14:48:15.123570",
+      "recruiter": {
+        "id": 160296,
+        "name": "Recruiter 160296",
+        "linkedin_headline": "Researcher at Sigma Software",
+        "position": "Researcher",
+        "company_name": "Sigma Software",
+        "public_url": "/r/160296-researcher-at-sigma-software/",
+        "badge": "",
+        "picture_url": "https://p.djinni.co/d0/bb01374d7b8cb79c9774bcdcda1339/Zhuchenko__Anastasia_400.jpg",
+        "employer_website": "https://career.sigma.software/",
+        "employer_about": "Sigma Software is a place where Nordic Traditions meet Ukrainian Spirit to create Superior Software. We combine the best practices and approaches from Swedish and Ukrainian cultures. Taking high demand for quality, minimal hierarchy, freedom of decision-making, and attention to every opinion from Swedes, as a Ukrainian company we demonstrate flexibility and dedication to every project and every customer.\r\n\r\nWe are IT consulting and software product company with development offices in Ukraine, Sweden, the USA, Canada, Poland, and Australia. We deliver smartest solutions to our customers in the areas of government, telecommunications, advertising, automotive, gaming, and others. Being a part of Sigma Group, one of the largest Nordic IT corporations, we are a global player with more than 5000 employees in 12 countries and over 1500 in Ukraine.\r\n\r\nWe work with startups, software houses, and enterprises providing the products and services that suit our clients the most. Company`s R&D centers are mastering the trending technologies and directions: Infotainment, AR/VR, Blockchain, Machine Learning, Data Science, Artificial Intelligence, and others."
+      },
+      "is_online": true,
+      "is_offline": false,
+      "dou_link": "https://jobs.dou.ua/companies/sigma-software/",
+      "is_favorite": false,
+      "has_seen": false,
+      "has_applied": false,
+      "messagethread_url": "",
+      "views_count": 131,
+      "applications_count": 21,
+      "youtube": null,
+      "public_salary_min": null,
+      "public_salary_max": null,
+      "salary_group": 4,
+      "can_apply": false,
+      "can_apply_reason": "requirements_mismatch",
+      "is_parttime": true,
+      "has_test": false,
+      "requires_cover_letter": false,
+      "is_ukraine_only": false,
+      "company_logo_url": "https://p.djinni.co/98/7ae1100b9e8b3e1882b7022a1ddb4a/sigma_logo_400.png",
+      "skills_experience": [
+        {
+          "skill": "python",
+          "name": "Python",
+          "experience_years": 7,
+          "is_approved": true,
+          "label": "Python"
+        },
+        {
+          "skill": "llm",
+          "name": "LLM",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "LLM"
+        },
+        {
+          "skill": "node_js",
+          "name": "Node.js",
+          "experience_years": 7,
+          "is_approved": true,
+          "label": "Node.js"
+        },
+        {
+          "skill": "claude_code",
+          "name": "Claude Code",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "Claude Code"
+        },
+        {
+          "skill": "java",
+          "name": "Java",
+          "experience_years": 7,
+          "is_approved": true,
+          "label": "Java"
+        },
+        {
+          "skill": "backend",
+          "name": "Back end",
+          "experience_years": 7,
+          "is_approved": true,
+          "label": "Back end"
+        },
+        {
+          "skill": "rag",
+          "name": "RAG",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "RAG"
+        },
+        {
+          "skill": "typescript",
+          "name": "TypeScript",
+          "experience_years": 7,
+          "is_approved": true,
+          "label": "TypeScript"
+        }
+      ],
+      "extra_keywords": [
+        "Python",
+        "LLM",
+        "Node.js",
+        "Claude Code",
+        "Java",
+        "Back end",
+        "RAG",
+        "TypeScript"
+      ],
+      "languages": []
+    },
+    {
+      "id": 856266,
+      "title": "Senior Backend Engineer (Go) AI Infrastructure/Agentic Systems",
+      "slug": "856266-senior-backend-engineer-go-ai-infrastructure-",
+      "company_name": "Razom",
+      "long_description": "<p><strong>Senior Backend Engineer (Go) — AI Infrastructure &amp; Agentic Systems</strong></p><p>&nbsp;</p><p><strong>Work Format:</strong> Fully Remote<br><strong>Engagement:</strong> Freelance / Independent Contractor (B2B)<br><strong>Workload:</strong> Full-time (40 hours/week)<br><strong>Contract Duration:</strong> Initial 3 months, with the possibility of long-term extension<br><strong>Compensation:</strong> Competitive, based on experience and qualifications<br><strong>Start Date:</strong> ASAP</p><p>&nbsp;</p><p><strong>About the Role</strong></p><p>We are looking for an experienced Senior Backend Engineer from Ukraine to contribute to the development of an advanced AI infrastructure platform.</p><p>The project focuses on building scalable backend services that enable intelligent AI agents to interact with external systems, execute complex workflows, and perform tasks autonomously.</p><p>You will work on challenging problems at the intersection of distributed computing, cloud infrastructure, and applied artificial intelligence.</p><p>As part of an international engineering team, you will help develop reliable infrastructure supporting multiple AI-powered applications and services.</p><p>&nbsp;</p><p><strong>Key Responsibilities</strong></p><ul><li>Design, develop, and maintain high-performance backend services using Go.</li><li>Build infrastructure supporting autonomous AI agents and multi-step task execution.</li><li>Implement scalable mechanisms for AI model integration, tool orchestration, and asynchronous processing.</li><li>Develop secure and extensible APIs and integrations with external systems.</li><li>Improve the reliability, scalability, and performance of distributed services.</li><li>Design solutions for long-running workflows, isolated execution environments, and fault-tolerant processing.</li><li>Implement monitoring, logging, and observability solutions.</li><li>Participate in architectural decisions and technical design discussions.</li><li>Collaborate with backend, platform, product, and AI engineers.</li><li><p>Maintain engineering standards through automated testing, code reviews, and continuous delivery.</p><p>&nbsp;</p></li></ul><p><strong>Required Qualifications</strong></p><p>&nbsp;</p><p><strong>Backend Engineering</strong></p><ul><li>Strong commercial experience developing production-grade backend applications.</li><li>Advanced proficiency in Go (Golang).</li><li>Solid understanding of distributed systems, asynchronous processing, and service-oriented architectures.</li><li>Experience designing secure, scalable, and fault-tolerant backend solutions.<br>&nbsp;</li></ul><p><strong>Cloud &amp; DevOps</strong></p><ul><li>Hands-on experience with AWS and cloud-native application development.</li><li>Experience implementing CI/CD pipelines and automated testing.</li><li>Familiarity with production monitoring, observability, and performance optimization.<br>&nbsp;</li></ul><p><strong>AI &amp; LLM Integration</strong></p><ul><li>Practical experience integrating LLMs or AI-powered functionality into production applications.</li><li>Understanding of AI agent architectures, model orchestration, and tool-calling mechanisms.</li><li>Familiarity with Model Context Protocol (MCP) and Agent-to-Agent (A2A) architectures.<br>&nbsp;</li></ul><p><strong>Engineering Practices</strong></p><ul><li>Ability to independently evaluate technical trade-offs and make architectural decisions.</li><li>Experience collaborating with cross-functional engineering teams.</li><li>Strong problem-solving skills and a pragmatic approach to software delivery.</li><li>Regular use of AI-assisted development tools such as GitHub Copilot, Cursor, Claude Code, or similar solutions.<br>&nbsp;</li></ul><p><strong>Nice to Have</strong></p><ul><li>Experience developing autonomous AI agents and multi-step workflows.</li><li>Knowledge of event sourcing and event-driven architectures.</li><li>Python programming skills.</li><li>Background in AI/ML infrastructure or developer productivity platforms.</li><li>Experience working in startups or fast-paced technology environments.<br>&nbsp;</li></ul><p><strong>Ideal Candidate</strong></p><p>We are looking for a proactive engineer who combines strong technical expertise with a practical, results-oriented approach.</p><p>You should be comfortable working with evolving architectures, exploring emerging technologies, and taking ownership of solutions from initial design to production.</p><p>The ideal candidate:</p><ul><li>Makes independent technical decisions and takes responsibility for outcomes.</li><li>Balances rapid delivery with reliability and maintainability.</li><li>Thrives in dynamic environments with evolving requirements.</li><li>Actively explores emerging AI technologies and development practices.</li><li>Communicates effectively within distributed international teams.</li><li>Demonstrates strong ownership, autonomy, and collaborative skills.<br>&nbsp;</li></ul><p><strong>What We Offer</strong></p><ul><li>Fully remote collaboration with an international engineering team.</li><li>Full-time freelance engagement.</li><li>Initial 3-month contract with the possibility of long-term cooperation.</li><li>Opportunity to work with cutting-edge AI technologies and agentic architectures.</li><li>Direct involvement in architectural decisions and technical implementation.</li><li>Challenging engineering problems involving distributed systems and AI infrastructure.</li><li>Flexible, results-oriented working environment.</li><li>Competitive compensation based on experience and qualifications.</li></ul><p>&nbsp;</p><p><strong>If you have strong Go backend development experience, solid expertise in AWS and distributed systems, and hands-on experience integrating LLMs and building AI-powered solutions, we'd be happy to hear from you!</strong></p>",
+      "category": {
+        "id": "golang",
+        "name": "Golang"
+      },
+      "location": "",
+      "work_format": "Full Remote",
+      "experience": 10,
+      "english": {
+        "id": "upper",
+        "name": "B2 – Вище середнього"
+      },
+      "domain": "saas",
+      "published": "2026-11-10T14:26:41.428348",
+      "recruiter": {
+        "id": 44461,
+        "name": "Recruiter 44461",
+        "linkedin_headline": "CBDO at Razom",
+        "position": "CBDO",
+        "company_name": "Razom",
+        "public_url": "/r/44461-cbdo-at-razom/",
+        "badge": "verified",
+        "picture_url": "https://p.djinni.co/87/497618fb49b3b8b0f7b08c0f8e7cca/E_400.png",
+        "employer_website": "https://razom.pro/",
+        "employer_about": "<p>Razom - collaboration of Ukrainian experts. Outstanding team of talented, experienced designers and software engineers. We value knowledge, honesty, responsibility, creativity and initiative. We are dealing with &nbsp;implementation of interesting, fresh and large-scale ideas, which have a positive effect and solve important problems.</p>"
+      },
+      "is_online": true,
+      "is_offline": false,
+      "dou_link": "https://jobs.dou.ua/companies/razom/",
+      "is_favorite": false,
+      "has_seen": false,
+      "has_applied": false,
+      "messagethread_url": "",
+      "views_count": 276,
+      "applications_count": 23,
+      "youtube": "",
+      "public_salary_min": null,
+      "public_salary_max": null,
+      "salary_group": 4,
+      "can_apply": false,
+      "can_apply_reason": "requirements_mismatch",
+      "is_parttime": false,
+      "has_test": false,
+      "requires_cover_letter": false,
+      "is_ukraine_only": false,
+      "company_logo_url": "https://p.djinni.co/18/effff1e5ca143a341a8de4bc2dacd0/Frame_124550_400.png",
+      "skills_experience": [
+        {
+          "skill": "golang",
+          "name": "Golang",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "Golang"
+        },
+        {
+          "skill": "ci_cd",
+          "name": "CI/CD",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "CI/CD"
+        },
+        {
+          "skill": "docker",
+          "name": "Docker",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "Docker"
+        },
+        {
+          "skill": "claude_code",
+          "name": "Claude Code",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "Claude Code"
+        },
+        {
+          "skill": "ai_ml",
+          "name": "AI/ML",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "AI/ML"
+        },
+        {
+          "skill": "mcp",
+          "name": "MCP",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "MCP"
+        },
+        {
+          "skill": "aws",
+          "name": "AWS",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "AWS"
+        },
+        {
+          "skill": "python",
+          "name": "Python",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "Python"
+        }
+      ],
+      "extra_keywords": [
+        "Golang",
+        "CI/CD",
+        "Docker",
+        "Claude Code",
+        "AI/ML",
+        "MCP",
+        "AWS",
+        "Python"
+      ],
+      "languages": [
+        {
+          "code": "ukr",
+          "name": "Ukrainian",
+          "level": "Native",
+          "level_code": "native"
+        }
+      ]
+    },
+    {
+      "id": 857458,
+      "title": "Технік з радіоелектроніки БПЛА",
+      "slug": "857458-tekhnik-z-radioelektroniki-bpla",
+      "company_name": "EVERSTAR | Робота в MilTech",
+      "long_description": "<p>Ми&nbsp;— EVERSTAR, перша рекрутингова агенція в&nbsp;MilTech для тих, хто готовий створювати технологічне майбутнє.<br>&nbsp;</p><p>Але досить про нас, розказуємо про роль<strong> Технік з&nbsp;радіоелектроніки. </strong>Ця&nbsp;вакансія у&nbsp;R&amp;D-команду, що&nbsp;розробляє та&nbsp;виробляє техніку й&nbsp;електронні рішення, які працюють на&nbsp;реальному полі бою, а&nbsp;не&nbsp;в&nbsp;красивих презентаціях для інвесторів.</p><p>Компанія швидко масштабується, вибудовує процеси та&nbsp;підсилює команди.<br>&nbsp;</p><p><strong>Які задачі чекають на&nbsp;тебе:</strong><br>&nbsp;</p><ul><li>Монтаж наземних станцій управління БПЛА.</li><li>Встановлення та&nbsp;налаштування антенних комплексів.</li><li>Забезпечення надійного прийому радіочастотних сигналів.</li><li>Організація акуратного укладання кабельних трас.</li><li>Діагностика систем прийому-передачі даних.</li><li>Інтеграція підсилювачів та&nbsp;відео приймачів.</li><li>Обслуговування електроніки складових наземної станції.<br>&nbsp;</li></ul><p><strong>Що&nbsp;важливо:</strong><br>&nbsp;</p><ul><li>Практичний досвід налаштування радіочастотного обладнання.</li><li>Базові знання принципів роботи антен.</li><li>Навички акуратного монтажу слабкострумових кабелів.</li><li>Розуміння роботи систем передачі сигналів.</li><li>Глибоке розуміння принципів навігаційних систем.</li><li>Знання основ теорії автоматичного управління.</li><li>осцилограф, логічний аналізатор, мультиметр<br>&nbsp;</li></ul><p><strong>Умови роботи:</strong><br>&nbsp;</p><ul><li>Відпустка&nbsp;— 24&nbsp;календарні дні+ 1&nbsp;день відпустки на&nbsp;день народження;</li><li>Офіційне працевлаштування через Дія.City;</li><li>Медичне страхування після успішного проходження випробувального терміну;</li><li>Бронювання за&nbsp;умови наявності актуальних військово-облікових документів;</li><li>Можливість створювати нове, експериментувати та&nbsp;вирішувати складні завдання;</li><li>Професійне зростання та&nbsp;постійне вдосконалення навичок;</li><li>Команда однодумців та&nbsp;інноваторів;</li><li>Комфортний офіс на&nbsp;правому березі Києва.</li></ul>",
+      "category": {
+        "id": "uav_/_drone_engineer",
+        "name": "UAV / Drone Engineer"
+      },
+      "location": "Kyiv",
+      "work_format": "Office Work",
+      "experience": 1,
+      "english": {
+        "id": "no_english",
+        "name": "No English"
+      },
+      "domain": "miltech",
+      "published": "2026-11-10T14:05:09.694957",
+      "recruiter": {
+        "id": 173826,
+        "name": "Recruiter 173826",
+        "linkedin_headline": "Recruiter at Everstar",
+        "position": "Recruiter",
+        "company_name": "Everstar",
+        "public_url": "/r/173826-recruiter-at-everstar/",
+        "badge": "verified",
+        "picture_url": null,
+        "employer_website": "https://everstar.breezy.hr/",
+        "employer_about": "<p><strong>EVERSTAR</strong> — перша рекрутингова агенція в MilTech для тих, хто готовий створювати технологічне майбутнє.<br>&nbsp;</p><p>Об'єднуємо людей і технології у співпраці з провідними MilTech-компаніями України, щоб перетворювати R&amp;D-розробки на рішення, що змінюють хід історії.<br><br><strong>Наші партнери — змінюють правила гри</strong></p><p>І разом з ними ти можеш працювати над продуктами, що вже здійснили 1 000 000+ місій на фронті.<br><br><strong>Створюють game changers з нуля</strong></p><p>Інженерні рішення без готових шаблонів і копіювання. Від ідеї — до робочого продукту.<br><br><strong>Масштабують рішення на сотні тисяч продуктів</strong></p><p>Виробничі потужності дозволяють швидко переходити від розробки до масового виробництва.<br><br><strong>Надсилай своє резюме нам та&nbsp;долучайся до&nbsp;команд, що&nbsp;наближають перемогу України щодня!</strong></p>"
+      },
+      "is_online": true,
+      "is_offline": false,
+      "dou_link": "https://jobs.dou.ua/companies/everstar/",
+      "is_favorite": false,
+      "has_seen": false,
+      "has_applied": false,
+      "messagethread_url": "",
+      "views_count": 6,
+      "applications_count": 0,
+      "youtube": "",
+      "public_salary_min": null,
+      "public_salary_max": null,
+      "salary_group": 3,
+      "can_apply": false,
+      "can_apply_reason": "requirements_mismatch",
+      "is_parttime": false,
+      "has_test": false,
+      "requires_cover_letter": false,
+      "is_ukraine_only": false,
+      "company_logo_url": "https://p.djinni.co/e8/d1fa38d16ce79a4608c16ee6882be9/Logo_400.png",
+      "skills_experience": [
+        {
+          "skill": "ardupilot",
+          "name": "ArduPilot",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "ArduPilot"
+        },
+        {
+          "skill": "mavlink",
+          "name": "MAVlink",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "MAVlink"
+        },
+        {
+          "skill": "uav",
+          "name": "UAV",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "UAV"
+        },
+        {
+          "skill": "python",
+          "name": "Python",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "Python"
+        }
+      ],
+      "extra_keywords": [
+        "ArduPilot",
+        "MAVlink",
+        "UAV",
+        "Python"
+      ],
+      "languages": [
+        {
+          "code": "ukr",
+          "name": "Ukrainian",
+          "level": "Native",
+          "level_code": "native"
+        }
+      ]
+    },
+    {
+      "id": 857443,
+      "title": "Senior Data Engineer with Snowflake",
+      "slug": "857443-senior-data-engineer-with-snowflake",
+      "company_name": "N-iX",
+      "long_description": "<p>Join an exciting journey to build and scale a global Media Data Foundation for a leading global organization based in Europe. This platform brings together paid media, digital analytics and marketing performance data from dozens of advertising and measurement platforms. It unlocks reliable media reporting, marketing ROI measurement and data-driven investment decisions across markets.</p><p>As a Senior Data Engineer, you will play a pivotal role in shaping and implementing the platform's architecture. The focus is on hands-on technical execution and collaboration with cross-functional teams.</p><p>Your work will turn raw media and marketing data into trusted, harmonised data products used by marketing, media and analytics teams around the world. You will use modern tools to solve complex challenges, working alongside skilled architects, engineers and business stakeholders.</p><p>&nbsp;</p><p><strong>Key Responsibilities:</strong></p><ul><li><strong>Hands-On Development:</strong> Build, maintain and optimize data pipelines for ingestion, transformation and delivery of media data (Meta, Google Ads, DV360, TikTok, The Trade Desk, GA4, CM360 and others).</li><li>Create and implement scalable solutions to handle many data sources, frequent API and schema changes, and high volumes of data.</li><li><strong>Data Modeling &amp; Warehousing:</strong> Design and maintain efficient, harmonised data models for cross-platform media reporting in Snowflake.</li><li>Lead the move of transformation logic to dbt, including orchestration, testing, documentation and CI/CD.</li><li><strong>Collaboration:</strong> Partner with Solution Architects to translate high-level designs into detailed implementation plans.</li><li>Work closely with Technical Product Owners, media agencies and market teams to align data solutions with business needs.</li><li><strong>Platform Development:</strong> Enable data readiness for media dashboards (Power BI), marketing mix modelling / ROI analytics and campaign taxonomy governance.</li><li>Implement robust frameworks to monitor data freshness, completeness, quality and pipeline performance, with automated alerting.</li><li><strong>Security &amp; Compliance:</strong> Implement robust access controls and data protection across the pipeline and for data shared with internal and external consumers.</li><li>Ensure compliance with data privacy regulations (e.g. GDPR, CCPA) and internal data governance policies (data product tiers, tagging, naming standards).</li><li>Monitor and address potential vulnerabilities, including service account and secret management, ensuring the platform follows security best practices.</li></ul><p>&nbsp;</p><p><strong>Requirements:</strong></p><ul><li>4+ years of experience showing technical expertise and critical thinking in data engineering.</li><li>Hands-on experience with dbt and strong Python programming skills.</li><li>Proficiency in Snowflake and strong expertise in data modeling are essential.</li><li>Demonstrated experience with marketing, media or advertising data (ad platform APIs, campaign hierarchies, web analytics) is required.</li><li>In-depth understanding of security and governance in Snowflake: RBAC, secure views, data sharing, masking and row access policies, object tagging.</li><li>Ability to design, implement and promote solution patterns and standards for complex, multi-source data platforms.</li><li>Familiarity with multiple cloud platforms (Azure or GCP preferred, with a focus on Azure, including ADF).</li><li>Experience with ETL/ELT and data integration tools (Adverity, Fivetran or similar) and batch orchestration.</li><li>Competence in SQL, relational database design and efficient methods for data retrieval and preparation at scale.</li><li>Proven ability to collect and process raw data at scale, including scripting, REST API integration and SQL querying.</li><li>Experience with BI tools (Power BI preferred) and supporting reporting consumers.</li><li>Experience working in global environments and collaborating with virtual teams and external agencies.</li><li>A Bachelor's or Master's degree in Data Science, Computer Science, Economics or a related discipline.</li></ul><p><br>&nbsp;</p>",
+      "category": {
+        "id": "data_engineer",
+        "name": "Data Engineer"
+      },
+      "location": "",
+      "work_format": "Full Remote",
+      "experience": 4,
+      "english": {
+        "id": "upper",
+        "name": "B2 – Вище середнього"
+      },
+      "domain": "other",
+      "published": "2026-11-10T13:35:49.388405",
+      "recruiter": {
+        "id": 145706,
+        "name": "Recruiter 145706",
+        "linkedin_headline": "Senior Talent Sourcer at N-iX",
+        "position": "Senior Talent Sourcer",
+        "company_name": "N-iX",
+        "public_url": "/r/145706-senior-talent-sourcer-at-n-ix/",
+        "badge": "verified",
+        "picture_url": null,
+        "employer_website": "https://careers.n-ix.com/",
+        "employer_about": "<p>N-iX is a global technology partner for Pragmatic AI Software Engineering, helping businesses worldwide build impactful software products. With major development centers in Lviv, Kyiv, Ivano-Frankivsk, and growing hubs across the country, we unite 2,400+ talented professionals globally. Our expertise spans cloud, data, AI/ML, embedded software, IoT, and more, driving digital transformation for Fortune 500 firms and global industry leaders across finance, manufacturing, telecom, healthcare, and other domains.<br><br>Join us at N-iX and enjoy flexible working formats, vibrant professional communities, extensive growth opportunities, and a supportive culture that has earned recognition from DOU and EY as a top IT employer in Ukraine.</p>"
+      },
+      "is_online": true,
+      "is_offline": false,
+      "dou_link": "https://jobs.dou.ua/companies/n-ix/",
+      "is_favorite": false,
+      "has_seen": false,
+      "has_applied": false,
+      "messagethread_url": "",
+      "views_count": 18,
+      "applications_count": 0,
+      "youtube": "",
+      "public_salary_min": null,
+      "public_salary_max": null,
+      "salary_group": 4,
+      "can_apply": false,
+      "can_apply_reason": "requirements_mismatch",
+      "is_parttime": false,
+      "has_test": false,
+      "requires_cover_letter": false,
+      "is_ukraine_only": false,
+      "company_logo_url": "https://p.djinni.co/6a/e4396f807add628032fb93de58a382/N-iX_Logo-RGB_White_on_Orange_-_Crop_-_DOU_400.png",
+      "skills_experience": [
+        {
+          "skill": "python",
+          "name": "Python",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "Python"
+        },
+        {
+          "skill": "sql",
+          "name": "SQL",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "SQL"
+        },
+        {
+          "skill": "etl",
+          "name": "ETL",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "ETL"
+        },
+        {
+          "skill": "azure",
+          "name": "Azure",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "Azure"
+        },
+        {
+          "skill": "azure_data_factory",
+          "name": "Azure Data Factory",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "Azure Data Factory"
+        },
+        {
+          "skill": "snowflake",
+          "name": "Snowflake",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "Snowflake"
+        },
+        {
+          "skill": "dbt",
+          "name": "dbt",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "dbt"
+        },
+        {
+          "skill": "gcp_google_cloud_platform",
+          "name": "GCP",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "GCP"
+        }
+      ],
+      "extra_keywords": [
+        "Python",
+        "SQL",
+        "ETL",
+        "Azure",
+        "Azure Data Factory",
+        "Snowflake",
+        "dbt",
+        "GCP"
+      ],
+      "languages": []
+    },
+    {
+      "id": 849519,
+      "title": "Trainee\\Junior QA Automation (Python)",
+      "slug": "849519-trainee-junior-qa-automation-python",
+      "company_name": "King Group",
+      "long_description": "У King Group ми будуємо iGaming-продукти, якими щодня користуються тисячі людей. Розвиваємо 20+ брендів, обслуговуємо 4 000 000+ користувачів і об'єднуємо 1000+ фахівців<br>Шукаємо Junior / Trainee QA Automation Engineer, який хоче розвиватися в автоматизації тестування на Python та працювати в команді, де автоматизація є повноцінною частиною розробки. Якщо у тебе вже є базовий практичний досвід написання автотестів або навчальні проєкти - будемо раді познайомитися<br><br>Tech stack: Python, PyTest, Selenium, Playwright, Appium, Requests, Pydantic, FastAPI, Locust, JMeter, Allure Report<br><br><b>Чим зацікавить вас робота в нашій команді:</b><br>Ти одразу побачиш повну картину автоматизації: Web UI, Mobile, API та Performance-тестування, розвиток внутрішнього фреймворку, власні скрипти й інтеграції. Ми активно використовуємо AI-інструменти для аналізу, генерації коду та документації, але очікуємо, що ти розумієш свій код і прийняті рішення. Попереду — зрозумілий шлях до рівня Middle.<br><br><strong>Вимоги:&nbsp;</strong><ul><li>Впевнено володієш Python</li><li>Розумієш принципи автоматизації веб-тестування з Selenium</li><li>Маєш базові знання PyTest і принципів організації тестів</li><li>Впевнено пишеш XPath-локатори</li><li>Розумієш життєвий цикл тест-кейсів і принципи їх автоматизації</li></ul><strong>Буде плюсом:</strong><ul><li>Маєш практичний досвід з Playwright (Python)</li><li>Використовуєш AI-інструменти (Claude, ChatGPT тощо)</li><li>Автоматизував мобільне тестування з Appium</li></ul><b>Чим ти будеш займатись:</b><ul><li>Розробляти нові автотести відповідно до вимог проєкту</li><li>Підтримувати та розвивати наявний набір автотестів</li><li>Аналізувати причини падіння тестів і підтримувати стабільність фреймворку</li><li>Допомагати Manual QA в аналізі запусків та Allure-звітів</li><li>Працювати з кількома схожими за функціональністю проєктами</li><li>Брати участь у розвитку внутрішніх інструментів автоматизації</li></ul><b>Що ти отримаєш:</b><ul><li>Мінімум бюрократії, швидкі рішення без «ходіння по колах»</li><li>Реальний простір для росту</li><li>Компенсацію навчання (skill boost)</li><li>24 дні відпустки + оплачувані лікарняні</li><li>Медичну страховку + Healthy lifestyle компенсацію</li><li>75% компенсації обідів</li><li>Комфортний офіс у центрі Києва з панорамною терасою</li></ul><strong>Hiring process<br></strong><ol><li><strong>Прескрінінг:</strong> HR-обговорення мотивації, досвіду, очікувань</li><li><strong>Технічний етап:</strong> зустріч з Team Lead &nbsp;(до 1,5 години)&nbsp;</li><li><strong>Оффер:</strong> обговорення деталей, умови, старт</li></ol>",
+      "category": {
+        "id": "qa_automation",
+        "name": "QA Automation"
+      },
+      "location": "",
+      "work_format": "Office Work",
+      "experience": 0,
+      "english": {
+        "id": "intermediate",
+        "name": "B1 – Середній"
+      },
+      "domain": "gambling",
+      "published": "2026-11-10T12:43:49.088360",
+      "recruiter": {
+        "id": 186210,
+        "name": "Recruiter 186210",
+        "linkedin_headline": "Recruiter at King Group",
+        "position": "Recruiter",
+        "company_name": "King Group",
+        "public_url": "/r/186210-recruiter-at-king-group/",
+        "badge": "top",
+        "picture_url": "https://p.djinni.co/a2/3488abb1dd51a4117248e0e1438681/2026-06-11_11.56.10_400.jpg",
+        "employer_website": "https://kinggroup.io/",
+        "employer_about": "<p>Один із лідерів українського iGaming-ринку, King Group сьогодні має команду в понад 500 співробітників і створює продукти, якими щодня користуються більше 2 мільйонів клієнтів по всьому світу. Від маленької gamedev-студії, заснованої в 2012 році кількома ентузіастами, до одного з найбільших в індустрії платників податків і роботодавців, – це історія King Group, яку ми продовжуємо писати разом, із азартом і натхненням.&nbsp;</p><p>&nbsp;</p><p>Хочете стати частиною King Group? Ми шукаємо королів своєї справи. Переглядайте наші вакансії на&nbsp;https://kinggroup.io/, надсилайте резюме і, можливо, у нас із вами станеться perfect match.&nbsp;</p>"
+      },
+      "is_online": true,
+      "is_offline": false,
+      "dou_link": "",
+      "is_favorite": false,
+      "has_seen": false,
+      "has_applied": false,
+      "messagethread_url": "",
+      "views_count": 50,
+      "applications_count": 0,
+      "youtube": null,
+      "public_salary_min": null,
+      "public_salary_max": null,
+      "salary_group": 1,
+      "can_apply": false,
+      "can_apply_reason": "requirements_mismatch",
+      "is_parttime": false,
+      "has_test": false,
+      "requires_cover_letter": false,
+      "is_ukraine_only": false,
+      "company_logo_url": "https://p.djinni.co/95/2909e47994004e599695637da7bfaa/kinggroup_logo__vertical-_1__1_400.png",
+      "skills_experience": [],
+      "extra_keywords": [],
+      "languages": []
+    },
+    {
+      "id": 855283,
+      "title": "System Administrator (IAM / IT Operations)",
+      "slug": "855283-system-administrator-iam-it-operations",
+      "company_name": "MOJAM",
+      "long_description": "<p>Ready to build MOJAM’s IT &amp; Security processes from scratch? Join us as a <strong>Senior IT Engineer</strong> and take over day-to-day access operations and work directly with the CISO to design a complete identity and access management process from the ground up. You will handle real employee requests while improving how access is requested, approved, provisioned, changed and removed.</p><p>We need someone who has operated these services, understands common failure modes and can turn that experience into a reliable process with less manual work. The role will also expand into managing a small device fleet, endpoint hardening and security tooling. Sounds just like you? Check out the job description below!&nbsp;<br>&nbsp;</p><p><strong>📍What to Do:</strong><br>&nbsp;</p><ul><li><strong>Access Operations. </strong>Own the operational queue for access requests, changes and removals across corporate systems</li><li><strong>Employee Lifecycle. </strong>Handle the technical side of onboarding, role changes and offboarding in coordination with HR, managers and application owners; keep account and entitlement records accurate</li><li><strong>IAM Process Design.</strong> Work with the CISO and business stakeholders to map systems, access needs, ownership and approvals, then design and implement a consistent, highly automated end-to-end process</li><li><strong>Automation &amp; Integrations. </strong>Identify manual steps worth automating, configure IAM capabilities and connectors, and identify the integration work needed to support the process</li><li><strong>Service Improvement.</strong> Investigate access and SSO issues, resolve recurring problems and maintain the practical instructions needed to operate and support the service</li><li><strong>Endpoint Management. </strong>As device management is introduced, support a small fleet, maintain inventory and configure and operate MDM and EDR tooling</li><li><strong>Endpoint Hardening.</strong> Help implement, validate and maintain device security configurations and support employees affected by those changes</li></ul><p>&nbsp;</p><p><strong>🦸Your Superpowers:</strong></p><p>&nbsp;</p><p><strong>Required Experience</strong></p><p>At least 2 years of relevant hands-on experience in corporate IT, IAM or endpoint administration, with evidence of independently owning services and improving processes.</p><p>&nbsp;</p><p><strong>Required Hard Skills</strong></p><ul><li><strong>Access Administration. </strong>Hands-on experience administering accounts, groups, roles and permissions in corporate applications and identity platforms</li><li><strong>IAM Tools &amp; Concepts. </strong>Experience working with IAM or identity administration tools; understanding of SSO, MFA, provisioning and employee lifecycle workflows</li><li><strong>Process Design. </strong>Ability to translate access needs into workable approval, provisioning and revocation processes, including exceptions and failure handling</li><li><strong>Automation Understanding. </strong>Ability to assess how connectors, APIs and workflow tools can reduce manual work, configure supported capabilities and describe integration requirements</li><li><strong>Endpoint Fundamentals.</strong> Basic understanding of device administration, inventory, endpoint security and hardening principles.</li><li><strong>AI-Assisted Work.</strong> Proactive use of AI tools for research, troubleshooting and day-to-day work</li></ul><p>&nbsp;</p><p><strong>Required Soft Skills</strong></p><ul><li><strong>Independence. </strong>Work effectively with broad goals, investigate unfamiliar problems and keep work moving without constant supervision</li><li><strong>Ownership.</strong> Follow requests and dependencies through to closure; raise blockers early with a proposed next step</li><li><strong>Stakeholder Collaboration. </strong>Clarify requirements and agree practical solutions with employees, managers, HR and technical teams</li><li><strong>Planning &amp; Execution. </strong>Balance daily service requests with implementation work and communicate progress and trade-offs clearly</li></ul><p>&nbsp;</p><p><strong>🤘Bonus Points:</strong></p><p>&nbsp;</p><ul><li>Experience building or migrating IAM and Joiner/Mover/Leaver processes</li><li>Hands-on implementation of automated provisioning, SSO integrations or access workflows</li><li>Scripting or programming skills and experience developing custom integrations</li><li>Hands-on experience with macOS administration, endpoint hardening, and deploying or managing MDM/EDR solutions</li></ul><p>&nbsp;</p><p><strong>🍪Team Perks:</strong></p><p>&nbsp;</p><ul><li><strong>PRO&amp;BRO team</strong> you’ll love creating new gaming universes with&nbsp;</li><li><strong>Totally remote work from wherever you grind</strong></li><li>An equipment budget to <strong>upgrade your home office</strong></li><li><strong>Flexible schedule with no time trackers </strong>since we just focus on results</li><li>A performance-based <strong>bonus twice a year</strong> for every mojamer as a nod to our shared achievements&nbsp;</li><li><strong>Wellness Bonus</strong> for the gym, yoga, dance, massage, therapy, or anything that keeps your energy up</li><li>Level up your skills with our <strong>internal knowledge-sharing project Yoda</strong>. We also cover training, certifications, English &amp; Ukrainian classes</li><li><strong>Days off</strong> and gifts for milestones of your choice (birthday, anniversary, baby arrival, or wedding)&nbsp;</li><li><strong>JAM Activities:</strong> workations twice a year in different corners of the world, epic offline teambuilding events, CS2 and Dota tournaments, quizzes, lectures, and plenty of other hangouts for the team</li><li>Plus <strong>relocation support, a Maternity/Paternity Leave Policy, a referral bonus</strong>, and a whole bunch of other cool perks you can check out on our website</li></ul><p>&nbsp;</p><p><strong>Join us if this is all about you. We are waiting for your CV!</strong></p><p><strong>Let’s Add More Jam Together&nbsp;</strong></p>",
+      "category": {
+        "id": "sysadmin",
+        "name": "Sysadmin"
+      },
+      "location": "",
+      "work_format": "Full Remote",
+      "experience": 2,
+      "english": {
+        "id": "no_english",
+        "name": "No English"
+      },
+      "domain": "other",
+      "published": "2026-11-10T12:26:53.893923",
+      "recruiter": {
+        "id": 205748,
+        "name": "Recruiter 205748",
+        "linkedin_headline": "Talent Sourcer at MOJAM",
+        "position": "Talent Sourcer",
+        "company_name": "MOJAM",
+        "public_url": "/r/205748-talent-sourcer-at-mojam/",
+        "badge": "",
+        "picture_url": null,
+        "employer_website": "https://mojam.co/careers/",
+        "employer_about": "<p>🎮 MOJAM is an&nbsp;international product tech company in digital entertainment.&nbsp;We build digital products and web-based services for gamers around the world.</p><p>Our flagship product is a web-platform&nbsp;for CS2 players, trusted by millions of users across 168 countries. We're deeply connected to the esports scene: mojamers work alongside esports stars, collab with top digital creators, and sponsor major Counter-Strike tournaments.</p><p>&nbsp;</p><p>🎮 <strong>6,5M </strong>active users&nbsp;&nbsp;&nbsp;</p><p>🌎<strong>168</strong> countries worldwide&nbsp;</p><p><strong>🔝TOP 4 GEO</strong>: USA, Germany, Spain, France</p><p>🔥<strong>90K</strong> visitors every day&nbsp;&nbsp;</p><p>😎 <strong>9 years</strong> on the market&nbsp;</p><p>✊<strong>200+ </strong>teammates&nbsp;</p><p>🇺🇦 <strong>$2.8M</strong> donated to support Ukraine</p><p>&nbsp;</p><p><strong>Our mission: to unlock WOW-level&nbsp;digital experiences&nbsp;for CS2 users around the world. </strong>We use cutting-edge technologies and data-driven approaches to power game-changing products and set new standards in digital entertainment. Mojamers have big ambitions, and together, we know how to turn them into reality.</p><p>&nbsp;</p><p>🎮 <strong>Team Up With Us and You Will</strong></p><ul><li><strong>Gamer Mode.&nbsp;</strong>Dive deep into the gaming industry</li><li><strong>Open PROcess.</strong> Have defined goals and a solid direction</li><li><strong>Real Impact.</strong> See how your work drives the team forward&nbsp;</li><li><strong>PROLeague.&nbsp;</strong>Score more than just skilled teammates but your loyal bros</li><li><strong>Freedom to Try.&nbsp;</strong>Explore your boldest professional ideas</li><li><strong>Proud of Product.&nbsp;</strong>Work on projects that leave a mark</li><li><strong>Human-First Mindset.</strong> Join a crew where respect, trust, and having each other’s backs come first</li><li><strong>Open to PROgress.&nbsp;</strong>Be amazed at how far you can go with our support&nbsp;</li></ul><p>&nbsp;</p><p>Let’s MOJAM and change game rules together!✌️</p>"
+      },
+      "is_online": true,
+      "is_offline": false,
+      "dou_link": "https://jobs.dou.ua/companies/mojam/",
+      "is_favorite": false,
+      "has_seen": false,
+      "has_applied": false,
+      "messagethread_url": "/my/inbox/26990757/",
+      "views_count": 422,
+      "applications_count": 55,
+      "youtube": "",
+      "public_salary_min": null,
+      "public_salary_max": null,
+      "salary_group": 4,
+      "can_apply": false,
+      "can_apply_reason": "requirements_mismatch",
+      "is_parttime": false,
+      "has_test": false,
+      "requires_cover_letter": true,
+      "is_ukraine_only": false,
+      "company_logo_url": "https://p.djinni.co/88/ebf6ef8617e55e163a9aee17a46607/Avatar_black__green_M_400.png",
+      "skills_experience": [
+        {
+          "skill": "identity_and_access_management_iam",
+          "name": "Identity and Access Management (IAM)",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "Identity and Access Management (IAM)"
+        },
+        {
+          "skill": "okta_microsoft_entra_id",
+          "name": "Okta Microsoft Entra ID",
+          "experience_years": null,
+          "is_approved": false,
+          "label": "Okta Microsoft Entra ID"
+        },
+        {
+          "skill": "azure_ad",
+          "name": "Azure AD",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "Azure AD"
+        },
+        {
+          "skill": "google_workspace",
+          "name": "Google Workspace",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "Google Workspace"
+        },
+        {
+          "skill": "master_data_management",
+          "name": "Master data management (MDM)",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "Master data management (MDM)"
+        },
+        {
+          "skill": "jamf",
+          "name": "Jamf",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "Jamf"
+        },
+        {
+          "skill": "intune",
+          "name": "Intune",
+          "experience_years": null,
+          "is_approved": false,
+          "label": "Intune"
+        },
+        {
+          "skill": "python",
+          "name": "Python",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "Python"
+        },
+        {
+          "skill": "powershell",
+          "name": "PowerShell",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "PowerShell"
+        }
+      ],
+      "extra_keywords": [
+        "Identity and Access Management (IAM)",
+        "Okta Microsoft Entra ID",
+        "Azure AD",
+        "Google Workspace",
+        "Master data management (MDM)",
+        "Jamf",
+        "Intune",
+        "Python",
+        "PowerShell"
+      ],
+      "languages": []
+    },
+    {
+      "id": 855073,
+      "title": "Senior IT Engineer (IAM / IT Operations)",
+      "slug": "855073-senior-it-engineer-iam-it-operations",
+      "company_name": "MOJAM",
+      "long_description": "<p>Ready to build MOJAM’s IT &amp; Security processes from scratch? Join us as a <strong>Senior IT Engineer</strong> and take over day-to-day access operations and work directly with the CISO to design a complete identity and access management process from the ground up. You will handle real employee requests while improving how access is requested, approved, provisioned, changed and removed.</p><p>We need someone who has operated these services, understands common failure modes and can turn that experience into a reliable process with less manual work. The role will also expand into managing a small device fleet, endpoint hardening and security tooling. Sounds just like you? Check out the job description below!&nbsp;<br>&nbsp;</p><p><strong>📍What to Do:</strong><br>&nbsp;</p><ul><li><strong>Access Operations. </strong>Own the operational queue for access requests, changes and removals across corporate systems</li><li><strong>Employee Lifecycle. </strong>Handle the technical side of onboarding, role changes and offboarding in coordination with HR, managers and application owners; keep account and entitlement records accurate</li><li><strong>IAM Process Design.</strong> Work with the CISO and business stakeholders to map systems, access needs, ownership and approvals, then design and implement a consistent, highly automated end-to-end process</li><li><strong>Automation &amp; Integrations. </strong>Identify manual steps worth automating, configure IAM capabilities and connectors, and identify the integration work needed to support the process</li><li><strong>Service Improvement.</strong> Investigate access and SSO issues, resolve recurring problems and maintain the practical instructions needed to operate and support the service</li><li><strong>Endpoint Management. </strong>As device management is introduced, support a small fleet, maintain inventory and configure and operate MDM and EDR tooling</li><li><strong>Endpoint Hardening.</strong> Help implement, validate and maintain device security configurations and support employees affected by those changes</li></ul><p>&nbsp;</p><p><strong>🦸Your Superpowers:</strong></p><p>&nbsp;</p><p><strong>Required Experience</strong></p><p>At least 2 years of relevant hands-on experience in corporate IT, IAM or endpoint administration, with evidence of independently owning services and improving processes.</p><p>&nbsp;</p><p><strong>Required Hard Skills</strong></p><ul><li><strong>Access Administration. </strong>Hands-on experience administering accounts, groups, roles and permissions in corporate applications and identity platforms</li><li><strong>IAM Tools &amp; Concepts. </strong>Experience working with IAM or identity administration tools; understanding of SSO, MFA, provisioning and employee lifecycle workflows</li><li><strong>Process Design. </strong>Ability to translate access needs into workable approval, provisioning and revocation processes, including exceptions and failure handling</li><li><strong>Automation Understanding. </strong>Ability to assess how connectors, APIs and workflow tools can reduce manual work, configure supported capabilities and describe integration requirements</li><li><strong>Endpoint Fundamentals.</strong> Basic understanding of device administration, inventory, endpoint security and hardening principles.</li><li><strong>AI-Assisted Work.</strong> Proactive use of AI tools for research, troubleshooting and day-to-day work</li></ul><p>&nbsp;</p><p><strong>Required Soft Skills</strong></p><ul><li><strong>Independence. </strong>Work effectively with broad goals, investigate unfamiliar problems and keep work moving without constant supervision</li><li><strong>Ownership.</strong> Follow requests and dependencies through to closure; raise blockers early with a proposed next step</li><li><strong>Stakeholder Collaboration. </strong>Clarify requirements and agree practical solutions with employees, managers, HR and technical teams</li><li><strong>Planning &amp; Execution. </strong>Balance daily service requests with implementation work and communicate progress and trade-offs clearly</li></ul><p>&nbsp;</p><p><strong>🤘Bonus Points:</strong></p><p>&nbsp;</p><ul><li>Experience building or migrating IAM and Joiner/Mover/Leaver processes</li><li>Hands-on implementation of automated provisioning, SSO integrations or access workflows</li><li>Scripting or programming skills and experience developing custom integrations</li><li>Hands-on experience with macOS administration, endpoint hardening, and deploying or managing MDM/EDR solutions</li></ul><p>&nbsp;</p><p><strong>🍪Team Perks:</strong></p><p>&nbsp;</p><ul><li><strong>PRO&amp;BRO team</strong> you’ll love creating new gaming universes with&nbsp;</li><li><strong>Totally remote work from wherever you grind</strong></li><li>An equipment budget to <strong>upgrade your home office</strong></li><li><strong>Flexible schedule with no time trackers </strong>since we just focus on results</li><li>A performance-based <strong>bonus twice a year</strong> for every mojamer as a nod to our shared achievements&nbsp;</li><li><strong>Wellness Bonus</strong> for the gym, yoga, dance, massage, therapy, or anything that keeps your energy up</li><li>Level up your skills with our <strong>internal knowledge-sharing project Yoda</strong>. We also cover training, certifications, English &amp; Ukrainian classes</li><li><strong>Days off</strong> and gifts for milestones of your choice (birthday, anniversary, baby arrival, or wedding)&nbsp;</li><li><strong>JAM Activities:</strong> workations twice a year in different corners of the world, epic offline teambuilding events, CS2 and Dota tournaments, quizzes, lectures, and plenty of other hangouts for the team</li><li>Plus <strong>relocation support, a Maternity/Paternity Leave Policy, a referral bonus</strong>, and a whole bunch of other cool perks you can check out on our website</li></ul><p>&nbsp;</p><p><strong>Join us if this is all about you. We are waiting for your CV!</strong></p><p><strong>Let’s Add More Jam Together&nbsp;</strong></p>",
+      "category": {
+        "id": "security",
+        "name": "Безпека"
+      },
+      "location": "",
+      "work_format": "Full Remote",
+      "experience": 2,
+      "english": {
+        "id": "no_english",
+        "name": "No English"
+      },
+      "domain": "other",
+      "published": "2026-11-10T12:26:50.379312",
+      "recruiter": {
+        "id": 205748,
+        "name": "Recruiter 205748",
+        "linkedin_headline": "Talent Sourcer at MOJAM",
+        "position": "Talent Sourcer",
+        "company_name": "MOJAM",
+        "public_url": "/r/205748-talent-sourcer-at-mojam/",
+        "badge": "",
+        "picture_url": null,
+        "employer_website": "https://mojam.co/careers/",
+        "employer_about": "<p>🎮 MOJAM is an&nbsp;international product tech company in digital entertainment.&nbsp;We build digital products and web-based services for gamers around the world.</p><p>Our flagship product is a web-platform&nbsp;for CS2 players, trusted by millions of users across 168 countries. We're deeply connected to the esports scene: mojamers work alongside esports stars, collab with top digital creators, and sponsor major Counter-Strike tournaments.</p><p>&nbsp;</p><p>🎮 <strong>6,5M </strong>active users&nbsp;&nbsp;&nbsp;</p><p>🌎<strong>168</strong> countries worldwide&nbsp;</p><p><strong>🔝TOP 4 GEO</strong>: USA, Germany, Spain, France</p><p>🔥<strong>90K</strong> visitors every day&nbsp;&nbsp;</p><p>😎 <strong>9 years</strong> on the market&nbsp;</p><p>✊<strong>200+ </strong>teammates&nbsp;</p><p>🇺🇦 <strong>$2.8M</strong> donated to support Ukraine</p><p>&nbsp;</p><p><strong>Our mission: to unlock WOW-level&nbsp;digital experiences&nbsp;for CS2 users around the world. </strong>We use cutting-edge technologies and data-driven approaches to power game-changing products and set new standards in digital entertainment. Mojamers have big ambitions, and together, we know how to turn them into reality.</p><p>&nbsp;</p><p>🎮 <strong>Team Up With Us and You Will</strong></p><ul><li><strong>Gamer Mode.&nbsp;</strong>Dive deep into the gaming industry</li><li><strong>Open PROcess.</strong> Have defined goals and a solid direction</li><li><strong>Real Impact.</strong> See how your work drives the team forward&nbsp;</li><li><strong>PROLeague.&nbsp;</strong>Score more than just skilled teammates but your loyal bros</li><li><strong>Freedom to Try.&nbsp;</strong>Explore your boldest professional ideas</li><li><strong>Proud of Product.&nbsp;</strong>Work on projects that leave a mark</li><li><strong>Human-First Mindset.</strong> Join a crew where respect, trust, and having each other’s backs come first</li><li><strong>Open to PROgress.&nbsp;</strong>Be amazed at how far you can go with our support&nbsp;</li></ul><p>&nbsp;</p><p>Let’s MOJAM and change game rules together!✌️</p>"
+      },
+      "is_online": true,
+      "is_offline": false,
+      "dou_link": "https://jobs.dou.ua/companies/mojam/",
+      "is_favorite": false,
+      "has_seen": false,
+      "has_applied": false,
+      "messagethread_url": "/my/inbox/26990757/",
+      "views_count": 146,
+      "applications_count": 24,
+      "youtube": null,
+      "public_salary_min": null,
+      "public_salary_max": null,
+      "salary_group": 4,
+      "can_apply": false,
+      "can_apply_reason": "requirements_mismatch",
+      "is_parttime": false,
+      "has_test": false,
+      "requires_cover_letter": true,
+      "is_ukraine_only": false,
+      "company_logo_url": "https://p.djinni.co/88/ebf6ef8617e55e163a9aee17a46607/Avatar_black__green_M_400.png",
+      "skills_experience": [
+        {
+          "skill": "identity_and_access_management_iam",
+          "name": "Identity and Access Management (IAM)",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "Identity and Access Management (IAM)"
+        },
+        {
+          "skill": "sso",
+          "name": "SSO",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "SSO"
+        },
+        {
+          "skill": "okta",
+          "name": "Okta",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "Okta"
+        },
+        {
+          "skill": "azure_ad",
+          "name": "Azure AD",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "Azure AD"
+        },
+        {
+          "skill": "google_workspace",
+          "name": "Google Workspace",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "Google Workspace"
+        },
+        {
+          "skill": "master_data_management",
+          "name": "Master data management (MDM)",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "Master data management (MDM)"
+        },
+        {
+          "skill": "jamf",
+          "name": "Jamf",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "Jamf"
+        },
+        {
+          "skill": "intune",
+          "name": "Intune",
+          "experience_years": null,
+          "is_approved": false,
+          "label": "Intune"
+        },
+        {
+          "skill": "python",
+          "name": "Python",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "Python"
+        },
+        {
+          "skill": "powershell",
+          "name": "PowerShell",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "PowerShell"
+        }
+      ],
+      "extra_keywords": [
+        "Identity and Access Management (IAM)",
+        "SSO",
+        "Okta",
+        "Azure AD",
+        "Google Workspace",
+        "Master data management (MDM)",
+        "Jamf",
+        "Intune",
+        "Python",
+        "PowerShell"
+      ],
+      "languages": []
+    },
+    {
+      "id": 857417,
+      "title": "Software Engineer (C++, Python)",
+      "slug": "857417-software-engineer-c-python",
+      "company_name": "Stellar Jet",
+      "long_description": "<p>Шукаємо розробника для створення та вдосконалення алгоритмів планування маршрутів і навігації з урахуванням геопросторових даних, особливостей місцевості та обмежень літального апарата.</p><p>&nbsp;</p><p><strong>Основні обов'язки:</strong></p><ul><li>Розробка та оптимізація алгоритмів планування маршрутів.</li><li>Реалізація алгоритмів пошуку шляху (A*, Theta*, RRT та аналоги).</li><li>Робота з геопросторовими даними, картами та цифровими моделями рельєфу.</li><li>Врахування особливостей місцевості та технічних обмежень літального апарата під час побудови маршрутів.</li><li>Тестування, аналіз та оптимізація ефективності алгоритмів.</li></ul><p>&nbsp;</p><p><strong>Наші вимоги:</strong></p><ul><li>Досвід розробки від 2 років на C++ або Python (бажано обома мовами).</li><li>Сильний математичний бекграунд: алгоритми, оптимізація, теорія графів.</li><li>Практичний досвід реалізації алгоритмів планування шляху (A*, Theta*, RRT або аналоги).</li><li>Розуміння геопросторових даних: системи координат, проекції, GeoJSON, DEM та растрові моделі рельєфу.</li><li>Навички алгоритмічного мислення та вирішення складних технічних задач.</li></ul><p>&nbsp;</p><p><strong>Буде перевагою:</strong></p><ul><li>Практичний досвід навчання нейронних мереж (PyTorch або TensorFlow).</li><li>Розуміння динаміки та обмежень літальних апаратів: радіус розвороту, енергоспоживання, вплив вітру, набір висоти.</li><li>Досвід у робототехніці, GIS, авіаційних симуляторах або GameDev (розробка стратегій, симуляторів та систем Pathfinding).</li><li>Досвід роботи з алгоритмами навігації та автономного планування руху.</li></ul><p>&nbsp;</p><p><strong>Що&nbsp;пропонуємо&nbsp;ми:</strong></p><ul><li>Офіційне працевлаштування на&nbsp;основі Дія Сіті.</li><li><strong>Бронювання</strong> і&nbsp;підтримка на&nbsp;кожному етапі оформлення.</li><li>Офісний формат (правий берег), ПН-ПТ.</li><li>Участь у&nbsp;розробці масштабного оборонного проєкту.</li><li>Власний спортзал, йога студія, масажний кабінет і&nbsp;кав’ярні.</li><li>Конкурентна заробітна плата із&nbsp;регулярним переглядом.</li><li>Чіткі та&nbsp;прозорі можливості для професійного розвитку.</li></ul><p>&nbsp;</p><p>Долучайтесь до&nbsp;команди <strong>Stellar Jet</strong> та&nbsp;зробіть свій внесок у&nbsp;розвиток технологій.</p>",
+      "category": {
+        "id": "python",
+        "name": "Python"
+      },
+      "location": "Kyiv",
+      "work_format": "Office Work",
+      "experience": 3,
+      "english": {
+        "id": "no_english",
+        "name": "No English"
+      },
+      "domain": "miltech",
+      "published": "2026-11-10T12:09:52.753645",
+      "recruiter": {
+        "id": 206387,
+        "name": "Recruiter 206387",
+        "linkedin_headline": "Technical Recruiter at Stellar Jet",
+        "position": "Technical Recruiter",
+        "company_name": "Stellar Jet",
+        "public_url": "/r/206387-technical-recruiter-at-stellar-jet/",
+        "badge": "",
+        "picture_url": null,
+        "employer_website": "https://www.linkedin.com/company/stellar-jet/?viewAsMember=true",
+        "employer_about": "<p><strong>Stellar Jet</strong> — це R&amp;D бюро, що&nbsp;розробляє критично важливі технології для оборонної галузі. Наші проєкти вже довели свою ефективність, і ми&nbsp;продовжуємо активну роботу над перспективними розробками.<br><br>Ми співпрацюємо з передовими українськими та міжнародними компаніями, створюючи унікальні технологічні рішення.</p>"
+      },
+      "is_online": true,
+      "is_offline": false,
+      "dou_link": "https://jobs.dou.ua/companies/stellar-jet/",
+      "is_favorite": false,
+      "has_seen": true,
+      "has_applied": false,
+      "messagethread_url": "",
+      "views_count": 63,
+      "applications_count": 5,
+      "youtube": "",
+      "public_salary_min": null,
+      "public_salary_max": null,
+      "salary_group": 4,
+      "can_apply": false,
+      "can_apply_reason": "requirements_mismatch",
+      "is_parttime": false,
+      "has_test": false,
+      "requires_cover_letter": false,
+      "is_ukraine_only": false,
+      "company_logo_url": "",
+      "skills_experience": [
+        {
+          "skill": "python",
+          "name": "Python",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "Python"
+        },
+        {
+          "skill": "c_c",
+          "name": "C/C++",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "C/C++"
+        },
+        {
+          "skill": "pytorch",
+          "name": "PyTorch",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "PyTorch"
+        },
+        {
+          "skill": "tensorflow",
+          "name": "Tensorflow",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "Tensorflow"
+        },
+        {
+          "skill": "gis",
+          "name": "GIS",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "GIS"
+        }
+      ],
+      "extra_keywords": [
+        "Python",
+        "C/C++",
+        "PyTorch",
+        "Tensorflow",
+        "GIS"
+      ],
+      "languages": []
+    },
+    {
+      "id": 857415,
+      "title": "Спеціаліст із розмітки даних для нейронних мереж (Data Annotator)",
+      "slug": "857415-spetsialist-iz-rozmitki-danikh-dlia-neironnik",
+      "company_name": "Stellar Jet",
+      "long_description": "<p>Шукаємо спеціаліста з практичним досвідом розмітки зображень для задач Computer Vision та підготовки датасетів для навчання нейронних мереж.<br><br><strong>Основні обов'язки:</strong></p><ul><li>Розмітка зображень у CVAT (Bounding Boxes, Polygon, Skeleton).</li><li>Підготовка, перевірка та коригування датасетів.</li><li>Контроль якості та відповідності розмітки технічним вимогам.</li><li>Аналіз наявних даних, виявлення прогалин та потреб у доповненні датасету.</li><li>Взаємодія з командою розробки щодо вимог до даних.</li></ul><p>&nbsp;</p><p><strong>Обов'язкові вимоги:</strong></p><ul><li>Досвід роботи з розміткою зображень від 1 року.</li><li>Впевнене володіння CVAT (Bbox, Polygon, Skeleton).</li><li>Практичний досвід роботи з датасетами для нейронних мереж, моделі яких пройшли етап випробування та використовуються на практиці.</li><li>Висока уважність, концентрація та посидючість.</li><li>Аналітичне мислення та вміння чітко дотримуватися інструкцій.</li><li>Відповідальність за якість і точність виконаної роботи.</li></ul><p>&nbsp;</p><p><strong>Буде перевагою:</strong></p><ul><li>Досвід доповнення та оптимізації датасетів.</li><li>Навички аналізу недостатності та незбалансованості даних.</li><li>Знання Python та досвід автоматизації процесів обробки даних.</li></ul><p>&nbsp;</p><p><strong>Що&nbsp;пропонуємо&nbsp;ми:</strong></p><ul><li>Офіційне працевлаштування на&nbsp;основі Дія Сіті.</li><li><strong>Бронювання</strong> і&nbsp;підтримка на&nbsp;кожному етапі оформлення.</li><li>Офісний формат (правий берег), ПН-СБ.</li><li>Участь у&nbsp;розробці масштабного оборонного проєкту.</li><li>Власний спортзал, йога студія, масажний кабінет і&nbsp;кав’ярні.</li><li>Конкурентна заробітна плата із&nbsp;регулярним переглядом.</li><li>Чіткі та&nbsp;прозорі можливості для професійного розвитку.</li></ul><p>&nbsp;</p><p>Долучайтесь до&nbsp;команди <strong>Stellar Jet</strong> та&nbsp;зробіть свій внесок у&nbsp;розвиток технологій.</p>",
+      "category": {
+        "id": "data_analyst",
+        "name": "Data Analyst"
+      },
+      "location": "Kyiv",
+      "work_format": "Office Work",
+      "experience": 1,
+      "english": {
+        "id": "intermediate",
+        "name": "B1 – Середній"
+      },
+      "domain": "miltech",
+      "published": "2026-11-10T12:01:49.519149",
+      "recruiter": {
+        "id": 206387,
+        "name": "Recruiter 206387",
+        "linkedin_headline": "Technical Recruiter at Stellar Jet",
+        "position": "Technical Recruiter",
+        "company_name": "Stellar Jet",
+        "public_url": "/r/206387-technical-recruiter-at-stellar-jet/",
+        "badge": "",
+        "picture_url": null,
+        "employer_website": "https://www.linkedin.com/company/stellar-jet/?viewAsMember=true",
+        "employer_about": "<p><strong>Stellar Jet</strong> — це R&amp;D бюро, що&nbsp;розробляє критично важливі технології для оборонної галузі. Наші проєкти вже довели свою ефективність, і ми&nbsp;продовжуємо активну роботу над перспективними розробками.<br><br>Ми співпрацюємо з передовими українськими та міжнародними компаніями, створюючи унікальні технологічні рішення.</p>"
+      },
+      "is_online": true,
+      "is_offline": false,
+      "dou_link": "https://jobs.dou.ua/companies/stellar-jet/",
+      "is_favorite": false,
+      "has_seen": false,
+      "has_applied": false,
+      "messagethread_url": "",
+      "views_count": 56,
+      "applications_count": 4,
+      "youtube": "",
+      "public_salary_min": null,
+      "public_salary_max": null,
+      "salary_group": 1,
+      "can_apply": false,
+      "can_apply_reason": "requirements_mismatch",
+      "is_parttime": false,
+      "has_test": false,
+      "requires_cover_letter": false,
+      "is_ukraine_only": false,
+      "company_logo_url": "",
+      "skills_experience": [
+        {
+          "skill": "python",
+          "name": "Python",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "Python"
+        },
+        {
+          "skill": "cvat",
+          "name": "Cvat",
+          "experience_years": null,
+          "is_approved": true,
+          "label": "Cvat"
+        }
+      ],
+      "extra_keywords": [
+        "Python",
+        "Cvat"
+      ],
+      "languages": [
+        {
+          "code": "ukr",
+          "name": "Ukrainian",
+          "level": "Native",
+          "level_code": "native"
+        }
+      ]
+    },
+    {
+      "id": 857408,
+      "title": "Product Analyst",
+      "slug": "857408-product-analyst",
+      "company_name": "Asocial",
+      "long_description": "<p>Шукаємо <strong>Product Analyst із досвідом від 3 років</strong>, який допоможе нам глибше розуміти поведінку користувачів, знаходити точки зростання продукту та покращувати ключові бізнес-метрики.</p><p>Нам потрібен не просто аналітик, який будує дашборди та пише SQL-запити, а людина, яка вміє знаходити причинно-наслідкові зв’язки, перетворювати дані на продуктові рішення та оцінювати їхній реальний вплив на бізнес.</p><p>Основні напрями роботи - <strong>Retention та Payments</strong>.<br>&nbsp;</p><p><strong>Що потрібно буде робити</strong></p><p><strong>1. Retention &amp; User Behavior</strong></p><ul><li>Аналізувати шлях користувача від реєстрації та онбордингу до активації й переходу в сегмент платоспроможних користувачів (китів).</li><li>Знаходити вузькі місця в користувацькому досвіді та моменти, які впливають на активацію й утримання.</li><li>Виявляти ранні сигнали відтоку та розробляти підходи до проактивного утримання користувачів.</li><li>Сегментувати аудиторію за цінністю, поведінкою та ризиком відтоку.</li><li>Аналізувати ефективність win-back механік: email-комунікацій, бонусів, персональних пропозицій та інших інструментів повернення.</li><li>Проводити когортний аналіз, досліджувати LTV, поведінку high-value users та переходи між користувацькими сегментами.</li></ul><p><br><strong>2. Payments &amp; Fraud</strong></p><ul><li>Аналізувати платіжну конверсію в розрізі провайдерів, методів оплати, географії та банків-емітентів.</li><li>Досліджувати причини відмов платежів і знаходити можливості для підвищення payment success rate.</li><li>Аналізувати ефективність платіжних каскадів та оптимізувати маршрутизацію між платіжними провайдерами.</li><li>Досліджувати фродові патерни, chargebacks та refunds.</li><li>Допомагати знаходити баланс між зменшенням фродових втрат і мінімізацією false positive - блокування легітимних користувачів.<br>&nbsp;</li></ul><p><strong>3. Product Analytics</strong></p><ul><li>Проєктувати та аналізувати A/B-тести, оцінювати статистичну значущість і бізнес-ефект змін.</li><li>Відокремлювати вплив продуктових змін від сезонності, змін у закупівлі трафіку та інших зовнішніх факторів.</li><li>Формувати й перевіряти продуктові гіпотези.</li><li>Брати участь у постановці задач для розробки, формулювати рекомендації на основі даних.</li><li>Контролювати ключові метрики після релізів та оцінювати фактичний результат.</li><li>Підтримувати й розвивати наявні BI-дашборди та звітність.</li></ul><p><br><strong>Що для нас важливо</strong></p><ul><li>Від 3 років досвіду саме в продуктовій аналітиці.</li><li>Впевнений SQL: вмієш самостійно досліджувати дані, писати складні запити та перевіряти результати. AI-інструменти використовуєш для прискорення роботи, але розумієш, що саме робить твій запит і чи коректний його результат.</li><li>Розуміння принципів побудови BI-звітності. У нас уже є налаштована інфраструктура, тому основне завдання - підтримувати, покращувати та розвивати наявні рішення.</li><li>Практичне розуміння A/B-тестування та експериментального дизайну.</li><li>Розуміння продуктових метрик, KPI, retention, LTV, conversion rate та інших показників ефективності продукту.</li><li>Уміння знаходити причинно-наслідкові зв’язки та відрізняти реальний ефект від кореляції.</li><li>Навички комунікації: вмієш аргументувати свою позицію, презентувати результати та зрозуміло доносити висновки до продуктової команди.</li><li>Вміння розділяти факти, припущення та гіпотези.<br>&nbsp;</li></ul><p><strong>Буде великим плюсом</strong></p><ul><li>Досвід роботи з Claude, Codex та іншими AI-інструментами для досліджень, аналізу даних і автоматизації рутини.</li><li>Досвід у бізнесах із whale-моделлю (висока частка доходу від невеликої кількості high-value users).</li><li>Досвід роботи з транзакційними продуктами, а не лише підписковими моделями.</li><li>Практичний досвід роботи з платіжними провайдерами, payment routing, каскадами та антифрод-системами.</li><li>Досвід роботи з Python.<br>&nbsp;</li></ul><p><strong>Технологічний стек</strong></p><ul><li>Google BigQuery</li><li>SQL</li><li>Apache Airflow</li><li>Apache Superset</li><li>Python</li><li>Claude Code, Codex<br>&nbsp;</li></ul><p><strong>AI-first — це частина нашої робочої культури.</strong></p><p>Ми активно використовуємо AI для написання та рев’ю SQL-запитів, дослідження даних, автоматизації аналітичних процесів, підготовки висновків і постановки технічних завдань.</p><p>Ми оплачуємо інструменти, підтримуємо навчання та заохочуємо експерименти з новими технологіями. Очікуємо, що ти будеш інтегрувати AI у свою щоденну роботу. Якщо поки не маєш достатнього досвіду - допоможемо розібратися.</p><p>Аналітик працює безпосередньо з даними в BigQuery, без довгої черги через дата-інженерів.<br>&nbsp;</p><p>Що пропонуємо</p><ul><li>Можливість у перспективі очолити напрям продуктово-аналітичної роботи.</li><li>Команду досвідчених спеціалістів із 10+ роками досвіду у своїх напрямах.</li><li>Багаті поведінкові та платіжні дані для досліджень.</li><li>Різнопланові продуктові задачі з прямим впливом на бізнес-результати.</li><li>Короткий шлях від аналітичного інсайту до продуктового рішення - без зайвої бюрократії.</li><li>Підтримку, навчання та доступ до сучасних AI-інструментів.<br>&nbsp;</li></ul><p><strong>Якщо тобі цікаво не просто аналізувати цифри, а знаходити можливості для зростання продукту, впливати на рішення та бачити фінансовий результат своєї роботи - будемо раді познайомитися!</strong></p>",
+      "category": {
+        "id": "data_analyst",
+        "name": "Data Analyst"
+      },
+      "location": "",
+      "work_format": "Full Remote",
+      "experience": 3,
+      "english": {
+        "id": "intermediate",
+        "name": "B1 – Середній"
+      },
+      "domain": "dating",
+      "published": "2026-11-10T11:44:56.030504",
+      "recruiter": {
+        "id": 50703,
+        "name": "Recruiter 50703",
+        "linkedin_headline": "HR manager at Acosial",
+        "position": "HR manager",
+        "company_name": "Acosial",
+        "public_url": "/r/50703-hr-manager-at-acosial/",
+        "badge": "verified",
+        "picture_url": "https://p.djinni.co/fb/ff2d8523f0f71770d46a1ec66f56bb/photo_2020-01-13_14-26-20_200.jpg",
+        "employer_website": "https://asocial.team/",
+        "employer_about": "<p>We’re a global business with a startup heart. We create solutions for social entertainment, building scalable IT products used by millions of people worldwide — bringing joy and fun to users everywhere. We work openly and without unnecessary rules, because we want to build products we truly believe in.</p><p>&nbsp;</p><p>Most of all, <strong>our team is everything</strong>. Smart, curious, kind, and creative people who support each other, share ideas, laugh, and aren’t afraid to try new things. We see ourselves as a family, always ready to help — because people are at the heart of everything we do. Here, it’s easy to learn, grow, and experiment — with a bit of drive and a lot of good energy.</p><p>&nbsp;</p><p>We value honest communication, respect, and taking care of one another. We know how to focus and get things done — and we also know how to switch off, rest, and recharge.</p><p>&nbsp;</p><p>We’re growing dynamically, scaling, and moving forward together — at our own pace, with energy, warmth, and a team that truly inspires.</p>"
+      },
+      "is_online": true,
+      "is_offline": false,
+      "dou_link": "",
+      "is_favorite": false,
+      "has_seen": false,
+      "has_applied": false,
+      "messagethread_url": "",
+      "views_count": 54,
+      "applications_count": 13,
+      "youtube": "",
+      "public_salary_min": null,
+      "public_salary_max": null,
+      "salary_group": 3,
+      "can_apply": true,
+      "can_apply_reason": null,
+      "is_parttime": false,
+      "has_test": false,
+      "requires_cover_letter": false,
+      "is_ukraine_only": false,
+      "company_logo_url": "https://p.djinni.co/51/cf29393fdf80310dc0df63f5b8a858/Logo_1_400.png",
+      "skills_experience": [
+        {
+          "skill": "google_bigquery",
+          "name": "Google BigQuery",
+          "experience_years": 3,
+          "is_approved": true,
+          "label": "Google BigQuery"
+        },
+        {
+          "skill": "sql",
+          "name": "SQL",
+          "experience_years": 3,
+          "is_approved": true,
+          "label": "SQL"
+        },
+        {
+          "skill": "data_analysis",
+          "name": "Data analysis",
+          "experience_years": 3,
+          "is_approved": true,
+          "label": "Data analysis"
+        },
+        {
+          "skill": "apache_superset",
+          "name": "Apache Superset",
+          "experience_years": 2,
+          "is_approved": true,
+          "label": "Apache Superset"
+        },
+        {
+          "skill": "apache_airflow",
+          "name": "Apache Airflow",
+          "experience_years": 3,
+          "is_approved": true,
+          "label": "Apache Airflow"
+        },
+        {
+          "skill": "claude_code",
+          "name": "Claude Code",
+          "experience_years": 1,
+          "is_approved": true,
+          "label": "Claude Code"
+        },
+        {
+          "skill": "codex",
+          "name": "Codex",
+          "experience_years": 1,
+          "is_approved": true,
+          "label": "Codex"
+        },
+        {
+          "skill": "python",
+          "name": "Python",
+          "experience_years": 1.5,
+          "is_approved": true,
+          "label": "Python"
+        }
+      ],
+      "extra_keywords": [
+        "Google BigQuery",
+        "SQL",
+        "Data analysis",
+        "Apache Superset",
+        "Apache Airflow",
+        "Claude Code",
+        "Codex",
+        "Python"
+      ],
+      "languages": [
+        {
+          "code": "ukr",
+          "name": "Ukrainian",
+          "level": "C2 - Proficient",
+          "level_code": "C2"
+        }
+      ]
+    }
+  ]
+}
