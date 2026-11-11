@@ -2,6 +2,26 @@
 
 djinni-mcp is a local tool for job seekers on [djinni.co](https://djinni.co). It lets an AI agent, or you in a terminal, work with your own djinni account.
 
+## Quick start
+
+The npm package is not published yet. Copy the prompt below and paste it into your AI agent, for example Claude Code. The agent installs djinni-mcp from this repository. You need read access to the repository and Node.js 22 or later.
+
+```text
+Install the djinni-mcp tool for me. djinni-mcp is a local MCP server and CLI for my djinni.co job seeker account.
+
+1. Check that git and Node.js 22 or later are installed. If one of them is missing, stop and tell me.
+2. Clone the private repository https://github.com/kovalov/djinni-mcp.git to the folder ~/djinni-mcp. I have read access to it. If the clone fails because of access, stop and tell me to run "gh auth login".
+3. In ~/djinni-mcp, run "npm install" and then "npm run build".
+4. Run "node ~/djinni-mcp/dist/index.js --help". Check that it prints the command list.
+5. Add an MCP server with the name "djinni" to the agent that you run in. The command is "node". The only argument is the absolute path of ~/djinni-mcp/dist/index.js. In Claude Code, run: claude mcp add --scope user djinni -- node <absolute path>/dist/index.js
+6. If you are Claude Code, copy the contents of ~/djinni-mcp/skill/ to ~/.claude/skills/djinni/.
+7. Do not log in for me, and do not ask for my password in the chat. Tell me to run this command in a separate terminal window: node ~/djinni-mcp/dist/index.js login
+8. Tell me to restart the agent after the login, so that the agent loads the djinni tools.
+9. Tell me to read the sections "The draft rule" and "Risks" in ~/djinni-mcp/README.md before I use the tool.
+```
+
+To check the session after the login, run `node ~/djinni-mcp/dist/index.js whoami`. In the commands below, use `node ~/djinni-mcp/dist/index.js` in place of `npx djinni-mcp` until the npm package is published.
+
 With djinni-mcp you can:
 
 - search jobs, read a job and its applicant statistics, and save or hide jobs
