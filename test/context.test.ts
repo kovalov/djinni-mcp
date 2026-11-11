@@ -2,7 +2,7 @@ import { mkdirSync, readFileSync, utimesSync, writeFileSync } from 'node:fs';
 import { afterEach, describe, expect, test } from 'vitest';
 import { Ctx } from '../src/context.ts';
 import { Store } from '../src/store.ts';
-import { startFakeDjinni, tempStore, type FakeDjinni } from './helpers.ts';
+import { INTERVAL_TOLERANCE_MS, recordSendTimes, startFakeDjinni, tempStore, type FakeDjinni } from './helpers.ts';
 
 let djinni: FakeDjinni;
 afterEach(() => djinni?.close());
@@ -14,12 +14,13 @@ describe('rate limit across processes', () => {
     // Two contexts are like two CLI processes: each has its own limiter, and they share only the data folder.
     const first = new Ctx({ store: new Store(dir), baseUrl: djinni.url, minIntervalMs: 200 });
     const second = new Ctx({ store: new Store(dir), baseUrl: djinni.url, minIntervalMs: 200 });
+    const times = recordSendTimes();
 
     await Promise.all([first, second, first, second].map(ctx => ctx.anonymousClient().get('/a')));
 
-    const times = djinni.requests.map(r => r.at).sort((a, b) => a - b);
+    expect(djinni.requests).toHaveLength(4);
     expect(times).toHaveLength(4);
-    for (let i = 1; i < times.length; i++) expect(times[i]! - times[i - 1]!).toBeGreaterThanOrEqual(190);
+    for (let i = 1; i < times.length; i++) expect(times[i]! - times[i - 1]!).toBeGreaterThanOrEqual(200 - INTERVAL_TOLERANCE_MS);
   });
 
   test('waits for the time of the last request that another process wrote', async () => {

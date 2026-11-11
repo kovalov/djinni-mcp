@@ -2,7 +2,7 @@ import { afterEach, describe, expect, test } from 'vitest';
 import { Ctx } from '../../src/context.ts';
 import { DOCTOR_STEPS, runDoctor } from '../../src/core/doctor.ts';
 import type { Store } from '../../src/store.ts';
-import { doctorRoutes, fixture, loggedInStore, startFakeDjinni, tempStore, type FakeDjinni, type Route } from '../helpers.ts';
+import { doctorRoutes, fixture, INTERVAL_TOLERANCE_MS, recordSendTimes, loggedInStore, startFakeDjinni, tempStore, type FakeDjinni, type Route } from '../helpers.ts';
 
 const jsonRoute = (body: string) => ({ headers: { 'content-type': 'application/json' }, body });
 
@@ -54,12 +54,12 @@ describe('runDoctor', () => {
   test('sends the requests through the shared rate limiter', async () => {
     djinni = await startFakeDjinni(doctorRoutes());
     const ctx = new Ctx({ store: loggedInStore(), baseUrl: djinni.url, minIntervalMs: 100 });
+    const times = recordSendTimes();
 
     await runDoctor(ctx);
 
-    const times = djinni.requests.map(r => r.at);
-    // The server clock sees a request a few milliseconds after the client sends it, so allow 10 ms of jitter.
-    for (let i = 1; i < times.length; i++) expect(times[i]! - times[i - 1]!).toBeGreaterThanOrEqual(90);
+    expect(times).toHaveLength(djinni.requests.length);
+    for (let i = 1; i < times.length; i++) expect(times[i]! - times[i - 1]!).toBeGreaterThanOrEqual(100 - INTERVAL_TOLERANCE_MS);
   });
 
   test('fails only the candidates step for an empty developers page', async () => {

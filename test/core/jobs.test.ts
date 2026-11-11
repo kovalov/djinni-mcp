@@ -17,7 +17,7 @@ import {
 } from '../../src/core/jobs.ts';
 import { NotLoggedInError } from '../../src/http.ts';
 import type { Store } from '../../src/store.ts';
-import { fixture, hiddenJobsPage, loggedInStore, startFakeDjinni, tempStore, type FakeDjinni, type Route } from '../helpers.ts';
+import { fixture, hiddenJobsPage, INTERVAL_TOLERANCE_MS, recordSendTimes, loggedInStore, startFakeDjinni, tempStore, type FakeDjinni, type Route } from '../helpers.ts';
 
 let djinni: FakeDjinni;
 afterEach(() => djinni?.close());
@@ -682,13 +682,14 @@ describe('rate limit', () => {
   test('keeps the minimum interval between the profile request and the next anonymous request', async () => {
     djinni = await startFakeDjinni({ 'GET /api/jobs/': jsonRoute(apiJobs()), 'GET /my/profile/': { status: 302, headers: { location: '/continue/' } } });
     const ctx = new Ctx({ store: loggedInStore(), baseUrl: djinni.url, minIntervalMs: 150 });
+    const times = recordSendTimes();
 
     const page = await searchJobs(ctx, {});
 
     expect(page.warning).toBeDefined();
     expect(djinni.requests.map(r => r.url.split('?')[0])).toEqual(['/my/profile/', '/api/jobs/']);
-    // The server clock sees the request a few milliseconds after the client sends it, so allow 5 ms of jitter.
-    expect(djinni.requests[1]!.at - djinni.requests[0]!.at).toBeGreaterThanOrEqual(145);
+    expect(times).toHaveLength(2);
+    expect(times[1]! - times[0]!).toBeGreaterThanOrEqual(150 - INTERVAL_TOLERANCE_MS);
   });
 
   test('sends two concurrent anonymous reads one after the other', async () => {

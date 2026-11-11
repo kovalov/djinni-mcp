@@ -6,6 +6,8 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { Client } from '@modelcontextprotocol/sdk/client/index.js';
 import { InMemoryTransport } from '@modelcontextprotocol/sdk/inMemory.js';
+import { onTestFinished, vi } from 'vitest';
+import { RateLimiter } from '../src/http.ts';
 import { createServer as createMcpServer, type ServerDeps } from '../src/server.ts';
 import { Store } from '../src/store.ts';
 
@@ -91,6 +93,26 @@ export const doctorRoutes = (): Record<string, Route> => ({
   'GET /my/subscriptions/': fixture('my_subscriptions.html'),
   'GET /my/inbox/': fixture('my_inbox.html'),
 });
+
+// Records the time when each RateLimiter starts a request, until the end of the test.
+// The limiter keeps the minimum interval at this point. Do not measure the interval with the "at" time of the fake server:
+// under the load of the full test run, the event loop and the connection delay a request by 0 to 25 ms before the server gets it.
+export function recordSendTimes(): number[] {
+  const times: number[] = [];
+  const schedule = RateLimiter.prototype.schedule;
+  const spy = vi.spyOn(RateLimiter.prototype, 'schedule').mockImplementation(function <T>(this: RateLimiter, send: () => Promise<T>) {
+    return schedule.call(this, () => {
+      times.push(Date.now());
+      return send();
+    });
+  });
+  onTestFinished(() => spy.mockRestore());
+  return times;
+}
+
+// Date.now() has a resolution of 1 ms, and a timer can end up to 1 ms early on this clock. Some synchronous work runs
+// between the time that the limiter keeps and the start of the request. This tolerance covers both.
+export const INTERVAL_TOLERANCE_MS = 5;
 
 export const tempStore = (): Store => new Store(mkdtempSync(join(tmpdir(), 'djinni-mcp-')));
 
